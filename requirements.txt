@@ -1,0 +1,8 @@
+django
+djangorestframework
+black
+flake8
+pre-commit
+pytest
+pytest-cov
+django-cors-headers
