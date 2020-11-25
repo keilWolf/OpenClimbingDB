@@ -6,3 +6,4 @@ pre-commit
 pytest
 pytest-cov
 django-cors-headers
+pandas

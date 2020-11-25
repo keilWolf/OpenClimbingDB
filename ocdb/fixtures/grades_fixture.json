@@ -1,0 +1,3584 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VB",
+            "weigth": 0,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V0-",
+            "weigth": 1,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V0",
+            "weigth": 2,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V0+",
+            "weigth": 3,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V1",
+            "weigth": 4,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V2",
+            "weigth": 5,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V3",
+            "weigth": 6,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V4",
+            "weigth": 8,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V5",
+            "weigth": 10,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V6",
+            "weigth": 12,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V7",
+            "weigth": 13,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V8",
+            "weigth": 14,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V9",
+            "weigth": 16,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V10",
+            "weigth": 17,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V11",
+            "weigth": 18,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V12",
+            "weigth": 19,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V13",
+            "weigth": 20,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V14",
+            "weigth": 21,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V15",
+            "weigth": 22,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V16",
+            "weigth": 23,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V17",
+            "weigth": 24,
+            "fk_grade_system_type": 1
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3",
+            "weigth": 0,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4-",
+            "weigth": 1,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4",
+            "weigth": 2,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4+",
+            "weigth": 3,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 26,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5",
+            "weigth": 4,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 27,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5+",
+            "weigth": 5,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 28,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6A",
+            "weigth": 6,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 29,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6A+",
+            "weigth": 7,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 30,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6B",
+            "weigth": 8,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 31,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6B+",
+            "weigth": 9,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 32,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6C",
+            "weigth": 10,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 33,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6C+",
+            "weigth": 11,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 34,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7A",
+            "weigth": 12,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 35,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7A+",
+            "weigth": 13,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 36,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7B",
+            "weigth": 14,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 37,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7B+",
+            "weigth": 15,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 38,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7C",
+            "weigth": 16,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 39,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7C+",
+            "weigth": 17,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 40,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8A",
+            "weigth": 18,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 41,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8A+",
+            "weigth": 19,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 42,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8B",
+            "weigth": 20,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 43,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8B+",
+            "weigth": 21,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 44,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8C",
+            "weigth": 22,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 45,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8C+",
+            "weigth": 23,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 46,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9A",
+            "weigth": 24,
+            "fk_grade_system_type": 2
+        }
+    },
+    {
+        "pk": 47,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "I",
+            "weigth": 0,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 48,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "II",
+            "weigth": 1,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 49,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "III",
+            "weigth": 2,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 50,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV",
+            "weigth": 3,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 51,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV sup",
+            "weigth": 4,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 52,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V",
+            "weigth": 5,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 53,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI",
+            "weigth": 6,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 54,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI sup",
+            "weigth": 8,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 55,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7a",
+            "weigth": 10,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 56,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7b",
+            "weigth": 11,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 57,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7c",
+            "weigth": 12,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 58,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8a",
+            "weigth": 13,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 59,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8b",
+            "weigth": 14,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 60,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8c",
+            "weigth": 15,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 61,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9a",
+            "weigth": 16,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 62,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9b",
+            "weigth": 17,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 63,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9c",
+            "weigth": 18,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 64,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10a",
+            "weigth": 19,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 65,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10b",
+            "weigth": 20,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 66,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10c",
+            "weigth": 21,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 67,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11a",
+            "weigth": 22,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 68,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11b",
+            "weigth": 23,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 69,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11c",
+            "weigth": 24,
+            "fk_grade_system_type": 3
+        }
+    },
+    {
+        "pk": 70,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3-4",
+            "weigth": 0,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 71,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.0",
+            "weigth": 2,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 72,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.1",
+            "weigth": 4,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 73,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.2",
+            "weigth": 6,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 74,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.3",
+            "weigth": 8,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 75,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.4",
+            "weigth": 10,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 76,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.5",
+            "weigth": 12,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 77,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.6",
+            "weigth": 14,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 78,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.7",
+            "weigth": 16,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 79,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.8",
+            "weigth": 18,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 80,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.9",
+            "weigth": 20,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 81,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.10a",
+            "weigth": 22,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 82,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.10b",
+            "weigth": 24,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 83,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.10c",
+            "weigth": 26,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 84,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.10d",
+            "weigth": 28,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 85,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.11a",
+            "weigth": 30,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 86,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.11b",
+            "weigth": 32,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 87,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.11c",
+            "weigth": 34,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 88,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.11d",
+            "weigth": 36,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 89,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.12a",
+            "weigth": 38,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 90,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.12b",
+            "weigth": 40,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 91,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.12c",
+            "weigth": 42,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 92,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.12d",
+            "weigth": 44,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 93,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.13a",
+            "weigth": 46,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 94,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.13b",
+            "weigth": 48,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 95,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.13c",
+            "weigth": 50,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 96,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.13d",
+            "weigth": 52,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 97,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.14a",
+            "weigth": 54,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 98,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.14b",
+            "weigth": 56,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 99,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.14c",
+            "weigth": 58,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 100,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.14d",
+            "weigth": 60,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 101,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.15a",
+            "weigth": 62,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 102,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.15b",
+            "weigth": 64,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 103,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.15c",
+            "weigth": 66,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 104,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5.15d",
+            "weigth": 68,
+            "fk_grade_system_type": 4
+        }
+    },
+    {
+        "pk": 105,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "1",
+            "weigth": 0,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 106,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "2",
+            "weigth": 4,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 107,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3",
+            "weigth": 8,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 108,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4a",
+            "weigth": 12,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 109,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4b",
+            "weigth": 14,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 110,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4c",
+            "weigth": 16,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 111,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5a",
+            "weigth": 20,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 112,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5b",
+            "weigth": 24,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 113,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5c",
+            "weigth": 28,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 114,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6a",
+            "weigth": 34,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 115,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6b",
+            "weigth": 42,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 116,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6c",
+            "weigth": 48,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 117,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7a",
+            "weigth": 54,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 118,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7b",
+            "weigth": 58,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 119,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7c",
+            "weigth": 62,
+            "fk_grade_system_type": 5
+        }
+    },
+    {
+        "pk": 120,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "M",
+            "weigth": 0,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 121,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "D",
+            "weigth": 6,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 122,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VD",
+            "weigth": 10,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 123,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "S",
+            "weigth": 12,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 124,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "HS",
+            "weigth": 14,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 125,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VS",
+            "weigth": 16,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 126,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "HVS",
+            "weigth": 18,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 127,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E1",
+            "weigth": 22,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 128,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E2",
+            "weigth": 26,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 129,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E3",
+            "weigth": 30,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 130,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E4",
+            "weigth": 34,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 131,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E5",
+            "weigth": 38,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 132,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E6",
+            "weigth": 42,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 133,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E7",
+            "weigth": 46,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 134,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E8",
+            "weigth": 50,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 135,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E9",
+            "weigth": 52,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 136,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E10",
+            "weigth": 54,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 137,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "E11",
+            "weigth": 58,
+            "fk_grade_system_type": 6
+        }
+    },
+    {
+        "pk": 138,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "1",
+            "weigth": 0,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 139,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "2",
+            "weigth": 4,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 140,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3",
+            "weigth": 8,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 141,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4a",
+            "weigth": 10,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 142,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4b",
+            "weigth": 12,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 143,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4c",
+            "weigth": 14,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 144,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5a",
+            "weigth": 16,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 145,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5b",
+            "weigth": 18,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 146,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5c",
+            "weigth": 20,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 147,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6a",
+            "weigth": 22,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 148,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6a+",
+            "weigth": 24,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 149,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6b",
+            "weigth": 26,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 150,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6b+",
+            "weigth": 28,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 151,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6c",
+            "weigth": 31,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 152,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6c+",
+            "weigth": 33,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 153,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7a",
+            "weigth": 36,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 154,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7a+",
+            "weigth": 38,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 155,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7b",
+            "weigth": 40,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 156,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7b+",
+            "weigth": 42,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 157,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7c",
+            "weigth": 44,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 158,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7c+",
+            "weigth": 46,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 159,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8a",
+            "weigth": 48,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 160,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8a+",
+            "weigth": 50,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 161,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8b",
+            "weigth": 52,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 162,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8b+",
+            "weigth": 54,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 163,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8c",
+            "weigth": 56,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 164,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8c+",
+            "weigth": 58,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 165,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9a",
+            "weigth": 60,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 166,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9a+",
+            "weigth": 62,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 167,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9b",
+            "weigth": 64,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 168,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9b+",
+            "weigth": 66,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 169,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9c",
+            "weigth": 68,
+            "fk_grade_system_type": 7
+        }
+    },
+    {
+        "pk": 170,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "1",
+            "weigth": 0,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 171,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "2",
+            "weigth": 4,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 172,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3",
+            "weigth": 8,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 173,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4",
+            "weigth": 10,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 174,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4+",
+            "weigth": 12,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 175,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5-",
+            "weigth": 13,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 176,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5",
+            "weigth": 14,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 177,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5+",
+            "weigth": 16,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 178,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6-",
+            "weigth": 18,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 179,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6",
+            "weigth": 20,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 180,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6+",
+            "weigth": 22,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 181,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7-",
+            "weigth": 24,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 182,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7",
+            "weigth": 26,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 183,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7+",
+            "weigth": 28,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 184,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8-",
+            "weigth": 32,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 185,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8",
+            "weigth": 36,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 186,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8+",
+            "weigth": 38,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 187,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9-",
+            "weigth": 42,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 188,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9",
+            "weigth": 44,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 189,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9+",
+            "weigth": 46,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 190,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10-",
+            "weigth": 50,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 191,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10",
+            "weigth": 52,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 192,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10+",
+            "weigth": 54,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 193,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11-",
+            "weigth": 58,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 194,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11",
+            "weigth": 60,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 195,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11+",
+            "weigth": 62,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 196,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "12-",
+            "weigth": 66,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 197,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "12",
+            "weigth": 68,
+            "fk_grade_system_type": 8
+        }
+    },
+    {
+        "pk": 198,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "I",
+            "weigth": 0,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 199,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "II",
+            "weigth": 4,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 200,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "III",
+            "weigth": 8,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 201,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV",
+            "weigth": 10,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 202,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V",
+            "weigth": 12,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 203,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI",
+            "weigth": 14,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 204,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VIIa",
+            "weigth": 18,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 205,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VIIb",
+            "weigth": 20,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 206,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VIIc",
+            "weigth": 22,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 207,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VIIIa",
+            "weigth": 26,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 208,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VIIIb",
+            "weigth": 28,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 209,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VIIIc",
+            "weigth": 30,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 210,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IXa",
+            "weigth": 34,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 211,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IXb",
+            "weigth": 36,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 212,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IXc",
+            "weigth": 38,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 213,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "Xa",
+            "weigth": 42,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 214,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "Xb",
+            "weigth": 44,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 215,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "Xc",
+            "weigth": 46,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 216,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "XIa",
+            "weigth": 50,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 217,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "XIb",
+            "weigth": 52,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 218,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "XIc",
+            "weigth": 54,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 219,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "XIIa",
+            "weigth": 58,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 220,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "XIIb",
+            "weigth": 60,
+            "fk_grade_system_type": 9
+        }
+    },
+    {
+        "pk": 221,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 1.0,
+            "weigth": 0,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 222,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 2.0,
+            "weigth": 1,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 223,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 3.0,
+            "weigth": 2,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 224,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 4.0,
+            "weigth": 3,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 225,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 5.0,
+            "weigth": 4,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 226,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 6.0,
+            "weigth": 5,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 227,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 7.0,
+            "weigth": 6,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 228,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 8.0,
+            "weigth": 8,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 229,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 9.0,
+            "weigth": 9,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 230,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 10.0,
+            "weigth": 10,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 231,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 11.0,
+            "weigth": 12,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 232,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 12.0,
+            "weigth": 13,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 233,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 13.0,
+            "weigth": 14,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 234,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 14.0,
+            "weigth": 16,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 235,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 15.0,
+            "weigth": 17,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 236,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 16.0,
+            "weigth": 18,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 237,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 17.0,
+            "weigth": 20,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 238,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 18.0,
+            "weigth": 22,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 239,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 19.0,
+            "weigth": 24,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 240,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 20.0,
+            "weigth": 26,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 241,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 21.0,
+            "weigth": 30,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 242,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 22.0,
+            "weigth": 32,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 243,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 23.0,
+            "weigth": 34,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 244,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 24.0,
+            "weigth": 38,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 245,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 25.0,
+            "weigth": 40,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 246,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 26.0,
+            "weigth": 42,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 247,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 27.0,
+            "weigth": 44,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 248,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 28.0,
+            "weigth": 46,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 249,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 29.0,
+            "weigth": 48,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 250,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 30.0,
+            "weigth": 50,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 251,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 31.0,
+            "weigth": 52,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 252,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 32.0,
+            "weigth": 54,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 253,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 33.0,
+            "weigth": 56,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 254,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 34.0,
+            "weigth": 58,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 255,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 35.0,
+            "weigth": 60,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 256,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 36.0,
+            "weigth": 62,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 257,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 37.0,
+            "weigth": 64,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 258,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 38.0,
+            "weigth": 66,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 259,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 39.0,
+            "weigth": 68,
+            "fk_grade_system_type": 10
+        }
+    },
+    {
+        "pk": 260,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 1.0,
+            "weigth": 0,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 261,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 2.0,
+            "weigth": 1,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 262,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 3.0,
+            "weigth": 2,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 263,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 4.0,
+            "weigth": 3,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 264,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 5.0,
+            "weigth": 4,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 265,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 6.0,
+            "weigth": 5,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 266,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 7.0,
+            "weigth": 6,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 267,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 8.0,
+            "weigth": 8,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 268,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 9.0,
+            "weigth": 9,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 269,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 10.0,
+            "weigth": 10,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 270,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 11.0,
+            "weigth": 12,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 271,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 12.0,
+            "weigth": 13,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 272,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 13.0,
+            "weigth": 14,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 273,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 14.0,
+            "weigth": 16,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 274,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 15.0,
+            "weigth": 17,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 275,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 16.0,
+            "weigth": 18,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 276,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 17.0,
+            "weigth": 20,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 277,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 18.0,
+            "weigth": 21,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 278,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 19.0,
+            "weigth": 22,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 279,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 20.0,
+            "weigth": 24,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 280,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 21.0,
+            "weigth": 26,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 281,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 22.0,
+            "weigth": 28,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 282,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 23.0,
+            "weigth": 32,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 283,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 24.0,
+            "weigth": 34,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 284,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 25.0,
+            "weigth": 36,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 285,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 26.0,
+            "weigth": 38,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 286,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 27.0,
+            "weigth": 40,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 287,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 28.0,
+            "weigth": 42,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 288,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 29.0,
+            "weigth": 44,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 289,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 30.0,
+            "weigth": 46,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 290,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 31.0,
+            "weigth": 48,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 291,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 32.0,
+            "weigth": 50,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 292,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 33.0,
+            "weigth": 52,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 293,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 34.0,
+            "weigth": 54,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 294,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 35.0,
+            "weigth": 56,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 295,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 36.0,
+            "weigth": 58,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 296,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 37.0,
+            "weigth": 60,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 297,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 38.0,
+            "weigth": 62,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 298,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 39.0,
+            "weigth": 64,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 299,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": 40.0,
+            "weigth": 66,
+            "fk_grade_system_type": 11
+        }
+    },
+    {
+        "pk": 300,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "1",
+            "weigth": 0,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 301,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "2",
+            "weigth": 4,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 302,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3",
+            "weigth": 8,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 303,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4",
+            "weigth": 12,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 304,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5-",
+            "weigth": 16,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 305,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5",
+            "weigth": 18,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 306,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5+",
+            "weigth": 20,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 307,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6-",
+            "weigth": 24,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 308,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6",
+            "weigth": 26,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 309,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6+",
+            "weigth": 30,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 310,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7-",
+            "weigth": 33,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 311,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7",
+            "weigth": 35,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 312,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7+",
+            "weigth": 38,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 313,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8-",
+            "weigth": 40,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 314,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8",
+            "weigth": 42,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 315,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8+",
+            "weigth": 44,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 316,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9-",
+            "weigth": 46,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 317,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9",
+            "weigth": 48,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 318,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9+",
+            "weigth": 50,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 319,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10-",
+            "weigth": 52,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 320,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10",
+            "weigth": 54,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 321,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10+",
+            "weigth": 56,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 322,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11-",
+            "weigth": 58,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 323,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11",
+            "weigth": 60,
+            "fk_grade_system_type": 12
+        }
+    },
+    {
+        "pk": 324,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "1",
+            "weigth": 0,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 325,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "2",
+            "weigth": 4,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 326,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "3",
+            "weigth": 8,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 327,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "4",
+            "weigth": 12,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 328,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5-",
+            "weigth": 16,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 329,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5",
+            "weigth": 18,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 330,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "5+",
+            "weigth": 20,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 331,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6-",
+            "weigth": 22,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 332,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6",
+            "weigth": 26,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 333,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "6+",
+            "weigth": 28,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 334,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7-",
+            "weigth": 31,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 335,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7",
+            "weigth": 33,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 336,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7+",
+            "weigth": 36,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 337,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7+",
+            "weigth": 38,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 338,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8-",
+            "weigth": 40,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 339,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8",
+            "weigth": 42,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 340,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8+",
+            "weigth": 46,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 341,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9-",
+            "weigth": 48,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 342,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9",
+            "weigth": 52,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 343,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9+",
+            "weigth": 56,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 344,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10-",
+            "weigth": 60,
+            "fk_grade_system_type": 13
+        }
+    },
+    {
+        "pk": 345,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "I",
+            "weigth": 0,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 346,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "I sup",
+            "weigth": 2,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 347,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "II",
+            "weigth": 4,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 348,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "II sup",
+            "weigth": 6,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 349,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "III",
+            "weigth": 10,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 350,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "III sup",
+            "weigth": 12,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 351,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV",
+            "weigth": 14,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 352,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV sup",
+            "weigth": 18,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 353,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V",
+            "weigth": 20,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 354,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI",
+            "weigth": 22,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 355,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI sup",
+            "weigth": 26,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 356,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7a",
+            "weigth": 30,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 357,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7b",
+            "weigth": 32,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 358,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "7c",
+            "weigth": 34,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 359,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8a",
+            "weigth": 38,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 360,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8b",
+            "weigth": 40,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 361,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "8c",
+            "weigth": 42,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 362,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9a",
+            "weigth": 44,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 363,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9b",
+            "weigth": 46,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 364,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "9c",
+            "weigth": 48,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 365,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10a",
+            "weigth": 50,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 366,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10b",
+            "weigth": 52,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 367,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "10c",
+            "weigth": 54,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 368,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11a",
+            "weigth": 56,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 369,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11b",
+            "weigth": 58,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 370,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "11c",
+            "weigth": 60,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 371,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "12a",
+            "weigth": 62,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 372,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "12b",
+            "weigth": 64,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 373,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "12c",
+            "weigth": 66,
+            "fk_grade_system_type": 14
+        }
+    },
+    {
+        "pk": 374,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "I",
+            "weigth": 0,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 375,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "II",
+            "weigth": 4,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 376,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "III",
+            "weigth": 8,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 377,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV",
+            "weigth": 10,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 378,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "IV+",
+            "weigth": 14,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 379,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V-",
+            "weigth": 16,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 380,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V",
+            "weigth": 18,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 381,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "V+",
+            "weigth": 20,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 382,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI",
+            "weigth": 22,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 383,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI+",
+            "weigth": 24,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 384,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.1",
+            "weigth": 26,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 385,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.1+",
+            "weigth": 28,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 386,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.2",
+            "weigth": 31,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 387,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.2+",
+            "weigth": 33,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 388,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.3",
+            "weigth": 36,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 389,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.3+",
+            "weigth": 38,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 390,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.4",
+            "weigth": 40,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 391,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.4+",
+            "weigth": 44,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 392,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.5",
+            "weigth": 46,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 393,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.5+",
+            "weigth": 48,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 394,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.6",
+            "weigth": 52,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 395,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.6+",
+            "weigth": 54,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 396,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.7",
+            "weigth": 56,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 397,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.7+",
+            "weigth": 58,
+            "fk_grade_system_type": 15
+        }
+    },
+    {
+        "pk": 398,
+        "model": "ocdb.grade",
+        "fields": {
+            "name": "VI.8",
+            "weigth": 60,
+            "fk_grade_system_type": 15
+        }
+    }
+]

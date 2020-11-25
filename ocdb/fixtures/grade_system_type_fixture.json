@@ -1,0 +1,16 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.grade_system_type",
+        "fields": {
+            "name": "Bouldering"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.grade_system_type",
+        "fields": {
+            "name": "Free"
+        }
+    }
+]
