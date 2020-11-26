@@ -5,7 +5,7 @@
         "fields": {
             "name": "VB",
             "weight": 0,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -14,7 +14,7 @@
         "fields": {
             "name": "V0-",
             "weight": 1,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -23,7 +23,7 @@
         "fields": {
             "name": "V0",
             "weight": 2,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -32,7 +32,7 @@
         "fields": {
             "name": "V0+",
             "weight": 3,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -41,7 +41,7 @@
         "fields": {
             "name": "V1",
             "weight": 4,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -50,7 +50,7 @@
         "fields": {
             "name": "V2",
             "weight": 5,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -59,7 +59,7 @@
         "fields": {
             "name": "V3",
             "weight": 6,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -68,7 +68,7 @@
         "fields": {
             "name": "V4",
             "weight": 8,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -77,7 +77,7 @@
         "fields": {
             "name": "V5",
             "weight": 10,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -86,7 +86,7 @@
         "fields": {
             "name": "V6",
             "weight": 12,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -95,7 +95,7 @@
         "fields": {
             "name": "V7",
             "weight": 13,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -104,7 +104,7 @@
         "fields": {
             "name": "V8",
             "weight": 14,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -113,7 +113,7 @@
         "fields": {
             "name": "V9",
             "weight": 16,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -122,7 +122,7 @@
         "fields": {
             "name": "V10",
             "weight": 17,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -131,7 +131,7 @@
         "fields": {
             "name": "V11",
             "weight": 18,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -140,7 +140,7 @@
         "fields": {
             "name": "V12",
             "weight": 19,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -149,7 +149,7 @@
         "fields": {
             "name": "V13",
             "weight": 20,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -158,7 +158,7 @@
         "fields": {
             "name": "V14",
             "weight": 21,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -167,7 +167,7 @@
         "fields": {
             "name": "V15",
             "weight": 22,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -176,7 +176,7 @@
         "fields": {
             "name": "V16",
             "weight": 23,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -185,7 +185,7 @@
         "fields": {
             "name": "V17",
             "weight": 24,
-            "fk_grade_system_type": 1
+            "fk_grade_system": 1
         }
     },
     {
@@ -194,7 +194,7 @@
         "fields": {
             "name": "3",
             "weight": 0,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -203,7 +203,7 @@
         "fields": {
             "name": "4-",
             "weight": 1,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -212,7 +212,7 @@
         "fields": {
             "name": "4",
             "weight": 2,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -221,7 +221,7 @@
         "fields": {
             "name": "4+",
             "weight": 3,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -230,7 +230,7 @@
         "fields": {
             "name": "5",
             "weight": 4,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -239,7 +239,7 @@
         "fields": {
             "name": "5+",
             "weight": 5,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -248,7 +248,7 @@
         "fields": {
             "name": "6A",
             "weight": 6,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -257,7 +257,7 @@
         "fields": {
             "name": "6A+",
             "weight": 7,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -266,7 +266,7 @@
         "fields": {
             "name": "6B",
             "weight": 8,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -275,7 +275,7 @@
         "fields": {
             "name": "6B+",
             "weight": 9,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -284,7 +284,7 @@
         "fields": {
             "name": "6C",
             "weight": 10,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -293,7 +293,7 @@
         "fields": {
             "name": "6C+",
             "weight": 11,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -302,7 +302,7 @@
         "fields": {
             "name": "7A",
             "weight": 12,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -311,7 +311,7 @@
         "fields": {
             "name": "7A+",
             "weight": 13,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -320,7 +320,7 @@
         "fields": {
             "name": "7B",
             "weight": 14,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -329,7 +329,7 @@
         "fields": {
             "name": "7B+",
             "weight": 15,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -338,7 +338,7 @@
         "fields": {
             "name": "7C",
             "weight": 16,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -347,7 +347,7 @@
         "fields": {
             "name": "7C+",
             "weight": 17,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -356,7 +356,7 @@
         "fields": {
             "name": "8A",
             "weight": 18,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -365,7 +365,7 @@
         "fields": {
             "name": "8A+",
             "weight": 19,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -374,7 +374,7 @@
         "fields": {
             "name": "8B",
             "weight": 20,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -383,7 +383,7 @@
         "fields": {
             "name": "8B+",
             "weight": 21,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -392,7 +392,7 @@
         "fields": {
             "name": "8C",
             "weight": 22,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -401,7 +401,7 @@
         "fields": {
             "name": "8C+",
             "weight": 23,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -410,7 +410,7 @@
         "fields": {
             "name": "9A",
             "weight": 24,
-            "fk_grade_system_type": 2
+            "fk_grade_system": 2
         }
     },
     {
@@ -419,7 +419,7 @@
         "fields": {
             "name": "I",
             "weight": 0,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -428,7 +428,7 @@
         "fields": {
             "name": "II",
             "weight": 1,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -437,7 +437,7 @@
         "fields": {
             "name": "III",
             "weight": 2,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -446,7 +446,7 @@
         "fields": {
             "name": "IV",
             "weight": 3,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -455,7 +455,7 @@
         "fields": {
             "name": "IV sup",
             "weight": 4,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -464,7 +464,7 @@
         "fields": {
             "name": "V",
             "weight": 5,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -473,7 +473,7 @@
         "fields": {
             "name": "VI",
             "weight": 6,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -482,7 +482,7 @@
         "fields": {
             "name": "VI sup",
             "weight": 8,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -491,7 +491,7 @@
         "fields": {
             "name": "7a",
             "weight": 10,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -500,7 +500,7 @@
         "fields": {
             "name": "7b",
             "weight": 11,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -509,7 +509,7 @@
         "fields": {
             "name": "7c",
             "weight": 12,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -518,7 +518,7 @@
         "fields": {
             "name": "8a",
             "weight": 13,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -527,7 +527,7 @@
         "fields": {
             "name": "8b",
             "weight": 14,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -536,7 +536,7 @@
         "fields": {
             "name": "8c",
             "weight": 15,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -545,7 +545,7 @@
         "fields": {
             "name": "9a",
             "weight": 16,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -554,7 +554,7 @@
         "fields": {
             "name": "9b",
             "weight": 17,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -563,7 +563,7 @@
         "fields": {
             "name": "9c",
             "weight": 18,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -572,7 +572,7 @@
         "fields": {
             "name": "10a",
             "weight": 19,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -581,7 +581,7 @@
         "fields": {
             "name": "10b",
             "weight": 20,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -590,7 +590,7 @@
         "fields": {
             "name": "10c",
             "weight": 21,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -599,7 +599,7 @@
         "fields": {
             "name": "11a",
             "weight": 22,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -608,7 +608,7 @@
         "fields": {
             "name": "11b",
             "weight": 23,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -617,7 +617,7 @@
         "fields": {
             "name": "11c",
             "weight": 24,
-            "fk_grade_system_type": 3
+            "fk_grade_system": 3
         }
     },
     {
@@ -626,7 +626,7 @@
         "fields": {
             "name": "3-4",
             "weight": 0,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -635,7 +635,7 @@
         "fields": {
             "name": "5.0",
             "weight": 2,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -644,7 +644,7 @@
         "fields": {
             "name": "5.1",
             "weight": 4,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -653,7 +653,7 @@
         "fields": {
             "name": "5.2",
             "weight": 6,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -662,7 +662,7 @@
         "fields": {
             "name": "5.3",
             "weight": 8,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -671,7 +671,7 @@
         "fields": {
             "name": "5.4",
             "weight": 10,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -680,7 +680,7 @@
         "fields": {
             "name": "5.5",
             "weight": 12,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -689,7 +689,7 @@
         "fields": {
             "name": "5.6",
             "weight": 14,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -698,7 +698,7 @@
         "fields": {
             "name": "5.7",
             "weight": 16,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -707,7 +707,7 @@
         "fields": {
             "name": "5.8",
             "weight": 18,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -716,7 +716,7 @@
         "fields": {
             "name": "5.9",
             "weight": 20,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -725,7 +725,7 @@
         "fields": {
             "name": "5.10a",
             "weight": 22,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -734,7 +734,7 @@
         "fields": {
             "name": "5.10b",
             "weight": 24,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -743,7 +743,7 @@
         "fields": {
             "name": "5.10c",
             "weight": 26,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -752,7 +752,7 @@
         "fields": {
             "name": "5.10d",
             "weight": 28,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -761,7 +761,7 @@
         "fields": {
             "name": "5.11a",
             "weight": 30,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -770,7 +770,7 @@
         "fields": {
             "name": "5.11b",
             "weight": 32,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -779,7 +779,7 @@
         "fields": {
             "name": "5.11c",
             "weight": 34,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -788,7 +788,7 @@
         "fields": {
             "name": "5.11d",
             "weight": 36,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -797,7 +797,7 @@
         "fields": {
             "name": "5.12a",
             "weight": 38,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -806,7 +806,7 @@
         "fields": {
             "name": "5.12b",
             "weight": 40,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -815,7 +815,7 @@
         "fields": {
             "name": "5.12c",
             "weight": 42,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -824,7 +824,7 @@
         "fields": {
             "name": "5.12d",
             "weight": 44,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -833,7 +833,7 @@
         "fields": {
             "name": "5.13a",
             "weight": 46,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -842,7 +842,7 @@
         "fields": {
             "name": "5.13b",
             "weight": 48,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -851,7 +851,7 @@
         "fields": {
             "name": "5.13c",
             "weight": 50,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -860,7 +860,7 @@
         "fields": {
             "name": "5.13d",
             "weight": 52,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -869,7 +869,7 @@
         "fields": {
             "name": "5.14a",
             "weight": 54,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -878,7 +878,7 @@
         "fields": {
             "name": "5.14b",
             "weight": 56,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -887,7 +887,7 @@
         "fields": {
             "name": "5.14c",
             "weight": 58,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -896,7 +896,7 @@
         "fields": {
             "name": "5.14d",
             "weight": 60,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -905,7 +905,7 @@
         "fields": {
             "name": "5.15a",
             "weight": 62,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -914,7 +914,7 @@
         "fields": {
             "name": "5.15b",
             "weight": 64,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -923,7 +923,7 @@
         "fields": {
             "name": "5.15c",
             "weight": 66,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -932,7 +932,7 @@
         "fields": {
             "name": "5.15d",
             "weight": 68,
-            "fk_grade_system_type": 4
+            "fk_grade_system": 4
         }
     },
     {
@@ -941,7 +941,7 @@
         "fields": {
             "name": "1",
             "weight": 0,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -950,7 +950,7 @@
         "fields": {
             "name": "2",
             "weight": 4,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -959,7 +959,7 @@
         "fields": {
             "name": "3",
             "weight": 8,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -968,7 +968,7 @@
         "fields": {
             "name": "4a",
             "weight": 12,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -977,7 +977,7 @@
         "fields": {
             "name": "4b",
             "weight": 14,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -986,7 +986,7 @@
         "fields": {
             "name": "4c",
             "weight": 16,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -995,7 +995,7 @@
         "fields": {
             "name": "5a",
             "weight": 20,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1004,7 +1004,7 @@
         "fields": {
             "name": "5b",
             "weight": 24,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1013,7 +1013,7 @@
         "fields": {
             "name": "5c",
             "weight": 28,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1022,7 +1022,7 @@
         "fields": {
             "name": "6a",
             "weight": 34,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1031,7 +1031,7 @@
         "fields": {
             "name": "6b",
             "weight": 42,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1040,7 +1040,7 @@
         "fields": {
             "name": "6c",
             "weight": 48,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1049,7 +1049,7 @@
         "fields": {
             "name": "7a",
             "weight": 54,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1058,7 +1058,7 @@
         "fields": {
             "name": "7b",
             "weight": 58,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1067,7 +1067,7 @@
         "fields": {
             "name": "7c",
             "weight": 62,
-            "fk_grade_system_type": 5
+            "fk_grade_system": 5
         }
     },
     {
@@ -1076,7 +1076,7 @@
         "fields": {
             "name": "M",
             "weight": 0,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1085,7 +1085,7 @@
         "fields": {
             "name": "D",
             "weight": 6,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1094,7 +1094,7 @@
         "fields": {
             "name": "VD",
             "weight": 10,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1103,7 +1103,7 @@
         "fields": {
             "name": "S",
             "weight": 12,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1112,7 +1112,7 @@
         "fields": {
             "name": "HS",
             "weight": 14,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1121,7 +1121,7 @@
         "fields": {
             "name": "VS",
             "weight": 16,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1130,7 +1130,7 @@
         "fields": {
             "name": "HVS",
             "weight": 18,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1139,7 +1139,7 @@
         "fields": {
             "name": "E1",
             "weight": 22,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1148,7 +1148,7 @@
         "fields": {
             "name": "E2",
             "weight": 26,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1157,7 +1157,7 @@
         "fields": {
             "name": "E3",
             "weight": 30,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1166,7 +1166,7 @@
         "fields": {
             "name": "E4",
             "weight": 34,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1175,7 +1175,7 @@
         "fields": {
             "name": "E5",
             "weight": 38,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1184,7 +1184,7 @@
         "fields": {
             "name": "E6",
             "weight": 42,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1193,7 +1193,7 @@
         "fields": {
             "name": "E7",
             "weight": 46,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1202,7 +1202,7 @@
         "fields": {
             "name": "E8",
             "weight": 50,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1211,7 +1211,7 @@
         "fields": {
             "name": "E9",
             "weight": 52,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1220,7 +1220,7 @@
         "fields": {
             "name": "E10",
             "weight": 54,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1229,7 +1229,7 @@
         "fields": {
             "name": "E11",
             "weight": 58,
-            "fk_grade_system_type": 6
+            "fk_grade_system": 6
         }
     },
     {
@@ -1238,7 +1238,7 @@
         "fields": {
             "name": "1",
             "weight": 0,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1247,7 +1247,7 @@
         "fields": {
             "name": "2",
             "weight": 4,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1256,7 +1256,7 @@
         "fields": {
             "name": "3",
             "weight": 8,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1265,7 +1265,7 @@
         "fields": {
             "name": "4a",
             "weight": 10,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1274,7 +1274,7 @@
         "fields": {
             "name": "4b",
             "weight": 12,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1283,7 +1283,7 @@
         "fields": {
             "name": "4c",
             "weight": 14,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1292,7 +1292,7 @@
         "fields": {
             "name": "5a",
             "weight": 16,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1301,7 +1301,7 @@
         "fields": {
             "name": "5b",
             "weight": 18,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1310,7 +1310,7 @@
         "fields": {
             "name": "5c",
             "weight": 20,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1319,7 +1319,7 @@
         "fields": {
             "name": "6a",
             "weight": 22,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1328,7 +1328,7 @@
         "fields": {
             "name": "6a+",
             "weight": 24,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1337,7 +1337,7 @@
         "fields": {
             "name": "6b",
             "weight": 26,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1346,7 +1346,7 @@
         "fields": {
             "name": "6b+",
             "weight": 28,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1355,7 +1355,7 @@
         "fields": {
             "name": "6c",
             "weight": 31,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1364,7 +1364,7 @@
         "fields": {
             "name": "6c+",
             "weight": 33,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1373,7 +1373,7 @@
         "fields": {
             "name": "7a",
             "weight": 36,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1382,7 +1382,7 @@
         "fields": {
             "name": "7a+",
             "weight": 38,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1391,7 +1391,7 @@
         "fields": {
             "name": "7b",
             "weight": 40,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1400,7 +1400,7 @@
         "fields": {
             "name": "7b+",
             "weight": 42,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1409,7 +1409,7 @@
         "fields": {
             "name": "7c",
             "weight": 44,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1418,7 +1418,7 @@
         "fields": {
             "name": "7c+",
             "weight": 46,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1427,7 +1427,7 @@
         "fields": {
             "name": "8a",
             "weight": 48,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1436,7 +1436,7 @@
         "fields": {
             "name": "8a+",
             "weight": 50,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1445,7 +1445,7 @@
         "fields": {
             "name": "8b",
             "weight": 52,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1454,7 +1454,7 @@
         "fields": {
             "name": "8b+",
             "weight": 54,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1463,7 +1463,7 @@
         "fields": {
             "name": "8c",
             "weight": 56,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1472,7 +1472,7 @@
         "fields": {
             "name": "8c+",
             "weight": 58,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1481,7 +1481,7 @@
         "fields": {
             "name": "9a",
             "weight": 60,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1490,7 +1490,7 @@
         "fields": {
             "name": "9a+",
             "weight": 62,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1499,7 +1499,7 @@
         "fields": {
             "name": "9b",
             "weight": 64,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1508,7 +1508,7 @@
         "fields": {
             "name": "9b+",
             "weight": 66,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1517,7 +1517,7 @@
         "fields": {
             "name": "9c",
             "weight": 68,
-            "fk_grade_system_type": 7
+            "fk_grade_system": 7
         }
     },
     {
@@ -1526,7 +1526,7 @@
         "fields": {
             "name": "1",
             "weight": 0,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1535,7 +1535,7 @@
         "fields": {
             "name": "2",
             "weight": 4,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1544,7 +1544,7 @@
         "fields": {
             "name": "3",
             "weight": 8,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1553,7 +1553,7 @@
         "fields": {
             "name": "4",
             "weight": 10,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1562,7 +1562,7 @@
         "fields": {
             "name": "4+",
             "weight": 12,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1571,7 +1571,7 @@
         "fields": {
             "name": "5-",
             "weight": 13,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1580,7 +1580,7 @@
         "fields": {
             "name": "5",
             "weight": 14,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1589,7 +1589,7 @@
         "fields": {
             "name": "5+",
             "weight": 16,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1598,7 +1598,7 @@
         "fields": {
             "name": "6-",
             "weight": 18,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1607,7 +1607,7 @@
         "fields": {
             "name": "6",
             "weight": 20,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1616,7 +1616,7 @@
         "fields": {
             "name": "6+",
             "weight": 22,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1625,7 +1625,7 @@
         "fields": {
             "name": "7-",
             "weight": 24,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1634,7 +1634,7 @@
         "fields": {
             "name": "7",
             "weight": 26,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1643,7 +1643,7 @@
         "fields": {
             "name": "7+",
             "weight": 28,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1652,7 +1652,7 @@
         "fields": {
             "name": "8-",
             "weight": 32,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1661,7 +1661,7 @@
         "fields": {
             "name": "8",
             "weight": 36,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1670,7 +1670,7 @@
         "fields": {
             "name": "8+",
             "weight": 38,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1679,7 +1679,7 @@
         "fields": {
             "name": "9-",
             "weight": 42,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1688,7 +1688,7 @@
         "fields": {
             "name": "9",
             "weight": 44,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1697,7 +1697,7 @@
         "fields": {
             "name": "9+",
             "weight": 46,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1706,7 +1706,7 @@
         "fields": {
             "name": "10-",
             "weight": 50,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1715,7 +1715,7 @@
         "fields": {
             "name": "10",
             "weight": 52,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1724,7 +1724,7 @@
         "fields": {
             "name": "10+",
             "weight": 54,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1733,7 +1733,7 @@
         "fields": {
             "name": "11-",
             "weight": 58,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1742,7 +1742,7 @@
         "fields": {
             "name": "11",
             "weight": 60,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1751,7 +1751,7 @@
         "fields": {
             "name": "11+",
             "weight": 62,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1760,7 +1760,7 @@
         "fields": {
             "name": "12-",
             "weight": 66,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1769,7 +1769,7 @@
         "fields": {
             "name": "12",
             "weight": 68,
-            "fk_grade_system_type": 8
+            "fk_grade_system": 8
         }
     },
     {
@@ -1778,7 +1778,7 @@
         "fields": {
             "name": "I",
             "weight": 0,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1787,7 +1787,7 @@
         "fields": {
             "name": "II",
             "weight": 4,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1796,7 +1796,7 @@
         "fields": {
             "name": "III",
             "weight": 8,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1805,7 +1805,7 @@
         "fields": {
             "name": "IV",
             "weight": 10,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1814,7 +1814,7 @@
         "fields": {
             "name": "V",
             "weight": 12,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1823,7 +1823,7 @@
         "fields": {
             "name": "VI",
             "weight": 14,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1832,7 +1832,7 @@
         "fields": {
             "name": "VIIa",
             "weight": 18,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1841,7 +1841,7 @@
         "fields": {
             "name": "VIIb",
             "weight": 20,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1850,7 +1850,7 @@
         "fields": {
             "name": "VIIc",
             "weight": 22,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1859,7 +1859,7 @@
         "fields": {
             "name": "VIIIa",
             "weight": 26,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1868,7 +1868,7 @@
         "fields": {
             "name": "VIIIb",
             "weight": 28,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1877,7 +1877,7 @@
         "fields": {
             "name": "VIIIc",
             "weight": 30,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1886,7 +1886,7 @@
         "fields": {
             "name": "IXa",
             "weight": 34,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1895,7 +1895,7 @@
         "fields": {
             "name": "IXb",
             "weight": 36,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1904,7 +1904,7 @@
         "fields": {
             "name": "IXc",
             "weight": 38,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1913,7 +1913,7 @@
         "fields": {
             "name": "Xa",
             "weight": 42,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1922,7 +1922,7 @@
         "fields": {
             "name": "Xb",
             "weight": 44,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1931,7 +1931,7 @@
         "fields": {
             "name": "Xc",
             "weight": 46,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1940,7 +1940,7 @@
         "fields": {
             "name": "XIa",
             "weight": 50,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1949,7 +1949,7 @@
         "fields": {
             "name": "XIb",
             "weight": 52,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1958,7 +1958,7 @@
         "fields": {
             "name": "XIc",
             "weight": 54,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1967,7 +1967,7 @@
         "fields": {
             "name": "XIIa",
             "weight": 58,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1976,7 +1976,7 @@
         "fields": {
             "name": "XIIb",
             "weight": 60,
-            "fk_grade_system_type": 9
+            "fk_grade_system": 9
         }
     },
     {
@@ -1985,7 +1985,7 @@
         "fields": {
             "name": 1.0,
             "weight": 0,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -1994,7 +1994,7 @@
         "fields": {
             "name": 2.0,
             "weight": 1,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2003,7 +2003,7 @@
         "fields": {
             "name": 3.0,
             "weight": 2,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2012,7 +2012,7 @@
         "fields": {
             "name": 4.0,
             "weight": 3,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2021,7 +2021,7 @@
         "fields": {
             "name": 5.0,
             "weight": 4,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2030,7 +2030,7 @@
         "fields": {
             "name": 6.0,
             "weight": 5,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2039,7 +2039,7 @@
         "fields": {
             "name": 7.0,
             "weight": 6,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2048,7 +2048,7 @@
         "fields": {
             "name": 8.0,
             "weight": 8,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2057,7 +2057,7 @@
         "fields": {
             "name": 9.0,
             "weight": 9,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2066,7 +2066,7 @@
         "fields": {
             "name": 10.0,
             "weight": 10,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2075,7 +2075,7 @@
         "fields": {
             "name": 11.0,
             "weight": 12,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2084,7 +2084,7 @@
         "fields": {
             "name": 12.0,
             "weight": 13,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2093,7 +2093,7 @@
         "fields": {
             "name": 13.0,
             "weight": 14,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2102,7 +2102,7 @@
         "fields": {
             "name": 14.0,
             "weight": 16,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2111,7 +2111,7 @@
         "fields": {
             "name": 15.0,
             "weight": 17,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2120,7 +2120,7 @@
         "fields": {
             "name": 16.0,
             "weight": 18,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2129,7 +2129,7 @@
         "fields": {
             "name": 17.0,
             "weight": 20,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2138,7 +2138,7 @@
         "fields": {
             "name": 18.0,
             "weight": 22,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2147,7 +2147,7 @@
         "fields": {
             "name": 19.0,
             "weight": 24,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2156,7 +2156,7 @@
         "fields": {
             "name": 20.0,
             "weight": 26,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2165,7 +2165,7 @@
         "fields": {
             "name": 21.0,
             "weight": 30,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2174,7 +2174,7 @@
         "fields": {
             "name": 22.0,
             "weight": 32,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2183,7 +2183,7 @@
         "fields": {
             "name": 23.0,
             "weight": 34,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2192,7 +2192,7 @@
         "fields": {
             "name": 24.0,
             "weight": 38,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2201,7 +2201,7 @@
         "fields": {
             "name": 25.0,
             "weight": 40,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2210,7 +2210,7 @@
         "fields": {
             "name": 26.0,
             "weight": 42,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2219,7 +2219,7 @@
         "fields": {
             "name": 27.0,
             "weight": 44,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2228,7 +2228,7 @@
         "fields": {
             "name": 28.0,
             "weight": 46,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2237,7 +2237,7 @@
         "fields": {
             "name": 29.0,
             "weight": 48,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2246,7 +2246,7 @@
         "fields": {
             "name": 30.0,
             "weight": 50,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2255,7 +2255,7 @@
         "fields": {
             "name": 31.0,
             "weight": 52,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2264,7 +2264,7 @@
         "fields": {
             "name": 32.0,
             "weight": 54,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2273,7 +2273,7 @@
         "fields": {
             "name": 33.0,
             "weight": 56,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2282,7 +2282,7 @@
         "fields": {
             "name": 34.0,
             "weight": 58,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2291,7 +2291,7 @@
         "fields": {
             "name": 35.0,
             "weight": 60,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2300,7 +2300,7 @@
         "fields": {
             "name": 36.0,
             "weight": 62,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2309,7 +2309,7 @@
         "fields": {
             "name": 37.0,
             "weight": 64,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2318,7 +2318,7 @@
         "fields": {
             "name": 38.0,
             "weight": 66,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2327,7 +2327,7 @@
         "fields": {
             "name": 39.0,
             "weight": 68,
-            "fk_grade_system_type": 10
+            "fk_grade_system": 10
         }
     },
     {
@@ -2336,7 +2336,7 @@
         "fields": {
             "name": 1.0,
             "weight": 0,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2345,7 +2345,7 @@
         "fields": {
             "name": 2.0,
             "weight": 1,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2354,7 +2354,7 @@
         "fields": {
             "name": 3.0,
             "weight": 2,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2363,7 +2363,7 @@
         "fields": {
             "name": 4.0,
             "weight": 3,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2372,7 +2372,7 @@
         "fields": {
             "name": 5.0,
             "weight": 4,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2381,7 +2381,7 @@
         "fields": {
             "name": 6.0,
             "weight": 5,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2390,7 +2390,7 @@
         "fields": {
             "name": 7.0,
             "weight": 6,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2399,7 +2399,7 @@
         "fields": {
             "name": 8.0,
             "weight": 8,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2408,7 +2408,7 @@
         "fields": {
             "name": 9.0,
             "weight": 9,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2417,7 +2417,7 @@
         "fields": {
             "name": 10.0,
             "weight": 10,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2426,7 +2426,7 @@
         "fields": {
             "name": 11.0,
             "weight": 12,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2435,7 +2435,7 @@
         "fields": {
             "name": 12.0,
             "weight": 13,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2444,7 +2444,7 @@
         "fields": {
             "name": 13.0,
             "weight": 14,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2453,7 +2453,7 @@
         "fields": {
             "name": 14.0,
             "weight": 16,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2462,7 +2462,7 @@
         "fields": {
             "name": 15.0,
             "weight": 17,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2471,7 +2471,7 @@
         "fields": {
             "name": 16.0,
             "weight": 18,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2480,7 +2480,7 @@
         "fields": {
             "name": 17.0,
             "weight": 20,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2489,7 +2489,7 @@
         "fields": {
             "name": 18.0,
             "weight": 21,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2498,7 +2498,7 @@
         "fields": {
             "name": 19.0,
             "weight": 22,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2507,7 +2507,7 @@
         "fields": {
             "name": 20.0,
             "weight": 24,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2516,7 +2516,7 @@
         "fields": {
             "name": 21.0,
             "weight": 26,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2525,7 +2525,7 @@
         "fields": {
             "name": 22.0,
             "weight": 28,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2534,7 +2534,7 @@
         "fields": {
             "name": 23.0,
             "weight": 32,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2543,7 +2543,7 @@
         "fields": {
             "name": 24.0,
             "weight": 34,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2552,7 +2552,7 @@
         "fields": {
             "name": 25.0,
             "weight": 36,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2561,7 +2561,7 @@
         "fields": {
             "name": 26.0,
             "weight": 38,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2570,7 +2570,7 @@
         "fields": {
             "name": 27.0,
             "weight": 40,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2579,7 +2579,7 @@
         "fields": {
             "name": 28.0,
             "weight": 42,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2588,7 +2588,7 @@
         "fields": {
             "name": 29.0,
             "weight": 44,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2597,7 +2597,7 @@
         "fields": {
             "name": 30.0,
             "weight": 46,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2606,7 +2606,7 @@
         "fields": {
             "name": 31.0,
             "weight": 48,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2615,7 +2615,7 @@
         "fields": {
             "name": 32.0,
             "weight": 50,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2624,7 +2624,7 @@
         "fields": {
             "name": 33.0,
             "weight": 52,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2633,7 +2633,7 @@
         "fields": {
             "name": 34.0,
             "weight": 54,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2642,7 +2642,7 @@
         "fields": {
             "name": 35.0,
             "weight": 56,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2651,7 +2651,7 @@
         "fields": {
             "name": 36.0,
             "weight": 58,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2660,7 +2660,7 @@
         "fields": {
             "name": 37.0,
             "weight": 60,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2669,7 +2669,7 @@
         "fields": {
             "name": 38.0,
             "weight": 62,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2678,7 +2678,7 @@
         "fields": {
             "name": 39.0,
             "weight": 64,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2687,7 +2687,7 @@
         "fields": {
             "name": 40.0,
             "weight": 66,
-            "fk_grade_system_type": 11
+            "fk_grade_system": 11
         }
     },
     {
@@ -2696,7 +2696,7 @@
         "fields": {
             "name": "1",
             "weight": 0,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2705,7 +2705,7 @@
         "fields": {
             "name": "2",
             "weight": 4,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2714,7 +2714,7 @@
         "fields": {
             "name": "3",
             "weight": 8,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2723,7 +2723,7 @@
         "fields": {
             "name": "4",
             "weight": 12,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2732,7 +2732,7 @@
         "fields": {
             "name": "5-",
             "weight": 16,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2741,7 +2741,7 @@
         "fields": {
             "name": "5",
             "weight": 18,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2750,7 +2750,7 @@
         "fields": {
             "name": "5+",
             "weight": 20,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2759,7 +2759,7 @@
         "fields": {
             "name": "6-",
             "weight": 24,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2768,7 +2768,7 @@
         "fields": {
             "name": "6",
             "weight": 26,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2777,7 +2777,7 @@
         "fields": {
             "name": "6+",
             "weight": 30,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2786,7 +2786,7 @@
         "fields": {
             "name": "7-",
             "weight": 33,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2795,7 +2795,7 @@
         "fields": {
             "name": "7",
             "weight": 35,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2804,7 +2804,7 @@
         "fields": {
             "name": "7+",
             "weight": 38,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2813,7 +2813,7 @@
         "fields": {
             "name": "8-",
             "weight": 40,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2822,7 +2822,7 @@
         "fields": {
             "name": "8",
             "weight": 42,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2831,7 +2831,7 @@
         "fields": {
             "name": "8+",
             "weight": 44,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2840,7 +2840,7 @@
         "fields": {
             "name": "9-",
             "weight": 46,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2849,7 +2849,7 @@
         "fields": {
             "name": "9",
             "weight": 48,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2858,7 +2858,7 @@
         "fields": {
             "name": "9+",
             "weight": 50,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2867,7 +2867,7 @@
         "fields": {
             "name": "10-",
             "weight": 52,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2876,7 +2876,7 @@
         "fields": {
             "name": "10",
             "weight": 54,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2885,7 +2885,7 @@
         "fields": {
             "name": "10+",
             "weight": 56,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2894,7 +2894,7 @@
         "fields": {
             "name": "11-",
             "weight": 58,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2903,7 +2903,7 @@
         "fields": {
             "name": "11",
             "weight": 60,
-            "fk_grade_system_type": 12
+            "fk_grade_system": 12
         }
     },
     {
@@ -2912,7 +2912,7 @@
         "fields": {
             "name": "1",
             "weight": 0,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2921,7 +2921,7 @@
         "fields": {
             "name": "2",
             "weight": 4,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2930,7 +2930,7 @@
         "fields": {
             "name": "3",
             "weight": 8,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2939,7 +2939,7 @@
         "fields": {
             "name": "4",
             "weight": 12,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2948,7 +2948,7 @@
         "fields": {
             "name": "5-",
             "weight": 16,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2957,7 +2957,7 @@
         "fields": {
             "name": "5",
             "weight": 18,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2966,7 +2966,7 @@
         "fields": {
             "name": "5+",
             "weight": 20,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2975,7 +2975,7 @@
         "fields": {
             "name": "6-",
             "weight": 22,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2984,7 +2984,7 @@
         "fields": {
             "name": "6",
             "weight": 26,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -2993,7 +2993,7 @@
         "fields": {
             "name": "6+",
             "weight": 28,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3002,7 +3002,7 @@
         "fields": {
             "name": "7-",
             "weight": 31,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3011,7 +3011,7 @@
         "fields": {
             "name": "7",
             "weight": 33,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3020,7 +3020,7 @@
         "fields": {
             "name": "7+",
             "weight": 36,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3029,7 +3029,7 @@
         "fields": {
             "name": "7+",
             "weight": 38,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3038,7 +3038,7 @@
         "fields": {
             "name": "8-",
             "weight": 40,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3047,7 +3047,7 @@
         "fields": {
             "name": "8",
             "weight": 42,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3056,7 +3056,7 @@
         "fields": {
             "name": "8+",
             "weight": 46,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3065,7 +3065,7 @@
         "fields": {
             "name": "9-",
             "weight": 48,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3074,7 +3074,7 @@
         "fields": {
             "name": "9",
             "weight": 52,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3083,7 +3083,7 @@
         "fields": {
             "name": "9+",
             "weight": 56,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3092,7 +3092,7 @@
         "fields": {
             "name": "10-",
             "weight": 60,
-            "fk_grade_system_type": 13
+            "fk_grade_system": 13
         }
     },
     {
@@ -3101,7 +3101,7 @@
         "fields": {
             "name": "I",
             "weight": 0,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3110,7 +3110,7 @@
         "fields": {
             "name": "I sup",
             "weight": 2,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3119,7 +3119,7 @@
         "fields": {
             "name": "II",
             "weight": 4,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3128,7 +3128,7 @@
         "fields": {
             "name": "II sup",
             "weight": 6,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3137,7 +3137,7 @@
         "fields": {
             "name": "III",
             "weight": 10,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3146,7 +3146,7 @@
         "fields": {
             "name": "III sup",
             "weight": 12,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3155,7 +3155,7 @@
         "fields": {
             "name": "IV",
             "weight": 14,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3164,7 +3164,7 @@
         "fields": {
             "name": "IV sup",
             "weight": 18,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3173,7 +3173,7 @@
         "fields": {
             "name": "V",
             "weight": 20,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3182,7 +3182,7 @@
         "fields": {
             "name": "VI",
             "weight": 22,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3191,7 +3191,7 @@
         "fields": {
             "name": "VI sup",
             "weight": 26,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3200,7 +3200,7 @@
         "fields": {
             "name": "7a",
             "weight": 30,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3209,7 +3209,7 @@
         "fields": {
             "name": "7b",
             "weight": 32,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3218,7 +3218,7 @@
         "fields": {
             "name": "7c",
             "weight": 34,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3227,7 +3227,7 @@
         "fields": {
             "name": "8a",
             "weight": 38,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3236,7 +3236,7 @@
         "fields": {
             "name": "8b",
             "weight": 40,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3245,7 +3245,7 @@
         "fields": {
             "name": "8c",
             "weight": 42,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3254,7 +3254,7 @@
         "fields": {
             "name": "9a",
             "weight": 44,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3263,7 +3263,7 @@
         "fields": {
             "name": "9b",
             "weight": 46,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3272,7 +3272,7 @@
         "fields": {
             "name": "9c",
             "weight": 48,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3281,7 +3281,7 @@
         "fields": {
             "name": "10a",
             "weight": 50,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3290,7 +3290,7 @@
         "fields": {
             "name": "10b",
             "weight": 52,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3299,7 +3299,7 @@
         "fields": {
             "name": "10c",
             "weight": 54,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3308,7 +3308,7 @@
         "fields": {
             "name": "11a",
             "weight": 56,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3317,7 +3317,7 @@
         "fields": {
             "name": "11b",
             "weight": 58,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3326,7 +3326,7 @@
         "fields": {
             "name": "11c",
             "weight": 60,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3335,7 +3335,7 @@
         "fields": {
             "name": "12a",
             "weight": 62,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3344,7 +3344,7 @@
         "fields": {
             "name": "12b",
             "weight": 64,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3353,7 +3353,7 @@
         "fields": {
             "name": "12c",
             "weight": 66,
-            "fk_grade_system_type": 14
+            "fk_grade_system": 14
         }
     },
     {
@@ -3362,7 +3362,7 @@
         "fields": {
             "name": "I",
             "weight": 0,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3371,7 +3371,7 @@
         "fields": {
             "name": "II",
             "weight": 4,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3380,7 +3380,7 @@
         "fields": {
             "name": "III",
             "weight": 8,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3389,7 +3389,7 @@
         "fields": {
             "name": "IV",
             "weight": 10,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3398,7 +3398,7 @@
         "fields": {
             "name": "IV+",
             "weight": 14,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3407,7 +3407,7 @@
         "fields": {
             "name": "V-",
             "weight": 16,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3416,7 +3416,7 @@
         "fields": {
             "name": "V",
             "weight": 18,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3425,7 +3425,7 @@
         "fields": {
             "name": "V+",
             "weight": 20,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3434,7 +3434,7 @@
         "fields": {
             "name": "VI",
             "weight": 22,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3443,7 +3443,7 @@
         "fields": {
             "name": "VI+",
             "weight": 24,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3452,7 +3452,7 @@
         "fields": {
             "name": "VI.1",
             "weight": 26,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3461,7 +3461,7 @@
         "fields": {
             "name": "VI.1+",
             "weight": 28,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3470,7 +3470,7 @@
         "fields": {
             "name": "VI.2",
             "weight": 31,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3479,7 +3479,7 @@
         "fields": {
             "name": "VI.2+",
             "weight": 33,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3488,7 +3488,7 @@
         "fields": {
             "name": "VI.3",
             "weight": 36,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3497,7 +3497,7 @@
         "fields": {
             "name": "VI.3+",
             "weight": 38,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3506,7 +3506,7 @@
         "fields": {
             "name": "VI.4",
             "weight": 40,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3515,7 +3515,7 @@
         "fields": {
             "name": "VI.4+",
             "weight": 44,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3524,7 +3524,7 @@
         "fields": {
             "name": "VI.5",
             "weight": 46,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3533,7 +3533,7 @@
         "fields": {
             "name": "VI.5+",
             "weight": 48,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3542,7 +3542,7 @@
         "fields": {
             "name": "VI.6",
             "weight": 52,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3551,7 +3551,7 @@
         "fields": {
             "name": "VI.6+",
             "weight": 54,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3560,7 +3560,7 @@
         "fields": {
             "name": "VI.7",
             "weight": 56,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3569,7 +3569,7 @@
         "fields": {
             "name": "VI.7+",
             "weight": 58,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     },
     {
@@ -3578,7 +3578,7 @@
         "fields": {
             "name": "VI.8",
             "weight": 60,
-            "fk_grade_system_type": 15
+            "fk_grade_system": 15
         }
     }
 ]

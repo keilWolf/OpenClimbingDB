@@ -6,6 +6,9 @@ from ocdb import views
 router = DefaultRouter()
 router.register(r"users", views.UserViewSet)
 router.register(r"groups", views.GroupViewSet)
+router.register(r"grade-system-types", views.GradeSystemTypeViewSet)
+router.register(r"grade-systems", views.GradeSystemViewSet)
+router.register(r"grades", views.GradeViewSet)
 
 # Create a router and register our viewsets with it.
 # router.register(r'areas', views.AreaViewSet)

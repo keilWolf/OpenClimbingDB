@@ -16,7 +16,7 @@ class GradeSystemTypeCollection:
         self.grade_system_types.append(
             {
                 "pk": self.count,
-                "model": "ocdb.grade_system_type",
+                "model": "ocdb.GradeSystemType",
                 "fields": {"name": name},
             }
         )
@@ -36,7 +36,7 @@ class GradeSystemCollection:
         self.grade_system.append(
             {
                 "pk": self.count,
-                "model": "ocdb.grade_system",
+                "model": "ocdb.GradeSystem",
                 "fields": {"name": name, "fk_grade_system_type": fk_grade_system_type},
             }
         )
@@ -56,17 +56,17 @@ class GradeCollection:
         self.grades.append(
             {
                 "pk": self.count,
-                "model": "ocdb.grade",
+                "model": "ocdb.Grade",
                 "fields": {
                     "name": name,
-                    "weigth": weight,
-                    "fk_grade_system_type": fk_grade_system,
+                    "weight": weight,
+                    "fk_grade_system": fk_grade_system,
                 },
             }
         )
 
     def export(self):
-        with open(f"{FIXTURES_OUT}grades_fixture.json", "w") as f:
+        with open(f"{FIXTURES_OUT}grade_fixture.json", "w") as f:
             json.dump(self.grades, f, indent=4)
 
 

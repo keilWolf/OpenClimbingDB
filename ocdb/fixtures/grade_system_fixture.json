@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Hueco (USA)",
             "fk_grade_system_type": 1
@@ -9,7 +9,7 @@
     },
     {
         "pk": 2,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Font",
             "fk_grade_system_type": 1
@@ -17,7 +17,7 @@
     },
     {
         "pk": 3,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Brazil",
             "fk_grade_system_type": 1
@@ -25,7 +25,7 @@
     },
     {
         "pk": 4,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "USA",
             "fk_grade_system_type": 2
@@ -33,7 +33,7 @@
     },
     {
         "pk": 5,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "BR_Tech",
             "fk_grade_system_type": 2
@@ -41,7 +41,7 @@
     },
     {
         "pk": 6,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "BR_Adj",
             "fk_grade_system_type": 2
@@ -49,7 +49,7 @@
     },
     {
         "pk": 7,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "France",
             "fk_grade_system_type": 2
@@ -57,7 +57,7 @@
     },
     {
         "pk": 8,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "UIAA",
             "fk_grade_system_type": 2
@@ -65,7 +65,7 @@
     },
     {
         "pk": 9,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Saxon",
             "fk_grade_system_type": 2
@@ -73,7 +73,7 @@
     },
     {
         "pk": 10,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Ewbank (AUS, NZL)",
             "fk_grade_system_type": 2
@@ -81,7 +81,7 @@
     },
     {
         "pk": 11,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Ewbank (South Africa)",
             "fk_grade_system_type": 2
@@ -89,7 +89,7 @@
     },
     {
         "pk": 12,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Finnland",
             "fk_grade_system_type": 2
@@ -97,7 +97,7 @@
     },
     {
         "pk": 13,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Norway",
             "fk_grade_system_type": 2
@@ -105,7 +105,7 @@
     },
     {
         "pk": 14,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Brazil",
             "fk_grade_system_type": 2
@@ -113,7 +113,7 @@
     },
     {
         "pk": 15,
-        "model": "ocdb.grade_system",
+        "model": "ocdb.GradeSystem",
         "fields": {
             "name": "Kurtyka",
             "fk_grade_system_type": 2
