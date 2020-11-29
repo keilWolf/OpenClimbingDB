@@ -31,3 +31,33 @@ class Grade(models.Model):
 
     def __str__(self):
         return "%s" % (self.name)
+
+
+class RouteCharacter(models.Model):
+    """Route character representation."""
+
+    name = models.CharField(max_length=100, blank=False, unique=True)
+
+
+class Light(models.Model):
+    """Sector ligth description."""
+
+    name = models.CharField(max_length=100, blank=False, unique=True)
+
+
+class Orientation(models.Model):
+    """Orientation description."""
+
+    name = models.CharField(max_length=100, blank=False, unique=True)
+
+
+class RockType(models.Model):
+    """Rock types."""
+
+    name = models.CharField(max_length=100, blank=False, unique=True)
+
+
+class AscentStyle(models.Model):
+    """Ascent style."""
+
+    name = models.CharField(max_length=100, blank=False, unique=True)

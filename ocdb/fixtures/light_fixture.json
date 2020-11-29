@@ -1,0 +1,37 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.Light",
+        "fields": {
+            "name": "Shady"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.Light",
+        "fields": {
+            "name": "Sunny"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.Light",
+        "fields": {
+            "name": "Semi-Shade"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.Light",
+        "fields": {
+            "name": "Sun in the morning"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.Light",
+        "fields": {
+            "name": "Sun in the afternoon"
+        }
+    }
+]

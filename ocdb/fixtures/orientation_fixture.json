@@ -1,0 +1,58 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "N"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "NO"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "O"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "SO"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "S"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "SW"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "W"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ocdb.Orientation",
+        "fields": {
+            "name": "NW"
+        }
+    }
+]

@@ -3,6 +3,7 @@
 ```plantuml
 @startuml
 left to right direction
+
 ' uncomment the line below if you're using computer with a retina display
 ' skinparam dpi 300
 !define Table(name,desc) class name as "desc" << (T,#FFAAAA) >>
@@ -21,8 +22,33 @@ left to right direction
 hide methods
 hide stereotypes
 
-' entities
-Table(grade_system, "GradeSystem"){
+package Legend {
+    together {
+        Table(Missing, "Not implemented")
+        Table(Done, "Done") #lightgreen
+        Table(Next, "Next") #yellow
+
+        Missing .. Next
+        Next .. Done 
+    }
+}
+
+
+' ----------------------------
+'       GRADING
+' ----------------------------
+
+
+Table(grade_system_type, "GradeSystemType") #lightgreen {
+    primary_key(id) INTEGER
+    not_null(unique(name)) VARCHAR[32]
+
+    ===
+    - Free
+    - Bouldering
+}
+
+Table(grade_system, "GradeSystem") #lightgreen {
     primary_key(id) INTEGER
     not_null(unique(name)) VARCHAR[32]
 
@@ -32,7 +58,10 @@ Table(grade_system, "GradeSystem"){
     - UIAA
 }
 
-Table(grade, "Grade"){ 
+grade_system_type --> grade_system
+
+
+Table(grade, "Grade") #lightgreen{ 
     primary_key(id) INTEGER
     foreign_key(grade_system_id) INTEGER
     not_null(unique(grade_name)) VARCHAR[32]
@@ -45,7 +74,59 @@ Table(grade, "Grade"){
 
 grade_system "1" -> "*" grade : A grade system contain of many grades
 
-Table(sector, "Sector"){
+
+' ----------------------------
+'       Route
+' ----------------------------
+
+Table(ascent_style, "Ascent Style") #lightgreen {
+    - OS
+    - Flash
+    - Pink Point
+    - Top Rope
+    - With Support
+    - Without Support
+}
+
+Table(orientation, "Orientation") #lightgreen {
+    primary_key(id) INTEGER
+    unique(name) VARCHAR[32]
+}
+
+
+Table(light, "Light") #lightgreen {
+    primary_key(id) INTEGER
+    unique(name) VARCHAR[32]
+
+    ===
+    - Sonnig
+    - Schatten
+    - Halbschatten
+}
+
+Table(route_extra_grades, "Route - Extra Grades") #lightgreen {
+    foreign_key(fk_route_id) INTEGER
+    foreign_key(fk_ascent_style_id) INTEGER
+    foreign_key(fk_grade) INTEGER
+
+}
+
+Table(route_character, "Route Character") #lightgreen {
+    primary_key(pk_id) INTEGER
+    not_null(unique(name)) VARCHAR[32]
+
+    ===
+    - Riß
+    - Überhang
+    - Reibung
+    - Kamin
+    - Sprung
+    - Slackline
+
+}
+
+
+Table(sector, "Sector") #yellow {
     primary_key(pk_id) INTEGER
     foreign_key(fk_orientation_id) INTEGER
     foreign_key(fk_ligth_id) INTEGER
@@ -65,23 +146,7 @@ Table(sector, "Sector"){
     - Abstieg (ablaufen, hochklettern, abseilen)
 }
 
-Table(orientation, "Orientation"){
-    primary_key(id) INTEGER
-    unique(name) VARCHAR[32]
-}
-
 sector --> orientation
-
-Table(light, "Light"){
-    primary_key(id) INTEGER
-    unique(name) VARCHAR[32]
-
-    ===
-    - Sonnig
-    - Schatten
-    - Halbschatten
-}
-
 sector --> light
 
 
@@ -91,32 +156,25 @@ Table(ascent, "Ascent"){
     foreign_key(fk_ascent_style_id) INTEGER
 }
 
-Table(ascent_style, "Ascent Style"){
-    - OS
-    - Flash
-    - Pink Point
-    - Top Rope
-    - With Support
-    - Without Support
-}
 
 ascent --> ascent_style
 
-Table(diary, "Diary"){
+Table(diary, "Diary") #yellow {
     primary_key(id) INTEGER
+    date DATE
     description VARCHAR[1000]
 }
 
 ascent --> diary
 
-Table(person, "Person"){
+Table(person, "Person") #yellow {
     primary_key(id) INTEGER
     not_null(name) VARCHAR[32]
     last_name VARCHAR[32]
     unique(nickname) VARCHAR[32]
 }
 
-Table(diary_person, "Diary-Person"){
+Table(diary_person, "Diary-Person") #yellow {
     foreign_key(fk_diary_id) INTEGER
     foreign_key(fk_person_id) INTEGER
 }
@@ -145,12 +203,8 @@ Table(route, "Route"){
     hints VARCHAR[500]
 }
 
-Table(route_extra_grades, "Route - Extra Grades"){
-    foreign_key(fk_route_id) INTEGER
-    foreign_key(fk_ascent_style_id) INTEGER
-    foreign_key(fk_grade) INTEGER
 
-}
+route_extra_grades -- ascent_style
 
 route "1" --> "*" route_extra_grades
 route_extra_grades --> grade
@@ -164,19 +218,6 @@ Table(first_ascentionist_route, "First Ascentionist Route"){
 route --> first_ascentionist_route
 person --> first_ascentionist_route 
 
-Table(route_character, "Route Character"){
-    primary_key(pk_id) INTEGER
-    not_null(unique(name)) VARCHAR[32]
-
-    ===
-    - Riß
-    - Überhang
-    - Reibung
-    - Kamin
-    - Sprung
-    - Slackline
-
-}
 
 route --> route_character
 route "*" --> sector
@@ -191,6 +232,5 @@ route "*" --> sector
 '
 ' one-to-one relationship
 ' user -- user_profile : "A user only \nhas one profile"
-
 @enduml
 ```

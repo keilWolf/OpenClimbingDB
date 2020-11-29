@@ -1,0 +1,86 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Overhang"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Wall"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Friction"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Crack"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Hand-Crack"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Finger-Crack"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Fist-Crack"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Overwidth-Crack"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Pockets"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Chimney"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Ledges"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ocdb.RouteCharacter",
+        "fields": {
+            "name": "Jugs"
+        }
+    }
+]

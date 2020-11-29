@@ -10,6 +10,11 @@ router.register(r"grade-system-types", views.GradeSystemTypeViewSet)
 router.register(r"grade-systems", views.GradeSystemViewSet)
 router.register(r"grades", views.GradeViewSet)
 
+router.register(r"rock-types", views.RockTypeViewSet)
+router.register(r"route-characters", views.RouteCharacterViewSet)
+router.register(r"lights", views.LightViewSet)
+router.register(r"orientations", views.OrientationViewSet)
+router.register(r"ascent-styles", views.AscentStyleViewSet)
 # Create a router and register our viewsets with it.
 # router.register(r'areas', views.AreaViewSet)
 # router.register(r'summits', views.SummitViewSet)

@@ -1,0 +1,51 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Free"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "RP"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "OS"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Flash"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Pink Point"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Top Rope"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Solo"
+        }
+    }
+]

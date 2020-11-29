@@ -1,0 +1,324 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Sedimentary"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Arkose"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Conglomerate"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Chert"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Limestone"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Breccia (sedimentary)"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Dolomite"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Greywacke"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Gritstone"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Sandstone"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Syenite"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Granite"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Granodiorite"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Gabbro"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Monzonite"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Plutonic"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Peridotite"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Anorthosite"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Tonalite"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Diorite"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Amphibolite"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Quartzite"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Schist"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Marble"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Migmatite"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Greenschist and Prasinite"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Hornfels"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Metamorphic"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Slate"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Serpentinite"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Gneiss"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Hydrothermal and Metasomatic"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Quartz"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Andesite"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Tephrite"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Dolerite"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Igneous"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Volcanic"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Agglomerate"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Tuff"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Rhyolite"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Trachyte"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Phonolite"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Breccia (volcanic)"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Ignimbrite"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "ocdb.RockType",
+        "fields": {
+            "name": "Basalt"
+        }
+    }
+]
