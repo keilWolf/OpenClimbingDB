@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "ocdb",
     "rest_framework",
     "corsheaders",
+    "django_extensions",
 ]
 
 MIDDLEWARE = [

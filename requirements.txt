@@ -7,3 +7,5 @@ pytest
 pytest-cov
 django-cors-headers
 pandas
+django-extensions
+pygraphviz

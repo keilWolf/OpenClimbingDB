@@ -35,6 +35,12 @@ python manage.py createsuperuser --email admin@example.com --username admin
 python manage.py runserver
 ```
 
+### Update ERD - Diagramm of current database implementation
+
+```bash
+python manage.py graph_models ocdb -o ./docs/ocdb_db.png
+```
+
 ## About the author
 
 Me
