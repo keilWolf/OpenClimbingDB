@@ -1,0 +1,93 @@
+[
+    {
+        "pk": 1,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Gebiet der Steine"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Bielatal"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Schrammsteine"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Schmilkaer Gebiet"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Rathener Gebiet"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Wehlener Gebiet"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Brandgebiet"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Kleiner Zschand"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Grosser Zschand"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Affensteine"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Erzgebirgsgrenzgebiet"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Wildensteiner Gebiet"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ocdb.Sector",
+        "fields": {
+            "name": "Hinterhermsdorfer Gebiet"
+        }
+    }
+]
