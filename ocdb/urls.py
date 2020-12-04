@@ -15,6 +15,15 @@ router.register(r"route-characters", views.RouteCharacterViewSet)
 router.register(r"lights", views.LightViewSet)
 router.register(r"orientations", views.OrientationViewSet)
 router.register(r"ascent-styles", views.AscentStyleViewSet)
+
+router.register(r"persons", views.PersonViewSet)
+router.register(r"diaries", views.DiaryViewSet)
+router.register(r"diary-person", views.DiaryPersonViewSet)
+router.register(r"sectors", views.SectorViewSet)
+
+router.register(r"routes", views.RouteViewSet)
+router.register(r"routes-grades", views.RouteGradesViewSet)
+router.register(r"characters-of_route", views.RouteCharactersViewSet)
 # Create a router and register our viewsets with it.
 # router.register(r'areas', views.AreaViewSet)
 # router.register(r'summits', views.SummitViewSet)

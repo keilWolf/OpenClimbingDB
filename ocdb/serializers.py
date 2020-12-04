@@ -61,3 +61,61 @@ class AscentStyleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.AscentStyle
         fields = ["url", "name"]
+
+
+class DiarySerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Diary
+        fields = ["url", "date", "description"]
+
+
+class PersonSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Person
+        fields = ["url", "name", "last_name", "nick_name"]
+
+
+class DiaryPersonSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.DiaryPerson
+        fields = ["url", "fk_diary", "fk_person"]
+
+
+class SectorSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Sector
+        fields = [
+            "url",
+            "name",
+            "fk_sector",
+            "fk_orientation",
+            "fk_light",
+            "ascent_time_min",
+            "max_height_in_m",
+            "rain_protected",
+            "child_friendly",
+            "windy",
+            "ascent_description",
+            "descent_description",
+            "latitude",
+            "longitude",
+            "altitude",
+        ]
+
+
+class RouteSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Route
+        fields = "__all__"
+
+
+class RouteCharactersSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.RouteCharacters
+        fields = "__all__"
+
+
+class RouteGradesSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.RouteGrades
+        fields = "__all__"

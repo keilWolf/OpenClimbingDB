@@ -3,7 +3,7 @@
         "pk": 1,
         "model": "ocdb.AscentStyle",
         "fields": {
-            "name": "Free"
+            "name": "Free/AF"
         }
     },
     {
