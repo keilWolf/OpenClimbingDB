@@ -73,7 +73,7 @@ package Grade {
 
 package Route {
 
-    Table(route, "Route"){
+    Table(route, "Route")#lightgreen{
         primary_key(id) INTEGER
         not_null(unique(name)) VARCHAR[32]
         foreign_key(route_character_id) INTEGER
@@ -84,7 +84,7 @@ package Route {
         hints VARCHAR[500]
     }
 
-    Table(route_extra_grades, "Route - Grades") #yellow {
+    Table(route_extra_grades, "Route - Grades") #lightgreen{
         primary_key(id) INTEGER
         foreign_key(fk_route_id) INTEGER
         foreign_key(fk_ascent_style_id) INTEGER
@@ -158,7 +158,7 @@ package Diary {
         description VARCHAR[1000]
     }
 
-    Table(ascent, "Ascent"){
+    Table(ascent, "Ascent")#lightgreen{
         primary_key(pk_id) INTEGER
         foreign_key(fk_diary_id) INTEGER
         foreign_key(fk_ascent_style_id) INTEGER
@@ -195,12 +195,12 @@ package People {
         foreign_key(fk_person_id) INTEGER
     }
 
-    Table(rope_party, "Rope Party"){
+    Table(rope_party, "Rope Party")#lightgreen{
         foreign_key(fk_ascent_id) INTEGER
         foreign_key(fk_person_id) INTEGER
     }
 
-    Table(first_ascentionist_route, "First Ascentionist Route"){
+    Table(first_ascentionist_route, "First Ascentionist Route")#lightgreen{
         foreign_key(fk_route_id) INTEGER
         foreign_key(fk_person_id) INTEGER
     }

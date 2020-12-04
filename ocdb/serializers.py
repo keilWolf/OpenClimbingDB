@@ -78,29 +78,13 @@ class PersonSerializer(serializers.HyperlinkedModelSerializer):
 class DiaryPersonSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.DiaryPerson
-        fields = ["url", "fk_diary", "fk_person"]
+        fields = "__all__"
 
 
 class SectorSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Sector
-        fields = [
-            "url",
-            "name",
-            "fk_sector",
-            "fk_orientation",
-            "fk_light",
-            "ascent_time_min",
-            "max_height_in_m",
-            "rain_protected",
-            "child_friendly",
-            "windy",
-            "ascent_description",
-            "descent_description",
-            "latitude",
-            "longitude",
-            "altitude",
-        ]
+        fields = "__all__"
 
 
 class RouteSerializer(serializers.HyperlinkedModelSerializer):
@@ -118,4 +102,22 @@ class RouteCharactersSerializer(serializers.HyperlinkedModelSerializer):
 class RouteGradesSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.RouteGrades
+        fields = "__all__"
+
+
+class AscentSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Ascent
+        fields = "__all__"
+
+
+class RopePartySerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.RopeParty
+        fields = "__all__"
+
+
+class FirstAscentionistsOfRouteSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.FirstAscentionistRoute
         fields = "__all__"

@@ -112,3 +112,21 @@ class RouteGradesViewSet(viewsets.ModelViewSet):
 
     queryset = models.RouteGrades.objects.all()
     serializer_class = serializers.RouteGradesSerializer
+
+
+class AscentViewSet(viewsets.ModelViewSet):
+
+    queryset = models.Ascent.objects.all()
+    serializer_class = serializers.AscentSerializer
+
+
+class RopePartyViewSet(viewsets.ModelViewSet):
+
+    queryset = models.RopeParty.objects.all()
+    serializer_class = serializers.RopePartySerializer
+
+
+class FirstAscentionistOfRouteViewSet(viewsets.ModelViewSet):
+
+    queryset = models.FirstAscentionistRoute.objects.all()
+    serializer_class = serializers.FirstAscentionistsOfRouteSerializer

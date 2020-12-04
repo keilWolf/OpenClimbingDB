@@ -24,13 +24,10 @@ router.register(r"sectors", views.SectorViewSet)
 router.register(r"routes", views.RouteViewSet)
 router.register(r"routes-grades", views.RouteGradesViewSet)
 router.register(r"characters-of_route", views.RouteCharactersViewSet)
-# Create a router and register our viewsets with it.
-# router.register(r'areas', views.AreaViewSet)
-# router.register(r'summits', views.SummitViewSet)
-# router.register(r'routes', views.RouteViewSet)
-# router.register(r'climbers', views.ClimberViewSet)
-# router.register(r'ascents', views.AscentViewSet)
-# router.register(r'rope_party', views.AscentClimbersViewSet)
+
+router.register(r"ascents", views.AscentViewSet)
+router.register(r"rope-parties", views.RopePartyViewSet)
+router.register(r"first-ascentionists-of_route", views.FirstAscentionistOfRouteViewSet)
 
 # The API URLs are now determined automatically by the router.
 urlpatterns = [

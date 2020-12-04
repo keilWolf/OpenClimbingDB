@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator
 
 
 class GradeSystemType(models.Model):
@@ -161,6 +162,14 @@ class Sector(models.Model):
 
 class Route(models.Model):
 
+    fk_rock_type = models.ForeignKey(
+        RockType, on_delete=models.CASCADE, related_name="route_rock_types"
+    )
+
+    fk_sector = models.ForeignKey(
+        Sector, on_delete=models.CASCADE, related_name="route_sectors"
+    )
+
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=1000, blank=True)
     length_in_m = models.IntegerField(default=0)
@@ -217,4 +226,70 @@ class RouteGrades(models.Model):
         unique_together = (
             ("fk_route", "fk_ascent_style"),
             ("fk_ascent_style", "fk_grade"),
+        )
+
+
+class Ascent(models.Model):
+
+    fk_diary = models.ForeignKey(
+        Diary,
+        on_delete=models.CASCADE,
+        related_name="ascent_diaries",
+    )
+
+    fk_ascent_style = models.ForeignKey(
+        AscentStyle,
+        on_delete=models.CASCADE,
+        related_name="ascent_styles",
+    )
+
+    fk_route = models.ForeignKey(
+        Route,
+        on_delete=models.CASCADE,
+        related_name="ascent_routes",
+    )
+
+    description = models.CharField(max_length=1000)
+    ascent_number = models.IntegerField(blank=True, validators=[MaxValueValidator(100)])
+
+
+class FirstAscentionistRoute(models.Model):
+
+    fk_route = models.ForeignKey(
+        Route,
+        on_delete=models.CASCADE,
+        related_name="first_ascentionist_routes",
+    )
+
+    fk_person = models.ForeignKey(
+        Person,
+        on_delete=models.CASCADE,
+        related_name="first_ascentionist_person",
+    )
+
+    class Meta:
+        unique_together = (
+            "fk_route",
+            "fk_person",
+        )
+
+
+class RopeParty(models.Model):
+
+    fk_ascent = models.ForeignKey(
+        Ascent,
+        on_delete=models.CASCADE,
+        related_name="rope_party_ascents",
+    )
+
+    fk_person = models.ForeignKey(
+        Person,
+        on_delete=models.CASCADE,
+        related_name="rope_party_persons",
+    )
+
+    class Meta:
+        unique_together = (
+            "fk_ascent",
+            "fk_person",
         )
