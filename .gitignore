@@ -131,4 +131,4 @@ dmypy.json
 # Custom
 data/backup/
 .vscode/
-data/dbsandsteinklettern/data_crawled.py
+data/dbsandsteinklettern/crawled.jsonl

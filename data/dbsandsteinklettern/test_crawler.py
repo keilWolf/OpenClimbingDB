@@ -95,7 +95,23 @@ def test_route_name_without_star(test_input, expected):
                 "date": "12.06.1977",
             },
         ),
+        (
+            "H.L. Stutte 10.04.1981",
+            {
+                "persons": [
+                    {"name": "H. L.", "last_name": "Stutte"},
+                ],
+                "date": "10.04.1981",
+            },
+        ),
     ],
 )
 def test_parse_first_ascent(test_input, expected):
     assert data_crawler.parse_first_ascent(test_input) == expected
+
+
+def test_parse_summit_coordinates():
+    test_input = """Gipfelkoordinaten: 50.615310 Grad nördlicher Breite \n  und 16.120550 Grad östlicher Länge [N50°36\'55.1"\n  O16°7\'13.9"]"""  # noqa: E501
+    lat, lon = data_crawler.parse_summit_coordinates(test_input)
+    assert lat == 50.615310
+    assert lon == 16.120550

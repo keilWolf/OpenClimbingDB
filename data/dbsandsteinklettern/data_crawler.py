@@ -1,3 +1,4 @@
+import traceback
 import asyncio
 import aiohttp
 import tqdm
@@ -8,7 +9,6 @@ from bs4 import BeautifulSoup
 gipfel_base_path = "http://db-sandsteinklettern.gipfelbuch.de/weg.php?gipfelid={}"
 route_base_path = "http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid={}"
 
-# https://compiletoi.net/fast-scraping-in-python-with-asyncio/
 
 OUT = "./crawled.jsonl"
 
@@ -18,9 +18,16 @@ async def request_route(id):
         async with aiohttp.ClientSession() as session:
             async with session.get(route_base_path.format(id), compress=True) as resp:
                 content = await resp.read()
-                data = await parse_route(content)
-                with open(OUT, "a") as f:
-                    f.write(json.dumps(data, ensure_ascii=False) + "\n")
+                try:
+                    data = await parse_route(content)
+                    with open(OUT, "a") as f:
+                        f.write(json.dumps(data, ensure_ascii=False) + "\n")
+                except ValueError:
+                    # Go to next element. Side is empty.
+                    pass
+                except Exception:
+                    print(traceback.format_exc())
+                    print(f"Something went wrong for content \n {content}")
 
 
 async def parse_route(content: str):
@@ -31,46 +38,41 @@ async def parse_route(content: str):
     links = soup.find_all("a")
 
     summit_tag_list = list(filter(lambda x: "weg.php?gipfelid" in str(x), links))
-    if len(summit_tag_list) == 0:
-        raise ValueError("Here is nothing")
-
     summit_tag = summit_tag_list[0]
     summit_id = summit_tag.attrs["href"].split("=")[1]
+    if summit_id == "":
+        raise ValueError("Here is nothing")
 
     infos["area"] = next(filter(lambda x: "gebiet" in str(x), links)).text
     infos["sector"] = next(filter(lambda x: "sektor" in str(x), links)).text
     infos["summit_name"] = summit_tag.text
-    infos["summit_id"] = str(await request_summit_id(summit_id))
+    infos["summit_infos"] = await request_summit_id(summit_id)
+    infos["summit_infos"]["db_id"] = summit_id
 
     route_name_tag = summit_tag.next_element.next_element.next_element
     route_name = re.match(r"\d?(\*?.*)", route_name_tag.strip("\n")).groups()[0]
-    infos["route_name"] = route_name
+    infos["route_name"] = parse_route_name(route_name)
 
     diff_tag = route_name_tag.find_next("a").next_element.next_element
-    infos["diff"] = diff_tag
+    infos["diff"] = parse_difficulties(diff_tag.strip("\n").strip())
 
     first_ascent = diff_tag.find_next("a").next_element.next_element
-    infos["first_ascent"] = first_ascent
+    infos["first_ascent"] = parse_first_ascent(first_ascent.strip("\n").strip())
 
-    route_descr = (
-        first_ascent.find_next("a").find_next("a").previous_element.previous_element
-    )
+    infos["descr"] = get_route_description(first_ascent.find_next("a"))
+
+    return infos
+
+
+def get_route_description(content):
+    route_descr = content.find_next("a").previous_element.previous_element
 
     if route_descr.startswith("Kletterei"):
         route_descr = (
             route_descr.find_next("a").find_next("a").previous_element.previous_element
         )
 
-    infos["descr"] = route_descr
-
-    for info_key in infos:
-        infos[info_key] = infos[info_key].strip("\n").strip()
-
-    infos["diff"] = parse_difficulties(infos["diff"])
-    infos["first_ascent"] = parse_first_ascent(infos["first_ascent"])
-    infos["route_name"] = parse_route_name(infos["route_name"])
-
-    return infos
+    return route_descr.strip("\n").strip()
 
 
 async def request_summit_id(id):
@@ -85,10 +87,29 @@ def parse_summit_id(content: str):
 
     h2_tags = soup.find_all("h2")
 
-    g_id = str(h2_tags[0].next_element).strip()
-    g_id = int(g_id)
+    infos = {}
+    infos["id_in_sector"] = str(h2_tags[0].next_element).strip()
 
-    return g_id
+    # find coordinates
+    fonts = soup.findAll("font")
+    for font in fonts[:10]:
+        text = str(font.next_element).strip()
+        if text.startswith("Gipfelkoordinaten"):
+            lat, lon = parse_summit_coordinates(text)
+            infos["lat"] = lat
+            infos["lon"] = lon
+
+    return infos
+
+
+def parse_summit_coordinates(string: str):
+    re_coordinates = r"(\d{1,}.\d{1,})"
+    matches = re.findall(re_coordinates, string)
+    if len(matches) < 2:
+        raise Exception(f"There should be coordinates for the string {string}")
+    lat = float(matches[0])
+    lon = float(matches[1])
+    return lat, lon
 
 
 def create_difficulties_dict(
@@ -146,18 +167,24 @@ def parse_first_ascent(content: str):
         ascentionists = content.replace(date, "")
 
     ascentionists = (
-        ascentionists.strip().replace(", ", ",").replace(".", ". ").split(",")
+        ascentionists.strip()
+        .replace(", ", ",")
+        .replace(".", ". ")
+        .replace("  ", " ")
+        .split(",")
     )
     ascentionists = filter(lambda a: len(a) != 0, ascentionists)
     ascentionists = filter(lambda a: a[0].isupper(), ascentionists)
     for asc in ascentionists:
         parts = asc.split(" ")
-        if len(parts) == 1:
-            fa["persons"].append({"name": "", "last_name": parts[0]})
-        elif len(parts) == 2:
-            fa["persons"].append({"name": parts[0], "last_name": parts[1]})
-        else:
+        if len(parts) == 0:
             raise Exception(f"Something went wrong for {content}")
+        elif len(parts) == 1:
+            fa["persons"].append({"name": "", "last_name": parts[0]})
+        else:
+            fa["persons"].append(
+                {"name": " ".join(parts[0:-1]), "last_name": parts[-1]}
+            )
     return fa
 
 
@@ -180,6 +207,9 @@ async def wait_with_progress(coros):
 
 
 if __name__ == "__main__":
+    max_num = 105309
     loop = asyncio.get_event_loop()
-    sem = asyncio.Semaphore(50)
-    loop.run_until_complete(wait_with_progress([request_route(i) for i in range(1000)]))
+    sem = asyncio.Semaphore(100)
+    loop.run_until_complete(
+        wait_with_progress([request_route(i) for i in range(max_num)])
+    )
