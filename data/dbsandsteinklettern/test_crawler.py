@@ -115,3 +115,17 @@ def test_parse_summit_coordinates():
     lat, lon = data_crawler.parse_summit_coordinates(test_input)
     assert lat == 50.615310
     assert lon == 16.120550
+
+
+@pytest.mark.parametrize(
+    "test_input,expected",
+    [
+        ("Talseite", "Talseite"),
+        ("1 Talseite", "Talseite"),
+        ("1. Talseite", "Talseite"),
+        ("6.2 Talseite direkt", "Talseite direkt"),
+        ("6.2 **Talseite direkt", "**Talseite direkt"),
+    ],
+)
+def test_get_route_name(test_input, expected):
+    assert data_crawler.get_route_name(test_input) == expected

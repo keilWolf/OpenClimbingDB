@@ -10,9 +10,6 @@ gipfel_base_path = "http://db-sandsteinklettern.gipfelbuch.de/weg.php?gipfelid={
 route_base_path = "http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid={}"
 
 
-OUT = "./crawled.jsonl"
-
-
 async def request_route(id):
     async with sem:
         async with aiohttp.ClientSession() as session:
@@ -50,7 +47,7 @@ async def parse_route(content: str):
     infos["summit_infos"]["db_id"] = summit_id
 
     route_name_tag = summit_tag.next_element.next_element.next_element
-    route_name = re.match(r"\d?(\*?.*)", route_name_tag.strip("\n")).groups()[0]
+    route_name = get_route_name(route_name_tag.strip("\n"))
     infos["route_name"] = parse_route_name(route_name)
 
     diff_tag = route_name_tag.find_next("a").next_element.next_element
@@ -62,6 +59,10 @@ async def parse_route(content: str):
     infos["descr"] = get_route_description(first_ascent.find_next("a"))
 
     return infos
+
+
+def get_route_name(line: str):
+    return re.match(r"\d?\.?\d? ?(\*?.*)", line).groups()[0]
 
 
 def get_route_description(content):
@@ -207,9 +208,15 @@ async def wait_with_progress(coros):
 
 
 if __name__ == "__main__":
+    from_num = 100000
+    to_num = 110000
     max_num = 105309
+
+    OUT = f"./crawled_{from_num}-{to_num}.jsonl"
+    print(f"write output to {OUT}")
+
     loop = asyncio.get_event_loop()
     sem = asyncio.Semaphore(100)
     loop.run_until_complete(
-        wait_with_progress([request_route(i) for i in range(max_num)])
+        wait_with_progress([request_route(i) for i in range(from_num, to_num)])
     )

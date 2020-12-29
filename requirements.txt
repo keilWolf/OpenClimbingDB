@@ -9,3 +9,6 @@ django-cors-headers
 pandas
 django-extensions
 pygraphviz
+aiohttp
+tqdm
+bs4
