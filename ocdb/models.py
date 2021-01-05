@@ -82,8 +82,8 @@ class AscentStyle(models.Model):
 class Diary(models.Model):
     """Diary."""
 
-    date = models.DateField()
-    description = models.CharField(max_length=1000)
+    date = models.DateField(unique=True)
+    description = models.CharField(max_length=1000, blank=True)
 
     def __str__(self):
         return f"{self.date}"
@@ -122,6 +122,7 @@ class Sector(models.Model):
     """
 
     name = models.CharField(max_length=1000, blank=False)
+    description = models.CharField(max_length=1000, blank=True)
 
     fk_sector = models.ForeignKey(
         "self",

@@ -47,5 +47,40 @@
         "fields": {
             "name": "Solo"
         }
+    },
+    {
+        "pk": 8,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Second"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Alternate"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Redirect"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Cancel"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Other"
+        }
     }
 ]

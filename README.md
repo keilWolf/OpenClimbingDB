@@ -19,6 +19,12 @@ pip install -r requirements.txt
 
 ### Migrations
 
+If you change something for the database like the model or co. You have to create some migration file with `makemigrations` and `migrate` afterwards.
+
+```bash
+python manage.py makemigrations
+```
+
 ```bash
 python manage.py migrate
 ```

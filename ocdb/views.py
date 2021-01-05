@@ -72,7 +72,7 @@ class AscentStyleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = serializers.AscentStyleSerializer
 
 
-class DiaryViewSet(viewsets.ReadOnlyModelViewSet):
+class DiaryViewSet(viewsets.ModelViewSet):
 
     queryset = models.Diary.objects.all()
     serializer_class = serializers.DiarySerializer

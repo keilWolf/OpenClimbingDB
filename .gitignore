@@ -132,3 +132,4 @@ dmypy.json
 data/backup/
 .vscode/
 data/dbsandsteinklettern/crawled.jsonl
+.vim/
