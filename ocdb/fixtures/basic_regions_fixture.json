@@ -1,0 +1,3043 @@
+[
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Americas"
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Europe"
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Africa"
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Oceania"
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Asia"
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Eastern Europe",
+   "fk_sector": [
+    "Europe",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Central Asia",
+   "fk_sector": [
+    "Asia",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Southern Asia",
+   "fk_sector": [
+    "Asia",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Western Asia",
+   "fk_sector": [
+    "Asia",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Northern Africa",
+   "fk_sector": [
+    "Africa",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "South-eastern Asia",
+   "fk_sector": [
+    "Asia",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Polynesia",
+   "fk_sector": [
+    "Oceania",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Southern Europe",
+   "fk_sector": [
+    "Europe",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Latin America and the Caribbean",
+   "fk_sector": [
+    "Americas",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Western Europe",
+   "fk_sector": [
+    "Europe",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Northern America",
+   "fk_sector": [
+    "Americas",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Australia and New Zealand",
+   "fk_sector": [
+    "Oceania",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Sub-Saharan Africa",
+   "fk_sector": [
+    "Africa",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Eastern Asia",
+   "fk_sector": [
+    "Asia",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Micronesia",
+   "fk_sector": [
+    "Oceania",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Northern Europe",
+   "fk_sector": [
+    "Europe",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Melanesia",
+   "fk_sector": [
+    "Oceania",
+    null
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Eastern Africa",
+   "fk_sector": [
+    "Sub-Saharan Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Western Africa",
+   "fk_sector": [
+    "Sub-Saharan Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "South America",
+   "fk_sector": [
+    "Latin America and the Caribbean",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Southern Africa",
+   "fk_sector": [
+    "Sub-Saharan Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Central America",
+   "fk_sector": [
+    "Latin America and the Caribbean",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Caribbean",
+   "fk_sector": [
+    "Latin America and the Caribbean",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Channel Islands",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Middle Africa",
+   "fk_sector": [
+    "Sub-Saharan Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Marshall Islands",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cameroon",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Madagascar",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Christmas Island",
+   "fk_sector": [
+    "Australia and New Zealand",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Andorra",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Gambia",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Falkland Islands",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Norfolk Island",
+   "fk_sector": [
+    "Australia and New Zealand",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Antigua & Barbuda",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Morocco",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Argentina",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Belarus",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Svalbard & Jan Mayen",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Lesotho",
+   "fk_sector": [
+    "Southern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Liberia",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Czechia",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Nigeria",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Turkey",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Benin",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Burkina Faso",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "South Africa",
+   "fk_sector": [
+    "Southern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bouvet Island",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Gabon",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Heard & McDonald Islands",
+   "fk_sector": [
+    "Australia and New Zealand",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Malaysia",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Kazakhstan",
+   "fk_sector": [
+    "Central Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Jersey",
+   "fk_sector": [
+    "Channel Islands",
+    "Northern Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Djibouti",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Greenland",
+   "fk_sector": [
+    "Northern America",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cape Verde",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Brunei",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "New Zealand",
+   "fk_sector": [
+    "Australia and New Zealand",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Norway",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Comoros",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Palestine",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Venezuela",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Congo - Kinshasa",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Iran",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Myanmar",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "R\u00e9union",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Solomon Islands",
+   "fk_sector": [
+    "Melanesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Germany",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Togo",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "U.S. Outlying Islands",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Monaco",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Nepal",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Turkmenistan",
+   "fk_sector": [
+    "Central Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Uganda",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Ukraine",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bangladesh",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Libya",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Serbia",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Tajikistan",
+   "fk_sector": [
+    "Central Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Turks & Caicos Islands",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "UK",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Kiribati",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Central African Republic",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Burundi",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Chad",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Oman",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Lebanon",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bahrain",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Albania",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Laos",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cook Islands",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mauritius",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "China",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Thailand",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guam",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Botswana",
+   "fk_sector": [
+    "Southern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Portugal",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Algeria",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Yemen",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Israel",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Angola",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Antarctica"
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Macau",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Estonia",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Zambia",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Denmark",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Nicaragua",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Kitts & Nevis",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Lucia",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cambodia",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Niue",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Montserrat",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mauritania",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Latvia",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "American Samoa",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mongolia",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Sierra Leone",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Sint Maarten",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Australia",
+   "fk_sector": [
+    "Australia and New Zealand",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Azerbaijan",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Anguilla",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bhutan",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Ghana",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Papua New Guinea",
+   "fk_sector": [
+    "Melanesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Armenia",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Caribbean Netherlands",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Pakistan",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Panama",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Samoa",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Moldova",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Brazil",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Slovakia",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "San Marino",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Wallis & Futuna",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Honduras",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Qatar",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Barth\u00e9lemy",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Jamaica",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Netherlands",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Sweden",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Tokelau",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "British Indian Ocean Territory",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Malawi",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Uruguay",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Japan",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Barbados",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Colombia",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Greece",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Seychelles",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guyana",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Finland",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Kuwait",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Slovenia",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Vincent & Grenadines",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guinea-Bissau",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Liechtenstein",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "S\u00e3o Tom\u00e9 & Pr\u00edncipe",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Romania",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Egypt",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Ireland",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Rwanda",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Nauru",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cuba",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mozambique",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Helena",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Puerto Rico",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Ecuador",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "El Salvador",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Somalia",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guinea",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Eswatini",
+   "fk_sector": [
+    "Southern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Belize",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Hungary",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mexico",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "\u00c5land Islands",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Fiji",
+   "fk_sector": [
+    "Melanesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Kyrgyzstan",
+   "fk_sector": [
+    "Central Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "French Polynesia",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Costa Rica",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Martinique",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Pitcairn Islands",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Vatican City",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Vanuatu",
+   "fk_sector": [
+    "Melanesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Croatia",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "C\u00f4te d\u2019Ivoire",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cyprus",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Grenada",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Iceland",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Martin",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Italy",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "U.S. Virgin Islands",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Tunisia",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Micronesia",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Afghanistan",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Kenya",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Saudi Arabia",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Palau",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Malta",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Luxembourg",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Tonga",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "US",
+   "fk_sector": [
+    "Northern America",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cocos (Keeling) Islands",
+   "fk_sector": [
+    "Australia and New Zealand",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "South Korea",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Singapore",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Aruba",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Niger",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Syria",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Dominican Republic",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Indonesia",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guernsey",
+   "fk_sector": [
+    "Channel Islands",
+    "Northern Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "France",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Trinidad & Tobago",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "United Arab Emirates",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "French Southern Territories",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Montenegro",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Haiti",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guadeloupe",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mayotte",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Hong Kong",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bulgaria",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Austria",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bosnia",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Iraq",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Poland",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Vietnam",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Congo - Brazzaville",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Chile",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bermuda",
+   "fk_sector": [
+    "Northern America",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Faroe Islands",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Jordan",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Northern Mariana Islands",
+   "fk_sector": [
+    "Micronesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Western Sahara",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bahamas",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cura\u00e7ao",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Sri Lanka",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "French Guiana",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Senegal",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Georgia",
+   "fk_sector": [
+    "Western Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Lithuania",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Paraguay",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Timor-Leste",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Spain",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Gibraltar",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Namibia",
+   "fk_sector": [
+    "Southern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Equatorial Guinea",
+   "fk_sector": [
+    "Middle Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Zimbabwe",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Maldives",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Bolivia",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Dominica",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Canada",
+   "fk_sector": [
+    "Northern America",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Mali",
+   "fk_sector": [
+    "Western Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Russia",
+   "fk_sector": [
+    "Eastern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "North Macedonia",
+   "fk_sector": [
+    "Southern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "South Sudan",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Peru",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Switzerland",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "British Virgin Islands",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Cayman Islands",
+   "fk_sector": [
+    "Caribbean",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Guatemala",
+   "fk_sector": [
+    "Central America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Eritrea",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "St. Pierre & Miquelon",
+   "fk_sector": [
+    "Northern America",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Philippines",
+   "fk_sector": [
+    "South-eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "North Korea",
+   "fk_sector": [
+    "Eastern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Isle of Man",
+   "fk_sector": [
+    "Northern Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Tuvalu",
+   "fk_sector": [
+    "Polynesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "New Caledonia",
+   "fk_sector": [
+    "Melanesia",
+    "Oceania"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "South Georgia & South Sandwich Islands",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Suriname",
+   "fk_sector": [
+    "South America",
+    "Latin America and the Caribbean"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Ethiopia",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Uzbekistan",
+   "fk_sector": [
+    "Central Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Tanzania",
+   "fk_sector": [
+    "Eastern Africa",
+    "Sub-Saharan Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Belgium",
+   "fk_sector": [
+    "Western Europe",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Sudan",
+   "fk_sector": [
+    "Northern Africa",
+    "Africa"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "India",
+   "fk_sector": [
+    "Southern Asia",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": null,
+  "model": "ocdb.Sector",
+  "fields": {
+   "name": "Taiwan"
+  }
+ }
+]

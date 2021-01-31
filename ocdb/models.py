@@ -114,6 +114,18 @@ class DiaryPerson(models.Model):
     )
 
 
+class SectorManager(models.Manager):
+    def get_by_natural_key(self, name, fk_sector):
+        """Get by natural key.
+        https://docs.djangoproject.com/en/dev/topics/serialization/#natural-keys
+
+        Filter by plain `fk_sector` will not work, because it's an integer.
+        Use double underscore __ to compare with property.
+        """
+        search = self.filter(name=name).filter(fk_sector__name=fk_sector)
+        return search.get()
+
+
 class Sector(models.Model):
     """Sector which can be part of another sector.
 
@@ -157,8 +169,13 @@ class Sector(models.Model):
     altitude = models.FloatField(default=0)
     # TODO Polygon / Bounding Box
 
+    objects = SectorManager()
+
     def __str__(self):
         return f"{self.name}"
+
+    class Meta:
+        unique_together = [["name", "fk_sector"]]
 
 
 class Route(models.Model):
