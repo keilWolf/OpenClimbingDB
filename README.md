@@ -47,6 +47,17 @@ python manage.py runserver
 python manage.py graph_models ocdb -o ./docs/ocdb_db.png
 ```
 
+## Remove Data From DB
+
+!!! ATTENTION !!!
+!!! Example Will Remove All Sector Entries !!
+
+```bash
+python manage.py dbshell
+...
+DELETE FROM ocdb_sector;
+```
+
 ## About the author
 
 Me

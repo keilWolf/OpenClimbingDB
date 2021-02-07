@@ -1,5 +1,7 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
+from django.db.models import Q
+from django.db.models.constraints import UniqueConstraint
 
 
 class GradeSystemType(models.Model):
@@ -114,18 +116,6 @@ class DiaryPerson(models.Model):
     )
 
 
-class SectorManager(models.Manager):
-    def get_by_natural_key(self, name, fk_sector):
-        """Get by natural key.
-        https://docs.djangoproject.com/en/dev/topics/serialization/#natural-keys
-
-        Filter by plain `fk_sector` will not work, because it's an integer.
-        Use double underscore __ to compare with property.
-        """
-        search = self.filter(name=name).filter(fk_sector__name=fk_sector)
-        return search.get()
-
-
 class Sector(models.Model):
     """Sector which can be part of another sector.
 
@@ -169,23 +159,45 @@ class Sector(models.Model):
     altitude = models.FloatField(default=0)
     # TODO Polygon / Bounding Box
 
-    objects = SectorManager()
-
     def __str__(self):
         return f"{self.name}"
 
     class Meta:
-        unique_together = [["name", "fk_sector"]]
+        # https://stackoverflow.com/questions/33307892/django-unique-together-with-nullable-foreignkey
+        constraints = [
+            UniqueConstraint(
+                fields=["name", "fk_sector"], name="unique_with_fk_sector"
+            ),
+            UniqueConstraint(
+                fields=[
+                    "name",
+                ],
+                condition=Q(fk_sector=None),
+                name="unique_without_fk_sector",
+            ),
+        ]
+
+
+class RouteManager(models.Manager):
+    def get_by_natural_key(self, name, fk_sector):
+        """Get by natural key.
+        https://docs.djangoproject.com/en/dev/topics/serialization/#natural-keys
+
+        Filter by plain `fk_sector` will not work, because it's an integer.
+        Use double underscore __ to compare with property.
+        """
+        search = self.filter(name=name).filter(fk_sector__name=fk_sector)
+        return search.get()
 
 
 class Route(models.Model):
 
-    fk_rock_type = models.ForeignKey(
-        RockType, on_delete=models.CASCADE, related_name="route_rock_types"
-    )
-
     fk_sector = models.ForeignKey(
         Sector, on_delete=models.CASCADE, related_name="route_sectors"
+    )
+
+    fk_rock_type = models.ForeignKey(
+        RockType, on_delete=models.CASCADE, related_name="route_rock_types"
     )
 
     name = models.CharField(max_length=100)
@@ -195,8 +207,13 @@ class Route(models.Model):
     equipment = models.CharField(max_length=1000, blank=True)
     hints = models.CharField(max_length=1000, blank=True)
 
+    objects = RouteManager()
+
     def __str__(self):
         return f"{self.name}"
+
+    class Meta:
+        unique_together = [["name", "fk_sector"]]
 
 
 class RouteCharacters(models.Model):
