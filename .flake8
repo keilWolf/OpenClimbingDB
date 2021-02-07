@@ -3,3 +3,4 @@
 # rather than using the flake8 default of 79:
 max-line-length = 88
 exclude = ocdb/migrations/
+extend-ignore = E203

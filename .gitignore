@@ -133,3 +133,7 @@ data/backup/
 .vscode/
 data/dbsandsteinklettern/crawled.jsonl
 .vim/
+
+# Crawler
+
+out/
