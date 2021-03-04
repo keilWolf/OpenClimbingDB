@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     "django_extensions",
+    "crawler",
 ]
 
 MIDDLEWARE = [
@@ -126,7 +127,9 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 REST_FRAMEWORK = {
-    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",  # noqa: E501
+    # "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",  # noqa: E501
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",  # noqa: E501
+    "PAGE_SIZE": 100,
 }
 
 CORS_ORIGIN_WHITELIST = ["http://localhost:8080", "http://127.0.0.1:9000"]

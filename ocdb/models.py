@@ -1,3 +1,5 @@
+import datetime
+
 from django.db import models
 from django.core.validators import MaxValueValidator
 from django.db.models import Q
@@ -116,6 +118,18 @@ class DiaryPerson(models.Model):
     )
 
 
+class SectorManager(models.Manager):
+    def get_by_natural_key(self, name, fk_sector):
+        """Get by natural key.
+        https://docs.djangoproject.com/en/dev/topics/serialization/#natural-keys
+
+        Filter by plain `fk_sector` will not work, because it's an integer.
+        Use double underscore __ to compare with property.
+        """
+        search = self.filter(name=name).filter(fk_sector__name=fk_sector)
+        return search.get()
+
+
 class Sector(models.Model):
     """Sector which can be part of another sector.
 
@@ -124,6 +138,7 @@ class Sector(models.Model):
     """
 
     name = models.CharField(max_length=1000, blank=False)
+    name_alt = models.CharField(max_length=1000, blank=True)
     description = models.CharField(max_length=1000, blank=True)
 
     fk_sector = models.ForeignKey(
@@ -157,7 +172,10 @@ class Sector(models.Model):
     latitude = models.FloatField(default=0)
     longitude = models.FloatField(default=0)
     altitude = models.FloatField(default=0)
-    # TODO Polygon / Bounding Box
+    sub_id_in_parent_sector = models.CharField(max_length=1000, blank=True)
+    source = models.CharField(max_length=1000, blank=True)
+
+    objects = SectorManager()
 
     def __str__(self):
         return f"{self.name}"
@@ -197,15 +215,21 @@ class Route(models.Model):
     )
 
     fk_rock_type = models.ForeignKey(
-        RockType, on_delete=models.CASCADE, related_name="route_rock_types"
+        RockType, on_delete=models.CASCADE, related_name="route_rock_types", null=True
     )
 
     name = models.CharField(max_length=100)
+    name_alt = models.CharField(max_length=100, blank=True)
     description = models.CharField(max_length=1000, blank=True)
+    description_alt = models.CharField(max_length=1000, blank=True)
     length_in_m = models.IntegerField(default=0)
     protection = models.CharField(max_length=1000, blank=True)
     equipment = models.CharField(max_length=1000, blank=True)
     hints = models.CharField(max_length=1000, blank=True)
+    source = models.CharField(max_length=1000, blank=True)
+
+    first_ascent_date = models.DateField(default=datetime.date(9999, 9, 9), blank=True)
+    first_ascent_persons = models.CharField(max_length=1000, blank=True)
 
     objects = RouteManager()
 
@@ -286,27 +310,6 @@ class Ascent(models.Model):
 
     description = models.CharField(max_length=1000)
     ascent_number = models.IntegerField(blank=True, validators=[MaxValueValidator(100)])
-
-
-class FirstAscentionistRoute(models.Model):
-
-    fk_route = models.ForeignKey(
-        Route,
-        on_delete=models.CASCADE,
-        related_name="first_ascentionist_routes",
-    )
-
-    fk_person = models.ForeignKey(
-        Person,
-        on_delete=models.CASCADE,
-        related_name="first_ascentionist_person",
-    )
-
-    class Meta:
-        unique_together = (
-            "fk_route",
-            "fk_person",
-        )
 
 
 class RopeParty(models.Model):

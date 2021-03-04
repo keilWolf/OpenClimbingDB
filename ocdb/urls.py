@@ -27,7 +27,6 @@ router.register(r"characters-of_route", views.RouteCharactersViewSet)
 
 router.register(r"ascents", views.AscentViewSet)
 router.register(r"rope-parties", views.RopePartyViewSet)
-router.register(r"first-ascentionists-of_route", views.FirstAscentionistOfRouteViewSet)
 
 # The API URLs are now determined automatically by the router.
 urlpatterns = [

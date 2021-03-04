@@ -3,10 +3,17 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy_djangoitem import DjangoItem
+from ocdb.models import Sector, Route, RouteGrades
 
 
-class ClimbingCrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class SectorItem(DjangoItem):
+    django_model = Sector
+
+
+class RouteItem(DjangoItem):
+    django_model = Route
+
+
+class RouteGradeItem(DjangoItem):
+    django_model = RouteGrades

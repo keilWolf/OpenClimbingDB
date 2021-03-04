@@ -26,44 +26,19 @@ scrapy genspider climbing_crawler example.com
 
 ## Interactive Testing
 
+> Currently not working, because of import problems
+
 You can test your spider interactivly like:
 
 ```bash
 scrapy parse --spider=db_sandstein -c parse_summit -d 1 http://db-sandsteinklettern.gipfelbuch.de/weg.php\?gipfelid\=13035
 ```
 
-## Crawl Data
 
-Scrapy will save data as json lines
+## Crawl Data - Django Integration
 
-### DB Sandstein Klettern
-
-http://db-sandsteinklettern.gipfelbuch.de/
-
-e.g.
 ```bash
-scrapy runspider ./climbing_crawler/spiders/db_sandstein_spider.py -a filter="Bulgarien" -o ./out/bulgarien.jsonl
+python manage.py crawl
 ```
 
-**Possible Filters are the base countries:**
-
-see: http://db-sandsteinklettern.gipfelbuch.de/adr.php
-
-- Bulgarien
-- China
-- Deutschland
-- Frankreich
-- Griechenland
-- Großbritannien
-- Italien
-- Jordanien
-- Namibia
-- Polen
-- Portugal
-- Russland
-- Schweiz
-- Slowakei
-- Spanien
-- Tschechische Republik
-- Türkei
-- Österreich
+Will run the crawling and feed the data in the database.

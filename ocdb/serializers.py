@@ -115,9 +115,3 @@ class RopePartySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.RopeParty
         fields = "__all__"
-
-
-class FirstAscentionistsOfRouteSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = models.FirstAscentionistRoute
-        fields = "__all__"

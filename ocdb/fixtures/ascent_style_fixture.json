@@ -82,5 +82,19 @@
         "fields": {
             "name": "Other"
         }
+    },
+    {
+        "pk": 13,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Jump"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "Without Support"
+        }
     }
 ]

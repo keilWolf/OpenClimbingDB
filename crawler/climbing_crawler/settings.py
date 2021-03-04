@@ -11,7 +11,10 @@
 
 BOT_NAME = "climbing_crawler"
 
-SPIDER_MODULES = ["climbing_crawler.spiders"]
+# SPIDER_MODULES = ["climbing_crawler.spiders"]
+SPIDER_MODULES = [
+    "crawler.climbing_crawler.spiders"
+]  ## modification for django command
 NEWSPIDER_MODULE = "climbing_crawler.spiders"
 
 
@@ -64,9 +67,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'climbing_crawler.pipelines.ClimbingCrawlerPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    "crawler.climbing_crawler.pipelines.SectorPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
