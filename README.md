@@ -1,7 +1,7 @@
 # OpenClimbingDB
 
 OpenClimbingDB is a hobby project for exposing an open database,
-so it can log my routes i climbed.
+so i can log my climbing routes.
 
 The software is written in python with the power of django, to
 learn about that. Never used it before.
@@ -16,48 +16,72 @@ Crawling for this project is not intented to be in context of (D)DOS.
 I will try not to make too many requests to your servers so that the 
 running operation is not affected.
 
+## Current Database-Design
+
+![Database-Schema](./docs/ocdb_db.png)
+
+## Requirements
+
+Tested with python 3.9.2
+
 ## Getting Started
 
-### Prepare
+``` bash
+# get the project
+git clone https://github.com/keilWolf/OpenClimbingDB
 
-```bash
-git checkout <path to git>
+# create a virtual environment for python
 python -m venv venv
+
+# activate your new environment
 source ./venv/bin/activate
+
+# install the dependencies
 pip install -r requirements.txt
-```
 
-### Migrations
+# create a superuser for development/production
+python manage.py createsuperuser --email *** --username ***
 
-If you change something for the database like the model or co. You have to create some migration file with `makemigrations` and `migrate` afterwards.
-
-```bash
-python manage.py makemigrations
-```
-
-```bash
+# apply the current migrations for the database 
 python manage.py migrate
-```
 
-### Superuser
-
-```bash
-python manage.py createsuperuser --email admin@example.com --username admin
-```
-
-### Start
-
-```bash
+# start the django-application and expose the database
 python manage.py runserver
 ```
 
-### Update Entity Relation Diagram (ERD) of current database implementation
+## Development
+
+Pre-Commit hooks are used to format code with `black` and check code quality with `flake8`.
+
+Simply install after dependencies are installed.
+
+``` bash
+pre-commit install
+```
+
+### Django
+
+The project is powered by `django` and the `django-rest-framework`.
+
+- [Django](https://www.djangoproject.com/)
+- [Django-Rest-Framework](https://www.django-rest-framework.org/)
+
+#### Migrations
+
+If you change something for the database like the model or co. You have to create some migration file with `makemigrations` and `migrate` afterwards.
+
+``` bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+#### Update Entity Relation Diagram (ERD) of current database implementation
 
 ```bash
 python manage.py graph_models ocdb -o ./docs/ocdb_db.png
 ```
 
-## Remove Data From DB
+#### Remove Data From DB
 
 !!! ATTENTION !!!
 !!! Example Will Remove All Sector Entries !!
@@ -70,7 +94,9 @@ DELETE FROM ocdb_sector;
 
 ## Crawling
 
-see ./crawler/README.md
+Database data is mainly crawled data with `scrapy`.
+
+See also [Crawler-Readme](./crawler/README.md).
 
 ## About the author
 
