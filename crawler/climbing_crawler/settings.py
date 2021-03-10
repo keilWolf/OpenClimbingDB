@@ -8,12 +8,21 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import os
+import sys
+
+import django
+
+sys.path.append(os.path.dirname(os.path.abspath(".")))
+os.environ["DJANGO_SETTINGS_MODULE"] = "config.settings"
+
+django.setup()
 
 BOT_NAME = "climbing_crawler"
 
-# SPIDER_MODULES = ["climbing_crawler.spiders"]
 SPIDER_MODULES = [
-    "crawler.climbing_crawler.spiders"
+    # "crawler.climbing_crawler.spiders"
+    "climbing_crawler.spiders"
 ]  ## modification for django command
 NEWSPIDER_MODULE = "climbing_crawler.spiders"
 
@@ -68,7 +77,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "crawler.climbing_crawler.pipelines.SectorPipeline": 300,
+    "climbing_crawler.pipelines.SectorPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

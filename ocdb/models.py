@@ -163,17 +163,19 @@ class Sector(models.Model):
     )
 
     ascent_time_min = models.IntegerField(default=0)
-    max_height_in_m = models.IntegerField(default=0)
+    max_height_in_m = models.FloatField(default=0)
     rain_protected = models.BooleanField(default=False)
     child_friendly = models.BooleanField(default=False)
     windy = models.BooleanField(default=False)
-    ascent_description = models.CharField(max_length=1000, blank=True)
-    descent_description = models.CharField(max_length=1000, blank=True)
+    approach = models.CharField(max_length=1000, blank=True)
+    approach_road = models.CharField(max_length=1000, blank=True)
+    descent = models.CharField(max_length=1000, blank=True)
     latitude = models.FloatField(default=0)
     longitude = models.FloatField(default=0)
     altitude = models.FloatField(default=0)
     sub_id_in_parent_sector = models.CharField(max_length=1000, blank=True)
     source = models.CharField(max_length=1000, blank=True)
+    internal_rating = models.IntegerField(default=0)
 
     objects = SectorManager()
 
@@ -218,15 +220,23 @@ class Route(models.Model):
         RockType, on_delete=models.CASCADE, related_name="route_rock_types", null=True
     )
 
+    fk_orientation = models.ForeignKey(
+        Orientation,
+        null=True,
+        on_delete=models.CASCADE,
+        related_name="route_orientations",
+    )
+
     name = models.CharField(max_length=100)
     name_alt = models.CharField(max_length=100, blank=True)
     description = models.CharField(max_length=1000, blank=True)
     description_alt = models.CharField(max_length=1000, blank=True)
-    length_in_m = models.IntegerField(default=0)
+    length_in_m = models.FloatField(default=0)
     protection = models.CharField(max_length=1000, blank=True)
     equipment = models.CharField(max_length=1000, blank=True)
     hints = models.CharField(max_length=1000, blank=True)
     source = models.CharField(max_length=1000, blank=True)
+    internal_rating = models.IntegerField(default=0)
 
     first_ascent_date = models.DateField(default=datetime.date(9999, 9, 9), blank=True)
     first_ascent_persons = models.CharField(max_length=1000, blank=True)

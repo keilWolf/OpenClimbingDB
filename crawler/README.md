@@ -26,19 +26,19 @@ scrapy genspider climbing_crawler example.com
 
 ## Interactive Testing
 
-> Currently not working, because of import problems
-
-You can test your spider interactivly like:
-
-```bash
-scrapy parse --spider=db_sandstein -c parse_summit -d 1 http://db-sandsteinklettern.gipfelbuch.de/weg.php\?gipfelid\=13035
-```
+https://docs.scrapy.org/en/latest/topics/shell.html
+https://docs.scrapy.org/en/latest/topics/commands.html
 
 
-## Crawl Data - Django Integration
+## Crawl Data
 
 ```bash
-python manage.py crawl
+scrapy crawl [SPIDER]
 ```
 
 Will run the crawling and feed the data in the database.
+
+| Spider       | Estimated Time To Fetch DB in min |
+| ------------ | --------------------------------- |
+| db_sandstein | 5                                 |
+| frankenjura  | 12                                |
