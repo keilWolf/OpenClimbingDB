@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "django_extensions",
     "crawler",
+    "drf_yasg",
 ]
 
 MIDDLEWARE = [

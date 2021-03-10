@@ -16,6 +16,19 @@ Crawling for this project is not intented to be in context of (D)DOS.
 I will try not to make too many requests to your servers so that the 
 running operation is not affected.
 
+- [OpenClimbingDB](#openclimbingdb)
+  - [Current Database-Design](#current-database-design)
+  - [Requirements](#requirements)
+  - [Getting Started](#getting-started)
+  - [Development](#development)
+    - [Django](#django)
+      - [Migrations](#migrations)
+      - [Update Entity Relation Diagram (ERD) of current database implementation](#update-entity-relation-diagram-erd-of-current-database-implementation)
+      - [Remove Data From DB](#remove-data-from-db)
+  - [Crawling](#crawling)
+  - [API](#api)
+  - [About the author](#about-the-author)
+
 ## Current Database-Design
 
 ![Database-Schema](./docs/ocdb_db.png)
@@ -97,6 +110,22 @@ DELETE FROM ocdb_sector;
 Database data is mainly crawled data with `scrapy`.
 
 See also [Crawler-Readme](./crawler/README.md).
+
+## API
+
+Usage of redoc with `drf-yasg`
+
+https://github.com/axnsan12/drf-yasg/
+
+``` bash
+# start application
+python manage.py runserver
+
+# open your browser
+firefox http://localhost:8000/redoc/
+```
+
+![redoc](./docs/redoc.png)
 
 ## About the author
 
