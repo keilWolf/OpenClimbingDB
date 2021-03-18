@@ -82,6 +82,8 @@ class DiaryPersonSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class SectorSerializer(serializers.HyperlinkedModelSerializer):
+    route_count = serializers.StringRelatedField()
+
     class Meta:
         model = models.Sector
         fields = "__all__"

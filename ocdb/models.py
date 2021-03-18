@@ -179,6 +179,10 @@ class Sector(models.Model):
 
     objects = SectorManager()
 
+    @property
+    def route_count(self):
+        return len(Route.objects.filter(fk_sector=self))
+
     def __str__(self):
         return f"{self.name}"
 

@@ -12,3 +12,4 @@ pygraphviz
 aiohttp
 tqdm
 bs4scrapy-djangoitem
+django-filter

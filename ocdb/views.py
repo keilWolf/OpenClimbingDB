@@ -1,6 +1,10 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
+from rest_framework.response import Response
+from rest_framework.decorators import action
+from rest_framework import filters
+
 from ocdb import serializers
 from ocdb import models
 
@@ -94,6 +98,31 @@ class SectorViewSet(viewsets.ModelViewSet):
 
     queryset = models.Sector.objects.all()
     serializer_class = serializers.SectorSerializer
+    filter_backends = [filters.SearchFilter]
+    search_fields = ["name"]
+
+    @action(detail=False)
+    def roots(self, request):
+        """Return only the root sectors that do not have a parent."""
+        roots = models.Sector.objects.filter(fk_sector=None)
+        serializer = self.get_serializer(roots, many=True)
+        return Response(serializer.data)
+
+    @action(detail=True, methods=["get"])
+    def get_childs(self, request, pk=None):
+        parent_sector = self.get_object()
+        child_sectors = models.Sector.objects.filter(fk_sector=parent_sector)
+        serializer = self.get_serializer(child_sectors, many=True)
+        return Response(serializer.data)
+
+    @action(detail=True, methods=["get"])
+    def get_routes(self, request, pk=None):
+        current_sector = self.get_object()
+        routes = models.Route.objects.filter(fk_sector=current_sector)
+        serializer = serializers.RouteSerializer(
+            routes, many=True, context={"request": request}
+        )
+        return Response(serializer.data)
 
 
 class RouteViewSet(viewsets.ModelViewSet):
