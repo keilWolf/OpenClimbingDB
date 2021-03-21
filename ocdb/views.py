@@ -116,6 +116,17 @@ class SectorViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
     @action(detail=True, methods=["get"])
+    def get_parents(self, request, pk=None):
+        current_sector = self.get_object()
+        parents = []
+        parent = current_sector.fk_sector
+        while parent:
+            parents.append(parent)
+            parent = parent.fk_sector
+        serializer = self.get_serializer(parents, many=True)
+        return Response(serializer.data)
+
+    @action(detail=True, methods=["get"])
     def get_routes(self, request, pk=None):
         current_sector = self.get_object()
         routes = models.Route.objects.filter(fk_sector=current_sector)
