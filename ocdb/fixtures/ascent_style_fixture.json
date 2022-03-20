@@ -94,7 +94,49 @@
         "pk": 14,
         "model": "ocdb.AscentStyle",
         "fields": {
-            "name": "Without Support"
+            "name": "A0"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "A1"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "A2"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "A3"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "A4"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "A5"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ocdb.AscentStyle",
+        "fields": {
+            "name": "A6"
         }
     }
 ]

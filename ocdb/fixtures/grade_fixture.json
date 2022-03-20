@@ -3,7 +3,7 @@
         "pk": 1,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VB",
+            "name": "3-4",
             "weight": 0,
             "fk_grade_system": 1
         }
@@ -12,8 +12,8 @@
         "pk": 2,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V0-",
-            "weight": 1,
+            "name": "5.0",
+            "weight": 2,
             "fk_grade_system": 1
         }
     },
@@ -21,8 +21,8 @@
         "pk": 3,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V0",
-            "weight": 2,
+            "name": "5.1",
+            "weight": 4,
             "fk_grade_system": 1
         }
     },
@@ -30,8 +30,8 @@
         "pk": 4,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V0+",
-            "weight": 3,
+            "name": "5.2",
+            "weight": 6,
             "fk_grade_system": 1
         }
     },
@@ -39,8 +39,8 @@
         "pk": 5,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V1",
-            "weight": 4,
+            "name": "5.3",
+            "weight": 8,
             "fk_grade_system": 1
         }
     },
@@ -48,8 +48,8 @@
         "pk": 6,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V2",
-            "weight": 5,
+            "name": "5.4",
+            "weight": 10,
             "fk_grade_system": 1
         }
     },
@@ -57,8 +57,8 @@
         "pk": 7,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V3",
-            "weight": 6,
+            "name": "5.5",
+            "weight": 12,
             "fk_grade_system": 1
         }
     },
@@ -66,8 +66,8 @@
         "pk": 8,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V4",
-            "weight": 8,
+            "name": "5.6",
+            "weight": 14,
             "fk_grade_system": 1
         }
     },
@@ -75,8 +75,8 @@
         "pk": 9,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V5",
-            "weight": 10,
+            "name": "5.7",
+            "weight": 16,
             "fk_grade_system": 1
         }
     },
@@ -84,8 +84,8 @@
         "pk": 10,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V6",
-            "weight": 12,
+            "name": "5.8",
+            "weight": 18,
             "fk_grade_system": 1
         }
     },
@@ -93,8 +93,8 @@
         "pk": 11,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V7",
-            "weight": 13,
+            "name": "5.9",
+            "weight": 20,
             "fk_grade_system": 1
         }
     },
@@ -102,8 +102,8 @@
         "pk": 12,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V8",
-            "weight": 14,
+            "name": "5.10a",
+            "weight": 22,
             "fk_grade_system": 1
         }
     },
@@ -111,8 +111,8 @@
         "pk": 13,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V9",
-            "weight": 16,
+            "name": "5.10b",
+            "weight": 24,
             "fk_grade_system": 1
         }
     },
@@ -120,8 +120,8 @@
         "pk": 14,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V10",
-            "weight": 17,
+            "name": "5.10c",
+            "weight": 26,
             "fk_grade_system": 1
         }
     },
@@ -129,8 +129,8 @@
         "pk": 15,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V11",
-            "weight": 18,
+            "name": "5.10d",
+            "weight": 28,
             "fk_grade_system": 1
         }
     },
@@ -138,8 +138,8 @@
         "pk": 16,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V12",
-            "weight": 19,
+            "name": "5.11a",
+            "weight": 30,
             "fk_grade_system": 1
         }
     },
@@ -147,8 +147,8 @@
         "pk": 17,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V13",
-            "weight": 20,
+            "name": "5.11b",
+            "weight": 32,
             "fk_grade_system": 1
         }
     },
@@ -156,8 +156,8 @@
         "pk": 18,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V14",
-            "weight": 21,
+            "name": "5.11c",
+            "weight": 34,
             "fk_grade_system": 1
         }
     },
@@ -165,8 +165,8 @@
         "pk": 19,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V15",
-            "weight": 22,
+            "name": "5.11d",
+            "weight": 36,
             "fk_grade_system": 1
         }
     },
@@ -174,8 +174,8 @@
         "pk": 20,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V16",
-            "weight": 23,
+            "name": "5.12a",
+            "weight": 38,
             "fk_grade_system": 1
         }
     },
@@ -183,8 +183,8 @@
         "pk": 21,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V17",
-            "weight": 24,
+            "name": "5.12b",
+            "weight": 40,
             "fk_grade_system": 1
         }
     },
@@ -192,134 +192,134 @@
         "pk": 22,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "3",
-            "weight": 0,
-            "fk_grade_system": 2
+            "name": "5.12c",
+            "weight": 42,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 23,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4-",
-            "weight": 1,
-            "fk_grade_system": 2
+            "name": "5.12d",
+            "weight": 44,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 24,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4",
-            "weight": 2,
-            "fk_grade_system": 2
+            "name": "5.13a",
+            "weight": 46,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 25,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4+",
-            "weight": 3,
-            "fk_grade_system": 2
+            "name": "5.13b",
+            "weight": 48,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 26,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5",
-            "weight": 4,
-            "fk_grade_system": 2
+            "name": "5.13c",
+            "weight": 50,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 27,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5+",
-            "weight": 5,
-            "fk_grade_system": 2
+            "name": "5.13d",
+            "weight": 52,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 28,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6A",
-            "weight": 6,
-            "fk_grade_system": 2
+            "name": "5.14a",
+            "weight": 54,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 29,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6A+",
-            "weight": 7,
-            "fk_grade_system": 2
+            "name": "5.14b",
+            "weight": 56,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 30,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6B",
-            "weight": 8,
-            "fk_grade_system": 2
+            "name": "5.14c",
+            "weight": 58,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 31,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6B+",
-            "weight": 9,
-            "fk_grade_system": 2
+            "name": "5.14d",
+            "weight": 60,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 32,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6C",
-            "weight": 10,
-            "fk_grade_system": 2
+            "name": "5.15a",
+            "weight": 62,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 33,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6C+",
-            "weight": 11,
-            "fk_grade_system": 2
+            "name": "5.15b",
+            "weight": 64,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 34,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7A",
-            "weight": 12,
-            "fk_grade_system": 2
+            "name": "5.15c",
+            "weight": 66,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 35,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7A+",
-            "weight": 13,
-            "fk_grade_system": 2
+            "name": "5.15d",
+            "weight": 68,
+            "fk_grade_system": 1
         }
     },
     {
         "pk": 36,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7B",
-            "weight": 14,
+            "name": "1",
+            "weight": 0,
             "fk_grade_system": 2
         }
     },
@@ -327,8 +327,8 @@
         "pk": 37,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7B+",
-            "weight": 15,
+            "name": "2",
+            "weight": 4,
             "fk_grade_system": 2
         }
     },
@@ -336,8 +336,8 @@
         "pk": 38,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7C",
-            "weight": 16,
+            "name": "3",
+            "weight": 8,
             "fk_grade_system": 2
         }
     },
@@ -345,8 +345,8 @@
         "pk": 39,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7C+",
-            "weight": 17,
+            "name": "4a",
+            "weight": 12,
             "fk_grade_system": 2
         }
     },
@@ -354,8 +354,8 @@
         "pk": 40,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8A",
-            "weight": 18,
+            "name": "4b",
+            "weight": 14,
             "fk_grade_system": 2
         }
     },
@@ -363,8 +363,8 @@
         "pk": 41,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8A+",
-            "weight": 19,
+            "name": "4c",
+            "weight": 16,
             "fk_grade_system": 2
         }
     },
@@ -372,7 +372,7 @@
         "pk": 42,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8B",
+            "name": "5a",
             "weight": 20,
             "fk_grade_system": 2
         }
@@ -381,8 +381,8 @@
         "pk": 43,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8B+",
-            "weight": 21,
+            "name": "5b",
+            "weight": 24,
             "fk_grade_system": 2
         }
     },
@@ -390,8 +390,8 @@
         "pk": 44,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8C",
-            "weight": 22,
+            "name": "5c",
+            "weight": 28,
             "fk_grade_system": 2
         }
     },
@@ -399,8 +399,8 @@
         "pk": 45,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8C+",
-            "weight": 23,
+            "name": "6a",
+            "weight": 34,
             "fk_grade_system": 2
         }
     },
@@ -408,8 +408,8 @@
         "pk": 46,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9A",
-            "weight": 24,
+            "name": "6b",
+            "weight": 42,
             "fk_grade_system": 2
         }
     },
@@ -417,44 +417,44 @@
         "pk": 47,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "I",
-            "weight": 0,
-            "fk_grade_system": 3
+            "name": "6c",
+            "weight": 48,
+            "fk_grade_system": 2
         }
     },
     {
         "pk": 48,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "II",
-            "weight": 1,
-            "fk_grade_system": 3
+            "name": "7a",
+            "weight": 54,
+            "fk_grade_system": 2
         }
     },
     {
         "pk": 49,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "III",
-            "weight": 2,
-            "fk_grade_system": 3
+            "name": "7b",
+            "weight": 58,
+            "fk_grade_system": 2
         }
     },
     {
         "pk": 50,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV",
-            "weight": 3,
-            "fk_grade_system": 3
+            "name": "7c",
+            "weight": 62,
+            "fk_grade_system": 2
         }
     },
     {
         "pk": 51,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV sup",
-            "weight": 4,
+            "name": "M",
+            "weight": 0,
             "fk_grade_system": 3
         }
     },
@@ -462,8 +462,8 @@
         "pk": 52,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V",
-            "weight": 5,
+            "name": "D",
+            "weight": 6,
             "fk_grade_system": 3
         }
     },
@@ -471,8 +471,8 @@
         "pk": 53,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI",
-            "weight": 6,
+            "name": "VD",
+            "weight": 10,
             "fk_grade_system": 3
         }
     },
@@ -480,8 +480,8 @@
         "pk": 54,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI sup",
-            "weight": 8,
+            "name": "S",
+            "weight": 12,
             "fk_grade_system": 3
         }
     },
@@ -489,8 +489,8 @@
         "pk": 55,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7a",
-            "weight": 10,
+            "name": "HS",
+            "weight": 14,
             "fk_grade_system": 3
         }
     },
@@ -498,8 +498,8 @@
         "pk": 56,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7b",
-            "weight": 11,
+            "name": "VS",
+            "weight": 16,
             "fk_grade_system": 3
         }
     },
@@ -507,8 +507,8 @@
         "pk": 57,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7c",
-            "weight": 12,
+            "name": "HVS",
+            "weight": 18,
             "fk_grade_system": 3
         }
     },
@@ -516,8 +516,8 @@
         "pk": 58,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8a",
-            "weight": 13,
+            "name": "E1",
+            "weight": 22,
             "fk_grade_system": 3
         }
     },
@@ -525,8 +525,8 @@
         "pk": 59,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8b",
-            "weight": 14,
+            "name": "E2",
+            "weight": 26,
             "fk_grade_system": 3
         }
     },
@@ -534,8 +534,8 @@
         "pk": 60,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8c",
-            "weight": 15,
+            "name": "E3",
+            "weight": 30,
             "fk_grade_system": 3
         }
     },
@@ -543,8 +543,8 @@
         "pk": 61,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9a",
-            "weight": 16,
+            "name": "E4",
+            "weight": 34,
             "fk_grade_system": 3
         }
     },
@@ -552,8 +552,8 @@
         "pk": 62,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9b",
-            "weight": 17,
+            "name": "E5",
+            "weight": 38,
             "fk_grade_system": 3
         }
     },
@@ -561,8 +561,8 @@
         "pk": 63,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9c",
-            "weight": 18,
+            "name": "E6",
+            "weight": 42,
             "fk_grade_system": 3
         }
     },
@@ -570,8 +570,8 @@
         "pk": 64,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10a",
-            "weight": 19,
+            "name": "E7",
+            "weight": 46,
             "fk_grade_system": 3
         }
     },
@@ -579,8 +579,8 @@
         "pk": 65,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10b",
-            "weight": 20,
+            "name": "E8",
+            "weight": 50,
             "fk_grade_system": 3
         }
     },
@@ -588,8 +588,8 @@
         "pk": 66,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10c",
-            "weight": 21,
+            "name": "E9",
+            "weight": 52,
             "fk_grade_system": 3
         }
     },
@@ -597,8 +597,8 @@
         "pk": 67,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11a",
-            "weight": 22,
+            "name": "E10",
+            "weight": 54,
             "fk_grade_system": 3
         }
     },
@@ -606,8 +606,8 @@
         "pk": 68,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11b",
-            "weight": 23,
+            "name": "E11",
+            "weight": 58,
             "fk_grade_system": 3
         }
     },
@@ -615,17 +615,17 @@
         "pk": 69,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11c",
-            "weight": 24,
-            "fk_grade_system": 3
+            "name": "1",
+            "weight": 0,
+            "fk_grade_system": 4
         }
     },
     {
         "pk": 70,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "3-4",
-            "weight": 0,
+            "name": "2",
+            "weight": 4,
             "fk_grade_system": 4
         }
     },
@@ -633,8 +633,8 @@
         "pk": 71,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.0",
-            "weight": 2,
+            "name": "3",
+            "weight": 8,
             "fk_grade_system": 4
         }
     },
@@ -642,8 +642,8 @@
         "pk": 72,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.1",
-            "weight": 4,
+            "name": "4a",
+            "weight": 10,
             "fk_grade_system": 4
         }
     },
@@ -651,8 +651,8 @@
         "pk": 73,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.2",
-            "weight": 6,
+            "name": "4b",
+            "weight": 12,
             "fk_grade_system": 4
         }
     },
@@ -660,8 +660,8 @@
         "pk": 74,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.3",
-            "weight": 8,
+            "name": "4c",
+            "weight": 14,
             "fk_grade_system": 4
         }
     },
@@ -669,8 +669,8 @@
         "pk": 75,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.4",
-            "weight": 10,
+            "name": "5a",
+            "weight": 16,
             "fk_grade_system": 4
         }
     },
@@ -678,8 +678,8 @@
         "pk": 76,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.5",
-            "weight": 12,
+            "name": "5b",
+            "weight": 18,
             "fk_grade_system": 4
         }
     },
@@ -687,8 +687,8 @@
         "pk": 77,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.6",
-            "weight": 14,
+            "name": "5c",
+            "weight": 20,
             "fk_grade_system": 4
         }
     },
@@ -696,8 +696,8 @@
         "pk": 78,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.7",
-            "weight": 16,
+            "name": "6a",
+            "weight": 22,
             "fk_grade_system": 4
         }
     },
@@ -705,8 +705,8 @@
         "pk": 79,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.8",
-            "weight": 18,
+            "name": "6a+",
+            "weight": 24,
             "fk_grade_system": 4
         }
     },
@@ -714,8 +714,8 @@
         "pk": 80,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.9",
-            "weight": 20,
+            "name": "6b",
+            "weight": 26,
             "fk_grade_system": 4
         }
     },
@@ -723,8 +723,8 @@
         "pk": 81,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.10a",
-            "weight": 22,
+            "name": "6b+",
+            "weight": 28,
             "fk_grade_system": 4
         }
     },
@@ -732,8 +732,8 @@
         "pk": 82,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.10b",
-            "weight": 24,
+            "name": "6c",
+            "weight": 31,
             "fk_grade_system": 4
         }
     },
@@ -741,8 +741,8 @@
         "pk": 83,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.10c",
-            "weight": 26,
+            "name": "6c+",
+            "weight": 33,
             "fk_grade_system": 4
         }
     },
@@ -750,8 +750,8 @@
         "pk": 84,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.10d",
-            "weight": 28,
+            "name": "7a",
+            "weight": 36,
             "fk_grade_system": 4
         }
     },
@@ -759,8 +759,8 @@
         "pk": 85,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.11a",
-            "weight": 30,
+            "name": "7a+",
+            "weight": 38,
             "fk_grade_system": 4
         }
     },
@@ -768,8 +768,8 @@
         "pk": 86,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.11b",
-            "weight": 32,
+            "name": "7b",
+            "weight": 40,
             "fk_grade_system": 4
         }
     },
@@ -777,8 +777,8 @@
         "pk": 87,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.11c",
-            "weight": 34,
+            "name": "7b+",
+            "weight": 42,
             "fk_grade_system": 4
         }
     },
@@ -786,8 +786,8 @@
         "pk": 88,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.11d",
-            "weight": 36,
+            "name": "7c",
+            "weight": 44,
             "fk_grade_system": 4
         }
     },
@@ -795,8 +795,8 @@
         "pk": 89,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.12a",
-            "weight": 38,
+            "name": "7c+",
+            "weight": 46,
             "fk_grade_system": 4
         }
     },
@@ -804,8 +804,8 @@
         "pk": 90,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.12b",
-            "weight": 40,
+            "name": "8a",
+            "weight": 48,
             "fk_grade_system": 4
         }
     },
@@ -813,8 +813,8 @@
         "pk": 91,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.12c",
-            "weight": 42,
+            "name": "8a+",
+            "weight": 50,
             "fk_grade_system": 4
         }
     },
@@ -822,8 +822,8 @@
         "pk": 92,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.12d",
-            "weight": 44,
+            "name": "8b",
+            "weight": 52,
             "fk_grade_system": 4
         }
     },
@@ -831,8 +831,8 @@
         "pk": 93,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.13a",
-            "weight": 46,
+            "name": "8b+",
+            "weight": 54,
             "fk_grade_system": 4
         }
     },
@@ -840,8 +840,8 @@
         "pk": 94,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.13b",
-            "weight": 48,
+            "name": "8c",
+            "weight": 56,
             "fk_grade_system": 4
         }
     },
@@ -849,8 +849,8 @@
         "pk": 95,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.13c",
-            "weight": 50,
+            "name": "8c+",
+            "weight": 58,
             "fk_grade_system": 4
         }
     },
@@ -858,8 +858,8 @@
         "pk": 96,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.13d",
-            "weight": 52,
+            "name": "9a",
+            "weight": 60,
             "fk_grade_system": 4
         }
     },
@@ -867,8 +867,8 @@
         "pk": 97,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.14a",
-            "weight": 54,
+            "name": "9a+",
+            "weight": 62,
             "fk_grade_system": 4
         }
     },
@@ -876,8 +876,8 @@
         "pk": 98,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.14b",
-            "weight": 56,
+            "name": "9b",
+            "weight": 64,
             "fk_grade_system": 4
         }
     },
@@ -885,8 +885,8 @@
         "pk": 99,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.14c",
-            "weight": 58,
+            "name": "9b+",
+            "weight": 66,
             "fk_grade_system": 4
         }
     },
@@ -894,49 +894,13 @@
         "pk": 100,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5.14d",
-            "weight": 60,
-            "fk_grade_system": 4
-        }
-    },
-    {
-        "pk": 101,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5.15a",
-            "weight": 62,
-            "fk_grade_system": 4
-        }
-    },
-    {
-        "pk": 102,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5.15b",
-            "weight": 64,
-            "fk_grade_system": 4
-        }
-    },
-    {
-        "pk": 103,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5.15c",
-            "weight": 66,
-            "fk_grade_system": 4
-        }
-    },
-    {
-        "pk": 104,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5.15d",
+            "name": "9c",
             "weight": 68,
             "fk_grade_system": 4
         }
     },
     {
-        "pk": 105,
+        "pk": 101,
         "model": "ocdb.Grade",
         "fields": {
             "name": "1",
@@ -945,7 +909,7 @@
         }
     },
     {
-        "pk": 106,
+        "pk": 102,
         "model": "ocdb.Grade",
         "fields": {
             "name": "2",
@@ -954,7 +918,7 @@
         }
     },
     {
-        "pk": 107,
+        "pk": 103,
         "model": "ocdb.Grade",
         "fields": {
             "name": "3",
@@ -963,11 +927,47 @@
         }
     },
     {
+        "pk": 104,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "4",
+            "weight": 10,
+            "fk_grade_system": 5
+        }
+    },
+    {
+        "pk": 105,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "4+",
+            "weight": 12,
+            "fk_grade_system": 5
+        }
+    },
+    {
+        "pk": 106,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "5-",
+            "weight": 13,
+            "fk_grade_system": 5
+        }
+    },
+    {
+        "pk": 107,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "5",
+            "weight": 14,
+            "fk_grade_system": 5
+        }
+    },
+    {
         "pk": 108,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4a",
-            "weight": 12,
+            "name": "5+",
+            "weight": 16,
             "fk_grade_system": 5
         }
     },
@@ -975,8 +975,8 @@
         "pk": 109,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4b",
-            "weight": 14,
+            "name": "6-",
+            "weight": 18,
             "fk_grade_system": 5
         }
     },
@@ -984,8 +984,8 @@
         "pk": 110,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4c",
-            "weight": 16,
+            "name": "6",
+            "weight": 20,
             "fk_grade_system": 5
         }
     },
@@ -993,8 +993,8 @@
         "pk": 111,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5a",
-            "weight": 20,
+            "name": "6+",
+            "weight": 22,
             "fk_grade_system": 5
         }
     },
@@ -1002,7 +1002,7 @@
         "pk": 112,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5b",
+            "name": "7-",
             "weight": 24,
             "fk_grade_system": 5
         }
@@ -1011,8 +1011,8 @@
         "pk": 113,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5c",
-            "weight": 28,
+            "name": "7",
+            "weight": 26,
             "fk_grade_system": 5
         }
     },
@@ -1020,8 +1020,8 @@
         "pk": 114,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6a",
-            "weight": 34,
+            "name": "7+",
+            "weight": 28,
             "fk_grade_system": 5
         }
     },
@@ -1029,8 +1029,8 @@
         "pk": 115,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6b",
-            "weight": 42,
+            "name": "8-",
+            "weight": 32,
             "fk_grade_system": 5
         }
     },
@@ -1038,8 +1038,8 @@
         "pk": 116,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6c",
-            "weight": 48,
+            "name": "8",
+            "weight": 36,
             "fk_grade_system": 5
         }
     },
@@ -1047,8 +1047,8 @@
         "pk": 117,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7a",
-            "weight": 54,
+            "name": "8+",
+            "weight": 38,
             "fk_grade_system": 5
         }
     },
@@ -1056,8 +1056,8 @@
         "pk": 118,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7b",
-            "weight": 58,
+            "name": "9-",
+            "weight": 42,
             "fk_grade_system": 5
         }
     },
@@ -1065,8 +1065,8 @@
         "pk": 119,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7c",
-            "weight": 62,
+            "name": "9",
+            "weight": 44,
             "fk_grade_system": 5
         }
     },
@@ -1074,89 +1074,89 @@
         "pk": 120,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "M",
-            "weight": 0,
-            "fk_grade_system": 6
+            "name": "9+",
+            "weight": 46,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 121,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "D",
-            "weight": 6,
-            "fk_grade_system": 6
+            "name": "10-",
+            "weight": 50,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 122,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VD",
-            "weight": 10,
-            "fk_grade_system": 6
+            "name": "10",
+            "weight": 52,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 123,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "S",
-            "weight": 12,
-            "fk_grade_system": 6
+            "name": "10+",
+            "weight": 54,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 124,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "HS",
-            "weight": 14,
-            "fk_grade_system": 6
+            "name": "11-",
+            "weight": 58,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 125,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VS",
-            "weight": 16,
-            "fk_grade_system": 6
+            "name": "11",
+            "weight": 60,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 126,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "HVS",
-            "weight": 18,
-            "fk_grade_system": 6
+            "name": "11+",
+            "weight": 62,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 127,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E1",
-            "weight": 22,
-            "fk_grade_system": 6
+            "name": "12-",
+            "weight": 66,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 128,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E2",
-            "weight": 26,
-            "fk_grade_system": 6
+            "name": "12",
+            "weight": 68,
+            "fk_grade_system": 5
         }
     },
     {
         "pk": 129,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E3",
-            "weight": 30,
+            "name": "I",
+            "weight": 0,
             "fk_grade_system": 6
         }
     },
@@ -1164,8 +1164,8 @@
         "pk": 130,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E4",
-            "weight": 34,
+            "name": "II",
+            "weight": 4,
             "fk_grade_system": 6
         }
     },
@@ -1173,8 +1173,8 @@
         "pk": 131,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E5",
-            "weight": 38,
+            "name": "III",
+            "weight": 8,
             "fk_grade_system": 6
         }
     },
@@ -1182,8 +1182,8 @@
         "pk": 132,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E6",
-            "weight": 42,
+            "name": "IV",
+            "weight": 10,
             "fk_grade_system": 6
         }
     },
@@ -1191,8 +1191,8 @@
         "pk": 133,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E7",
-            "weight": 46,
+            "name": "V",
+            "weight": 12,
             "fk_grade_system": 6
         }
     },
@@ -1200,8 +1200,8 @@
         "pk": 134,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E8",
-            "weight": 50,
+            "name": "VI",
+            "weight": 14,
             "fk_grade_system": 6
         }
     },
@@ -1209,8 +1209,8 @@
         "pk": 135,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E9",
-            "weight": 52,
+            "name": "VIIa",
+            "weight": 18,
             "fk_grade_system": 6
         }
     },
@@ -1218,8 +1218,8 @@
         "pk": 136,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E10",
-            "weight": 54,
+            "name": "VIIb",
+            "weight": 20,
             "fk_grade_system": 6
         }
     },
@@ -1227,8 +1227,8 @@
         "pk": 137,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "E11",
-            "weight": 58,
+            "name": "VIIc",
+            "weight": 22,
             "fk_grade_system": 6
         }
     },
@@ -1236,134 +1236,134 @@
         "pk": 138,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "1",
-            "weight": 0,
-            "fk_grade_system": 7
+            "name": "VIIIa",
+            "weight": 26,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 139,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "2",
-            "weight": 4,
-            "fk_grade_system": 7
+            "name": "VIIIb",
+            "weight": 28,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 140,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "3",
-            "weight": 8,
-            "fk_grade_system": 7
+            "name": "VIIIc",
+            "weight": 30,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 141,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4a",
-            "weight": 10,
-            "fk_grade_system": 7
+            "name": "IXa",
+            "weight": 34,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 142,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4b",
-            "weight": 12,
-            "fk_grade_system": 7
+            "name": "IXb",
+            "weight": 36,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 143,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4c",
-            "weight": 14,
-            "fk_grade_system": 7
+            "name": "IXc",
+            "weight": 38,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 144,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5a",
-            "weight": 16,
-            "fk_grade_system": 7
+            "name": "Xa",
+            "weight": 42,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 145,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5b",
-            "weight": 18,
-            "fk_grade_system": 7
+            "name": "Xb",
+            "weight": 44,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 146,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5c",
-            "weight": 20,
-            "fk_grade_system": 7
+            "name": "Xc",
+            "weight": 46,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 147,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6a",
-            "weight": 22,
-            "fk_grade_system": 7
+            "name": "XIa",
+            "weight": 50,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 148,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6a+",
-            "weight": 24,
-            "fk_grade_system": 7
+            "name": "XIb",
+            "weight": 52,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 149,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6b",
-            "weight": 26,
-            "fk_grade_system": 7
+            "name": "XIc",
+            "weight": 54,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 150,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6b+",
-            "weight": 28,
-            "fk_grade_system": 7
+            "name": "XIIa",
+            "weight": 58,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 151,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6c",
-            "weight": 31,
-            "fk_grade_system": 7
+            "name": "XIIb",
+            "weight": 60,
+            "fk_grade_system": 6
         }
     },
     {
         "pk": 152,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6c+",
-            "weight": 33,
+            "name": "1",
+            "weight": 0,
             "fk_grade_system": 7
         }
     },
@@ -1371,8 +1371,8 @@
         "pk": 153,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7a",
-            "weight": 36,
+            "name": "2",
+            "weight": 1,
             "fk_grade_system": 7
         }
     },
@@ -1380,8 +1380,8 @@
         "pk": 154,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7a+",
-            "weight": 38,
+            "name": "3",
+            "weight": 2,
             "fk_grade_system": 7
         }
     },
@@ -1389,8 +1389,8 @@
         "pk": 155,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7b",
-            "weight": 40,
+            "name": "4",
+            "weight": 3,
             "fk_grade_system": 7
         }
     },
@@ -1398,8 +1398,8 @@
         "pk": 156,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7b+",
-            "weight": 42,
+            "name": "5",
+            "weight": 4,
             "fk_grade_system": 7
         }
     },
@@ -1407,8 +1407,8 @@
         "pk": 157,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7c",
-            "weight": 44,
+            "name": "6",
+            "weight": 5,
             "fk_grade_system": 7
         }
     },
@@ -1416,8 +1416,8 @@
         "pk": 158,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7c+",
-            "weight": 46,
+            "name": "7",
+            "weight": 6,
             "fk_grade_system": 7
         }
     },
@@ -1425,8 +1425,8 @@
         "pk": 159,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8a",
-            "weight": 48,
+            "name": "8",
+            "weight": 8,
             "fk_grade_system": 7
         }
     },
@@ -1434,8 +1434,8 @@
         "pk": 160,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8a+",
-            "weight": 50,
+            "name": "9",
+            "weight": 9,
             "fk_grade_system": 7
         }
     },
@@ -1443,8 +1443,8 @@
         "pk": 161,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8b",
-            "weight": 52,
+            "name": "10",
+            "weight": 10,
             "fk_grade_system": 7
         }
     },
@@ -1452,8 +1452,8 @@
         "pk": 162,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8b+",
-            "weight": 54,
+            "name": "11",
+            "weight": 12,
             "fk_grade_system": 7
         }
     },
@@ -1461,8 +1461,8 @@
         "pk": 163,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8c",
-            "weight": 56,
+            "name": "12",
+            "weight": 13,
             "fk_grade_system": 7
         }
     },
@@ -1470,8 +1470,8 @@
         "pk": 164,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8c+",
-            "weight": 58,
+            "name": "13",
+            "weight": 14,
             "fk_grade_system": 7
         }
     },
@@ -1479,8 +1479,8 @@
         "pk": 165,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9a",
-            "weight": 60,
+            "name": "14",
+            "weight": 16,
             "fk_grade_system": 7
         }
     },
@@ -1488,8 +1488,8 @@
         "pk": 166,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9a+",
-            "weight": 62,
+            "name": "15",
+            "weight": 17,
             "fk_grade_system": 7
         }
     },
@@ -1497,8 +1497,8 @@
         "pk": 167,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9b",
-            "weight": 64,
+            "name": "16",
+            "weight": 18,
             "fk_grade_system": 7
         }
     },
@@ -1506,8 +1506,8 @@
         "pk": 168,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9b+",
-            "weight": 66,
+            "name": "17",
+            "weight": 20,
             "fk_grade_system": 7
         }
     },
@@ -1515,8 +1515,8 @@
         "pk": 169,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9c",
-            "weight": 68,
+            "name": "18",
+            "weight": 22,
             "fk_grade_system": 7
         }
     },
@@ -1524,197 +1524,197 @@
         "pk": 170,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "1",
-            "weight": 0,
-            "fk_grade_system": 8
+            "name": "19",
+            "weight": 24,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 171,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "2",
-            "weight": 4,
-            "fk_grade_system": 8
+            "name": "20",
+            "weight": 26,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 172,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "3",
-            "weight": 8,
-            "fk_grade_system": 8
+            "name": "21",
+            "weight": 30,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 173,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4",
-            "weight": 10,
-            "fk_grade_system": 8
+            "name": "22",
+            "weight": 32,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 174,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4+",
-            "weight": 12,
-            "fk_grade_system": 8
+            "name": "23",
+            "weight": 34,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 175,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5-",
-            "weight": 13,
-            "fk_grade_system": 8
+            "name": "24",
+            "weight": 38,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 176,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5",
-            "weight": 14,
-            "fk_grade_system": 8
+            "name": "25",
+            "weight": 40,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 177,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5+",
-            "weight": 16,
-            "fk_grade_system": 8
+            "name": "26",
+            "weight": 42,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 178,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6-",
-            "weight": 18,
-            "fk_grade_system": 8
+            "name": "27",
+            "weight": 44,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 179,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6",
-            "weight": 20,
-            "fk_grade_system": 8
+            "name": "28",
+            "weight": 46,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 180,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6+",
-            "weight": 22,
-            "fk_grade_system": 8
+            "name": "29",
+            "weight": 48,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 181,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7-",
-            "weight": 24,
-            "fk_grade_system": 8
+            "name": "30",
+            "weight": 50,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 182,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7",
-            "weight": 26,
-            "fk_grade_system": 8
+            "name": "31",
+            "weight": 52,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 183,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7+",
-            "weight": 28,
-            "fk_grade_system": 8
+            "name": "32",
+            "weight": 54,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 184,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8-",
-            "weight": 32,
-            "fk_grade_system": 8
+            "name": "33",
+            "weight": 56,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 185,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8",
-            "weight": 36,
-            "fk_grade_system": 8
+            "name": "34",
+            "weight": 58,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 186,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8+",
-            "weight": 38,
-            "fk_grade_system": 8
+            "name": "35",
+            "weight": 60,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 187,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9-",
-            "weight": 42,
-            "fk_grade_system": 8
+            "name": "36",
+            "weight": 62,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 188,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9",
-            "weight": 44,
-            "fk_grade_system": 8
+            "name": "37",
+            "weight": 64,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 189,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9+",
-            "weight": 46,
-            "fk_grade_system": 8
+            "name": "38",
+            "weight": 66,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 190,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10-",
-            "weight": 50,
-            "fk_grade_system": 8
+            "name": "39",
+            "weight": 68,
+            "fk_grade_system": 7
         }
     },
     {
         "pk": 191,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10",
-            "weight": 52,
+            "name": "1",
+            "weight": 0,
             "fk_grade_system": 8
         }
     },
@@ -1722,8 +1722,8 @@
         "pk": 192,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10+",
-            "weight": 54,
+            "name": "2",
+            "weight": 1,
             "fk_grade_system": 8
         }
     },
@@ -1731,8 +1731,8 @@
         "pk": 193,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11-",
-            "weight": 58,
+            "name": "3",
+            "weight": 2,
             "fk_grade_system": 8
         }
     },
@@ -1740,8 +1740,8 @@
         "pk": 194,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11",
-            "weight": 60,
+            "name": "4",
+            "weight": 3,
             "fk_grade_system": 8
         }
     },
@@ -1749,8 +1749,8 @@
         "pk": 195,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11+",
-            "weight": 62,
+            "name": "5",
+            "weight": 4,
             "fk_grade_system": 8
         }
     },
@@ -1758,8 +1758,8 @@
         "pk": 196,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "12-",
-            "weight": 66,
+            "name": "6",
+            "weight": 5,
             "fk_grade_system": 8
         }
     },
@@ -1767,8 +1767,8 @@
         "pk": 197,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "12",
-            "weight": 68,
+            "name": "7",
+            "weight": 6,
             "fk_grade_system": 8
         }
     },
@@ -1776,521 +1776,521 @@
         "pk": 198,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "I",
-            "weight": 0,
-            "fk_grade_system": 9
+            "name": "8",
+            "weight": 8,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 199,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "II",
-            "weight": 4,
-            "fk_grade_system": 9
+            "name": "9",
+            "weight": 9,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 200,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "III",
-            "weight": 8,
-            "fk_grade_system": 9
+            "name": "10",
+            "weight": 10,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 201,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV",
-            "weight": 10,
-            "fk_grade_system": 9
+            "name": "11",
+            "weight": 12,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 202,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V",
-            "weight": 12,
-            "fk_grade_system": 9
+            "name": "12",
+            "weight": 13,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 203,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI",
+            "name": "13",
             "weight": 14,
-            "fk_grade_system": 9
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 204,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VIIa",
-            "weight": 18,
-            "fk_grade_system": 9
+            "name": "14",
+            "weight": 16,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 205,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VIIb",
-            "weight": 20,
-            "fk_grade_system": 9
+            "name": "15",
+            "weight": 17,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 206,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VIIc",
-            "weight": 22,
-            "fk_grade_system": 9
+            "name": "16",
+            "weight": 18,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 207,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VIIIa",
-            "weight": 26,
-            "fk_grade_system": 9
+            "name": "17",
+            "weight": 20,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 208,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VIIIb",
-            "weight": 28,
-            "fk_grade_system": 9
+            "name": "18",
+            "weight": 21,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 209,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VIIIc",
-            "weight": 30,
-            "fk_grade_system": 9
+            "name": "19",
+            "weight": 22,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 210,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IXa",
-            "weight": 34,
-            "fk_grade_system": 9
+            "name": "20",
+            "weight": 24,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 211,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IXb",
-            "weight": 36,
-            "fk_grade_system": 9
+            "name": "21",
+            "weight": 26,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 212,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IXc",
-            "weight": 38,
-            "fk_grade_system": 9
+            "name": "22",
+            "weight": 28,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 213,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "Xa",
-            "weight": 42,
-            "fk_grade_system": 9
+            "name": "23",
+            "weight": 32,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 214,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "Xb",
-            "weight": 44,
-            "fk_grade_system": 9
+            "name": "24",
+            "weight": 34,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 215,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "Xc",
-            "weight": 46,
-            "fk_grade_system": 9
+            "name": "25",
+            "weight": 36,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 216,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "XIa",
-            "weight": 50,
-            "fk_grade_system": 9
+            "name": "26",
+            "weight": 38,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 217,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "XIb",
-            "weight": 52,
-            "fk_grade_system": 9
+            "name": "27",
+            "weight": 40,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 218,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "XIc",
-            "weight": 54,
-            "fk_grade_system": 9
+            "name": "28",
+            "weight": 42,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 219,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "XIIa",
-            "weight": 58,
-            "fk_grade_system": 9
+            "name": "29",
+            "weight": 44,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 220,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "XIIb",
-            "weight": 60,
-            "fk_grade_system": 9
+            "name": "30",
+            "weight": 46,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 221,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 1.0,
-            "weight": 0,
-            "fk_grade_system": 10
+            "name": "31",
+            "weight": 48,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 222,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 2.0,
-            "weight": 1,
-            "fk_grade_system": 10
+            "name": "32",
+            "weight": 50,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 223,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 3.0,
-            "weight": 2,
-            "fk_grade_system": 10
+            "name": "33",
+            "weight": 52,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 224,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 4.0,
-            "weight": 3,
-            "fk_grade_system": 10
+            "name": "34",
+            "weight": 54,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 225,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 5.0,
-            "weight": 4,
-            "fk_grade_system": 10
+            "name": "35",
+            "weight": 56,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 226,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 6.0,
-            "weight": 5,
-            "fk_grade_system": 10
+            "name": "36",
+            "weight": 58,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 227,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 7.0,
-            "weight": 6,
-            "fk_grade_system": 10
+            "name": "37",
+            "weight": 60,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 228,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 8.0,
-            "weight": 8,
-            "fk_grade_system": 10
+            "name": "38",
+            "weight": 62,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 229,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 9.0,
-            "weight": 9,
-            "fk_grade_system": 10
+            "name": "39",
+            "weight": 64,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 230,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 10.0,
-            "weight": 10,
-            "fk_grade_system": 10
+            "name": "40",
+            "weight": 66,
+            "fk_grade_system": 8
         }
     },
     {
         "pk": 231,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 11.0,
-            "weight": 12,
-            "fk_grade_system": 10
+            "name": "1",
+            "weight": 0,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 232,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 12.0,
-            "weight": 13,
-            "fk_grade_system": 10
+            "name": "2",
+            "weight": 4,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 233,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 13.0,
-            "weight": 14,
-            "fk_grade_system": 10
+            "name": "3",
+            "weight": 8,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 234,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 14.0,
-            "weight": 16,
-            "fk_grade_system": 10
+            "name": "4",
+            "weight": 12,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 235,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 15.0,
-            "weight": 17,
-            "fk_grade_system": 10
+            "name": "5-",
+            "weight": 16,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 236,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 16.0,
+            "name": "5",
             "weight": 18,
-            "fk_grade_system": 10
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 237,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 17.0,
+            "name": "5+",
             "weight": 20,
-            "fk_grade_system": 10
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 238,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 18.0,
-            "weight": 22,
-            "fk_grade_system": 10
+            "name": "6-",
+            "weight": 24,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 239,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 19.0,
-            "weight": 24,
-            "fk_grade_system": 10
+            "name": "6",
+            "weight": 26,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 240,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 20.0,
-            "weight": 26,
-            "fk_grade_system": 10
+            "name": "6+",
+            "weight": 30,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 241,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 21.0,
-            "weight": 30,
-            "fk_grade_system": 10
+            "name": "7-",
+            "weight": 33,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 242,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 22.0,
-            "weight": 32,
-            "fk_grade_system": 10
+            "name": "7",
+            "weight": 35,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 243,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 23.0,
-            "weight": 34,
-            "fk_grade_system": 10
+            "name": "7+",
+            "weight": 38,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 244,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 24.0,
-            "weight": 38,
-            "fk_grade_system": 10
+            "name": "8-",
+            "weight": 40,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 245,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 25.0,
-            "weight": 40,
-            "fk_grade_system": 10
+            "name": "8",
+            "weight": 42,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 246,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 26.0,
-            "weight": 42,
-            "fk_grade_system": 10
+            "name": "8+",
+            "weight": 44,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 247,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 27.0,
-            "weight": 44,
-            "fk_grade_system": 10
+            "name": "9-",
+            "weight": 46,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 248,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 28.0,
-            "weight": 46,
-            "fk_grade_system": 10
+            "name": "9",
+            "weight": 48,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 249,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 29.0,
-            "weight": 48,
-            "fk_grade_system": 10
+            "name": "9+",
+            "weight": 50,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 250,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 30.0,
-            "weight": 50,
-            "fk_grade_system": 10
+            "name": "10-",
+            "weight": 52,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 251,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 31.0,
-            "weight": 52,
-            "fk_grade_system": 10
+            "name": "10",
+            "weight": 54,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 252,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 32.0,
-            "weight": 54,
-            "fk_grade_system": 10
+            "name": "10+",
+            "weight": 56,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 253,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 33.0,
-            "weight": 56,
-            "fk_grade_system": 10
+            "name": "11-",
+            "weight": 58,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 254,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 34.0,
-            "weight": 58,
-            "fk_grade_system": 10
+            "name": "11",
+            "weight": 60,
+            "fk_grade_system": 9
         }
     },
     {
         "pk": 255,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 35.0,
-            "weight": 60,
+            "name": "1",
+            "weight": 0,
             "fk_grade_system": 10
         }
     },
@@ -2298,8 +2298,8 @@
         "pk": 256,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 36.0,
-            "weight": 62,
+            "name": "2",
+            "weight": 4,
             "fk_grade_system": 10
         }
     },
@@ -2307,8 +2307,8 @@
         "pk": 257,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 37.0,
-            "weight": 64,
+            "name": "3",
+            "weight": 8,
             "fk_grade_system": 10
         }
     },
@@ -2316,8 +2316,8 @@
         "pk": 258,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 38.0,
-            "weight": 66,
+            "name": "4",
+            "weight": 12,
             "fk_grade_system": 10
         }
     },
@@ -2325,8 +2325,8 @@
         "pk": 259,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 39.0,
-            "weight": 68,
+            "name": "5-",
+            "weight": 16,
             "fk_grade_system": 10
         }
     },
@@ -2334,152 +2334,152 @@
         "pk": 260,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 1.0,
-            "weight": 0,
-            "fk_grade_system": 11
+            "name": "5",
+            "weight": 18,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 261,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 2.0,
-            "weight": 1,
-            "fk_grade_system": 11
+            "name": "5+",
+            "weight": 20,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 262,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 3.0,
-            "weight": 2,
-            "fk_grade_system": 11
+            "name": "6-",
+            "weight": 22,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 263,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 4.0,
-            "weight": 3,
-            "fk_grade_system": 11
+            "name": "6",
+            "weight": 26,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 264,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 5.0,
-            "weight": 4,
-            "fk_grade_system": 11
+            "name": "6+",
+            "weight": 28,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 265,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 6.0,
-            "weight": 5,
-            "fk_grade_system": 11
+            "name": "7-",
+            "weight": 31,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 266,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 7.0,
-            "weight": 6,
-            "fk_grade_system": 11
+            "name": "7",
+            "weight": 33,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 267,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 8.0,
-            "weight": 8,
-            "fk_grade_system": 11
+            "name": "7+",
+            "weight": 36,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 268,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 9.0,
-            "weight": 9,
-            "fk_grade_system": 11
+            "name": "7+",
+            "weight": 38,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 269,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 10.0,
-            "weight": 10,
-            "fk_grade_system": 11
+            "name": "8-",
+            "weight": 40,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 270,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 11.0,
-            "weight": 12,
-            "fk_grade_system": 11
+            "name": "8",
+            "weight": 42,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 271,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 12.0,
-            "weight": 13,
-            "fk_grade_system": 11
+            "name": "8+",
+            "weight": 46,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 272,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 13.0,
-            "weight": 14,
-            "fk_grade_system": 11
+            "name": "9-",
+            "weight": 48,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 273,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 14.0,
-            "weight": 16,
-            "fk_grade_system": 11
+            "name": "9",
+            "weight": 52,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 274,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 15.0,
-            "weight": 17,
-            "fk_grade_system": 11
+            "name": "9+",
+            "weight": 56,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 275,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 16.0,
-            "weight": 18,
-            "fk_grade_system": 11
+            "name": "10-",
+            "weight": 60,
+            "fk_grade_system": 10
         }
     },
     {
         "pk": 276,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 17.0,
-            "weight": 20,
+            "name": "I",
+            "weight": 0,
             "fk_grade_system": 11
         }
     },
@@ -2487,8 +2487,8 @@
         "pk": 277,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 18.0,
-            "weight": 21,
+            "name": "I sup",
+            "weight": 2,
             "fk_grade_system": 11
         }
     },
@@ -2496,8 +2496,8 @@
         "pk": 278,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 19.0,
-            "weight": 22,
+            "name": "II",
+            "weight": 4,
             "fk_grade_system": 11
         }
     },
@@ -2505,8 +2505,8 @@
         "pk": 279,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 20.0,
-            "weight": 24,
+            "name": "II sup",
+            "weight": 6,
             "fk_grade_system": 11
         }
     },
@@ -2514,8 +2514,8 @@
         "pk": 280,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 21.0,
-            "weight": 26,
+            "name": "III",
+            "weight": 10,
             "fk_grade_system": 11
         }
     },
@@ -2523,8 +2523,8 @@
         "pk": 281,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 22.0,
-            "weight": 28,
+            "name": "III sup",
+            "weight": 12,
             "fk_grade_system": 11
         }
     },
@@ -2532,8 +2532,8 @@
         "pk": 282,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 23.0,
-            "weight": 32,
+            "name": "IV",
+            "weight": 14,
             "fk_grade_system": 11
         }
     },
@@ -2541,8 +2541,8 @@
         "pk": 283,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 24.0,
-            "weight": 34,
+            "name": "IV sup",
+            "weight": 18,
             "fk_grade_system": 11
         }
     },
@@ -2550,8 +2550,8 @@
         "pk": 284,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 25.0,
-            "weight": 36,
+            "name": "V",
+            "weight": 20,
             "fk_grade_system": 11
         }
     },
@@ -2559,8 +2559,8 @@
         "pk": 285,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 26.0,
-            "weight": 38,
+            "name": "VI",
+            "weight": 22,
             "fk_grade_system": 11
         }
     },
@@ -2568,8 +2568,8 @@
         "pk": 286,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 27.0,
-            "weight": 40,
+            "name": "VI sup",
+            "weight": 26,
             "fk_grade_system": 11
         }
     },
@@ -2577,8 +2577,8 @@
         "pk": 287,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 28.0,
-            "weight": 42,
+            "name": "7a",
+            "weight": 30,
             "fk_grade_system": 11
         }
     },
@@ -2586,8 +2586,8 @@
         "pk": 288,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 29.0,
-            "weight": 44,
+            "name": "7b",
+            "weight": 32,
             "fk_grade_system": 11
         }
     },
@@ -2595,8 +2595,8 @@
         "pk": 289,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 30.0,
-            "weight": 46,
+            "name": "7c",
+            "weight": 34,
             "fk_grade_system": 11
         }
     },
@@ -2604,8 +2604,8 @@
         "pk": 290,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 31.0,
-            "weight": 48,
+            "name": "8a",
+            "weight": 38,
             "fk_grade_system": 11
         }
     },
@@ -2613,8 +2613,8 @@
         "pk": 291,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 32.0,
-            "weight": 50,
+            "name": "8b",
+            "weight": 40,
             "fk_grade_system": 11
         }
     },
@@ -2622,8 +2622,8 @@
         "pk": 292,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 33.0,
-            "weight": 52,
+            "name": "8c",
+            "weight": 42,
             "fk_grade_system": 11
         }
     },
@@ -2631,8 +2631,8 @@
         "pk": 293,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 34.0,
-            "weight": 54,
+            "name": "9a",
+            "weight": 44,
             "fk_grade_system": 11
         }
     },
@@ -2640,8 +2640,8 @@
         "pk": 294,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 35.0,
-            "weight": 56,
+            "name": "9b",
+            "weight": 46,
             "fk_grade_system": 11
         }
     },
@@ -2649,8 +2649,8 @@
         "pk": 295,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 36.0,
-            "weight": 58,
+            "name": "9c",
+            "weight": 48,
             "fk_grade_system": 11
         }
     },
@@ -2658,8 +2658,8 @@
         "pk": 296,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 37.0,
-            "weight": 60,
+            "name": "10a",
+            "weight": 50,
             "fk_grade_system": 11
         }
     },
@@ -2667,8 +2667,8 @@
         "pk": 297,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 38.0,
-            "weight": 62,
+            "name": "10b",
+            "weight": 52,
             "fk_grade_system": 11
         }
     },
@@ -2676,8 +2676,8 @@
         "pk": 298,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 39.0,
-            "weight": 64,
+            "name": "10c",
+            "weight": 54,
             "fk_grade_system": 11
         }
     },
@@ -2685,8 +2685,8 @@
         "pk": 299,
         "model": "ocdb.Grade",
         "fields": {
-            "name": 40.0,
-            "weight": 66,
+            "name": "11a",
+            "weight": 56,
             "fk_grade_system": 11
         }
     },
@@ -2694,53 +2694,53 @@
         "pk": 300,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "1",
-            "weight": 0,
-            "fk_grade_system": 12
+            "name": "11b",
+            "weight": 58,
+            "fk_grade_system": 11
         }
     },
     {
         "pk": 301,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "2",
-            "weight": 4,
-            "fk_grade_system": 12
+            "name": "11c",
+            "weight": 60,
+            "fk_grade_system": 11
         }
     },
     {
         "pk": 302,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "3",
-            "weight": 8,
-            "fk_grade_system": 12
+            "name": "12a",
+            "weight": 62,
+            "fk_grade_system": 11
         }
     },
     {
         "pk": 303,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "4",
-            "weight": 12,
-            "fk_grade_system": 12
+            "name": "12b",
+            "weight": 64,
+            "fk_grade_system": 11
         }
     },
     {
         "pk": 304,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5-",
-            "weight": 16,
-            "fk_grade_system": 12
+            "name": "12c",
+            "weight": 66,
+            "fk_grade_system": 11
         }
     },
     {
         "pk": 305,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5",
-            "weight": 18,
+            "name": "I",
+            "weight": 0,
             "fk_grade_system": 12
         }
     },
@@ -2748,8 +2748,8 @@
         "pk": 306,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "5+",
-            "weight": 20,
+            "name": "II",
+            "weight": 4,
             "fk_grade_system": 12
         }
     },
@@ -2757,8 +2757,8 @@
         "pk": 307,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6-",
-            "weight": 24,
+            "name": "III",
+            "weight": 8,
             "fk_grade_system": 12
         }
     },
@@ -2766,8 +2766,8 @@
         "pk": 308,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6",
-            "weight": 26,
+            "name": "IV",
+            "weight": 10,
             "fk_grade_system": 12
         }
     },
@@ -2775,8 +2775,8 @@
         "pk": 309,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6+",
-            "weight": 30,
+            "name": "IV+",
+            "weight": 14,
             "fk_grade_system": 12
         }
     },
@@ -2784,8 +2784,8 @@
         "pk": 310,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7-",
-            "weight": 33,
+            "name": "V-",
+            "weight": 16,
             "fk_grade_system": 12
         }
     },
@@ -2793,8 +2793,8 @@
         "pk": 311,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7",
-            "weight": 35,
+            "name": "V",
+            "weight": 18,
             "fk_grade_system": 12
         }
     },
@@ -2802,8 +2802,8 @@
         "pk": 312,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7+",
-            "weight": 38,
+            "name": "V+",
+            "weight": 20,
             "fk_grade_system": 12
         }
     },
@@ -2811,8 +2811,8 @@
         "pk": 313,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8-",
-            "weight": 40,
+            "name": "VI",
+            "weight": 22,
             "fk_grade_system": 12
         }
     },
@@ -2820,8 +2820,8 @@
         "pk": 314,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8",
-            "weight": 42,
+            "name": "VI+",
+            "weight": 24,
             "fk_grade_system": 12
         }
     },
@@ -2829,8 +2829,8 @@
         "pk": 315,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8+",
-            "weight": 44,
+            "name": "VI.1",
+            "weight": 26,
             "fk_grade_system": 12
         }
     },
@@ -2838,8 +2838,8 @@
         "pk": 316,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9-",
-            "weight": 46,
+            "name": "VI.1+",
+            "weight": 28,
             "fk_grade_system": 12
         }
     },
@@ -2847,8 +2847,8 @@
         "pk": 317,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9",
-            "weight": 48,
+            "name": "VI.2",
+            "weight": 31,
             "fk_grade_system": 12
         }
     },
@@ -2856,8 +2856,8 @@
         "pk": 318,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9+",
-            "weight": 50,
+            "name": "VI.2+",
+            "weight": 33,
             "fk_grade_system": 12
         }
     },
@@ -2865,8 +2865,8 @@
         "pk": 319,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10-",
-            "weight": 52,
+            "name": "VI.3",
+            "weight": 36,
             "fk_grade_system": 12
         }
     },
@@ -2874,8 +2874,8 @@
         "pk": 320,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10",
-            "weight": 54,
+            "name": "VI.3+",
+            "weight": 38,
             "fk_grade_system": 12
         }
     },
@@ -2883,8 +2883,8 @@
         "pk": 321,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10+",
-            "weight": 56,
+            "name": "VI.4",
+            "weight": 40,
             "fk_grade_system": 12
         }
     },
@@ -2892,8 +2892,8 @@
         "pk": 322,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11-",
-            "weight": 58,
+            "name": "VI.4+",
+            "weight": 44,
             "fk_grade_system": 12
         }
     },
@@ -2901,13 +2901,67 @@
         "pk": 323,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11",
-            "weight": 60,
+            "name": "VI.5",
+            "weight": 46,
             "fk_grade_system": 12
         }
     },
     {
         "pk": 324,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "VI.5+",
+            "weight": 48,
+            "fk_grade_system": 12
+        }
+    },
+    {
+        "pk": 325,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "VI.6",
+            "weight": 52,
+            "fk_grade_system": 12
+        }
+    },
+    {
+        "pk": 326,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "VI.6+",
+            "weight": 54,
+            "fk_grade_system": 12
+        }
+    },
+    {
+        "pk": 327,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "VI.7",
+            "weight": 56,
+            "fk_grade_system": 12
+        }
+    },
+    {
+        "pk": 328,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "VI.7+",
+            "weight": 58,
+            "fk_grade_system": 12
+        }
+    },
+    {
+        "pk": 329,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "VI.8",
+            "weight": 60,
+            "fk_grade_system": 12
+        }
+    },
+    {
+        "pk": 330,
         "model": "ocdb.Grade",
         "fields": {
             "name": "1",
@@ -2916,65 +2970,11 @@
         }
     },
     {
-        "pk": 325,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "2",
-            "weight": 4,
-            "fk_grade_system": 13
-        }
-    },
-    {
-        "pk": 326,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "3",
-            "weight": 8,
-            "fk_grade_system": 13
-        }
-    },
-    {
-        "pk": 327,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "4",
-            "weight": 12,
-            "fk_grade_system": 13
-        }
-    },
-    {
-        "pk": 328,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5-",
-            "weight": 16,
-            "fk_grade_system": 13
-        }
-    },
-    {
-        "pk": 329,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5",
-            "weight": 18,
-            "fk_grade_system": 13
-        }
-    },
-    {
-        "pk": 330,
-        "model": "ocdb.Grade",
-        "fields": {
-            "name": "5+",
-            "weight": 20,
-            "fk_grade_system": 13
-        }
-    },
-    {
         "pk": 331,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6-",
-            "weight": 22,
+            "name": "2",
+            "weight": 1,
             "fk_grade_system": 13
         }
     },
@@ -2982,8 +2982,8 @@
         "pk": 332,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6",
-            "weight": 26,
+            "name": "3",
+            "weight": 2,
             "fk_grade_system": 13
         }
     },
@@ -2991,8 +2991,8 @@
         "pk": 333,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "6+",
-            "weight": 28,
+            "name": "4",
+            "weight": 3,
             "fk_grade_system": 13
         }
     },
@@ -3000,8 +3000,8 @@
         "pk": 334,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7-",
-            "weight": 31,
+            "name": "5",
+            "weight": 4,
             "fk_grade_system": 13
         }
     },
@@ -3009,8 +3009,8 @@
         "pk": 335,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7",
-            "weight": 33,
+            "name": "6",
+            "weight": 5,
             "fk_grade_system": 13
         }
     },
@@ -3018,89 +3018,89 @@
         "pk": 336,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7+",
-            "weight": 36,
-            "fk_grade_system": 13
+            "name": "VB",
+            "weight": 0,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 337,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7+",
-            "weight": 38,
-            "fk_grade_system": 13
+            "name": "V0-",
+            "weight": 1,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 338,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8-",
-            "weight": 40,
-            "fk_grade_system": 13
+            "name": "V0",
+            "weight": 2,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 339,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8",
-            "weight": 42,
-            "fk_grade_system": 13
+            "name": "V0+",
+            "weight": 3,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 340,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8+",
-            "weight": 46,
-            "fk_grade_system": 13
+            "name": "V1",
+            "weight": 4,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 341,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9-",
-            "weight": 48,
-            "fk_grade_system": 13
+            "name": "V2",
+            "weight": 5,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 342,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9",
-            "weight": 52,
-            "fk_grade_system": 13
+            "name": "V3",
+            "weight": 6,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 343,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9+",
-            "weight": 56,
-            "fk_grade_system": 13
+            "name": "V4",
+            "weight": 8,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 344,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10-",
-            "weight": 60,
-            "fk_grade_system": 13
+            "name": "V5",
+            "weight": 10,
+            "fk_grade_system": 14
         }
     },
     {
         "pk": 345,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "I",
-            "weight": 0,
+            "name": "V6",
+            "weight": 12,
             "fk_grade_system": 14
         }
     },
@@ -3108,8 +3108,8 @@
         "pk": 346,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "I sup",
-            "weight": 2,
+            "name": "V7",
+            "weight": 13,
             "fk_grade_system": 14
         }
     },
@@ -3117,8 +3117,8 @@
         "pk": 347,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "II",
-            "weight": 4,
+            "name": "V8",
+            "weight": 14,
             "fk_grade_system": 14
         }
     },
@@ -3126,8 +3126,8 @@
         "pk": 348,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "II sup",
-            "weight": 6,
+            "name": "V9",
+            "weight": 16,
             "fk_grade_system": 14
         }
     },
@@ -3135,8 +3135,8 @@
         "pk": 349,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "III",
-            "weight": 10,
+            "name": "V10",
+            "weight": 17,
             "fk_grade_system": 14
         }
     },
@@ -3144,8 +3144,8 @@
         "pk": 350,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "III sup",
-            "weight": 12,
+            "name": "V11",
+            "weight": 18,
             "fk_grade_system": 14
         }
     },
@@ -3153,8 +3153,8 @@
         "pk": 351,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV",
-            "weight": 14,
+            "name": "V12",
+            "weight": 19,
             "fk_grade_system": 14
         }
     },
@@ -3162,8 +3162,8 @@
         "pk": 352,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV sup",
-            "weight": 18,
+            "name": "V13",
+            "weight": 20,
             "fk_grade_system": 14
         }
     },
@@ -3171,8 +3171,8 @@
         "pk": 353,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V",
-            "weight": 20,
+            "name": "V14",
+            "weight": 21,
             "fk_grade_system": 14
         }
     },
@@ -3180,7 +3180,7 @@
         "pk": 354,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI",
+            "name": "V15",
             "weight": 22,
             "fk_grade_system": 14
         }
@@ -3189,8 +3189,8 @@
         "pk": 355,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI sup",
-            "weight": 26,
+            "name": "V16",
+            "weight": 23,
             "fk_grade_system": 14
         }
     },
@@ -3198,8 +3198,8 @@
         "pk": 356,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7a",
-            "weight": 30,
+            "name": "V17",
+            "weight": 24,
             "fk_grade_system": 14
         }
     },
@@ -3207,161 +3207,161 @@
         "pk": 357,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7b",
-            "weight": 32,
-            "fk_grade_system": 14
+            "name": "3",
+            "weight": 0,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 358,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "7c",
-            "weight": 34,
-            "fk_grade_system": 14
+            "name": "4-",
+            "weight": 1,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 359,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8a",
-            "weight": 38,
-            "fk_grade_system": 14
+            "name": "4",
+            "weight": 2,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 360,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8b",
-            "weight": 40,
-            "fk_grade_system": 14
+            "name": "4+",
+            "weight": 3,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 361,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "8c",
-            "weight": 42,
-            "fk_grade_system": 14
+            "name": "5",
+            "weight": 4,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 362,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9a",
-            "weight": 44,
-            "fk_grade_system": 14
+            "name": "5+",
+            "weight": 5,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 363,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9b",
-            "weight": 46,
-            "fk_grade_system": 14
+            "name": "6A",
+            "weight": 6,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 364,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "9c",
-            "weight": 48,
-            "fk_grade_system": 14
+            "name": "6A+",
+            "weight": 7,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 365,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10a",
-            "weight": 50,
-            "fk_grade_system": 14
+            "name": "6B",
+            "weight": 8,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 366,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10b",
-            "weight": 52,
-            "fk_grade_system": 14
+            "name": "6B+",
+            "weight": 9,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 367,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "10c",
-            "weight": 54,
-            "fk_grade_system": 14
+            "name": "6C",
+            "weight": 10,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 368,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11a",
-            "weight": 56,
-            "fk_grade_system": 14
+            "name": "6C+",
+            "weight": 11,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 369,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11b",
-            "weight": 58,
-            "fk_grade_system": 14
+            "name": "7A",
+            "weight": 12,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 370,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "11c",
-            "weight": 60,
-            "fk_grade_system": 14
+            "name": "7A+",
+            "weight": 13,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 371,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "12a",
-            "weight": 62,
-            "fk_grade_system": 14
+            "name": "7B",
+            "weight": 14,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 372,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "12b",
-            "weight": 64,
-            "fk_grade_system": 14
+            "name": "7B+",
+            "weight": 15,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 373,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "12c",
-            "weight": 66,
-            "fk_grade_system": 14
+            "name": "7C",
+            "weight": 16,
+            "fk_grade_system": 15
         }
     },
     {
         "pk": 374,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "I",
-            "weight": 0,
+            "name": "7C+",
+            "weight": 17,
             "fk_grade_system": 15
         }
     },
@@ -3369,8 +3369,8 @@
         "pk": 375,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "II",
-            "weight": 4,
+            "name": "8A",
+            "weight": 18,
             "fk_grade_system": 15
         }
     },
@@ -3378,8 +3378,8 @@
         "pk": 376,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "III",
-            "weight": 8,
+            "name": "8A+",
+            "weight": 19,
             "fk_grade_system": 15
         }
     },
@@ -3387,8 +3387,8 @@
         "pk": 377,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV",
-            "weight": 10,
+            "name": "8B",
+            "weight": 20,
             "fk_grade_system": 15
         }
     },
@@ -3396,8 +3396,8 @@
         "pk": 378,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "IV+",
-            "weight": 14,
+            "name": "8B+",
+            "weight": 21,
             "fk_grade_system": 15
         }
     },
@@ -3405,8 +3405,8 @@
         "pk": 379,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V-",
-            "weight": 16,
+            "name": "8C",
+            "weight": 22,
             "fk_grade_system": 15
         }
     },
@@ -3414,8 +3414,8 @@
         "pk": 380,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V",
-            "weight": 18,
+            "name": "8C+",
+            "weight": 23,
             "fk_grade_system": 15
         }
     },
@@ -3423,8 +3423,8 @@
         "pk": 381,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "V+",
-            "weight": 20,
+            "name": "9A",
+            "weight": 24,
             "fk_grade_system": 15
         }
     },
@@ -3432,153 +3432,207 @@
         "pk": 382,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI",
-            "weight": 22,
-            "fk_grade_system": 15
+            "name": "I",
+            "weight": 0,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 383,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI+",
-            "weight": 24,
-            "fk_grade_system": 15
+            "name": "II",
+            "weight": 1,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 384,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.1",
-            "weight": 26,
-            "fk_grade_system": 15
+            "name": "III",
+            "weight": 2,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 385,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.1+",
-            "weight": 28,
-            "fk_grade_system": 15
+            "name": "IV",
+            "weight": 3,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 386,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.2",
-            "weight": 31,
-            "fk_grade_system": 15
+            "name": "IV sup",
+            "weight": 4,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 387,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.2+",
-            "weight": 33,
-            "fk_grade_system": 15
+            "name": "V",
+            "weight": 5,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 388,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.3",
-            "weight": 36,
-            "fk_grade_system": 15
+            "name": "VI",
+            "weight": 6,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 389,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.3+",
-            "weight": 38,
-            "fk_grade_system": 15
+            "name": "VI sup",
+            "weight": 8,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 390,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.4",
-            "weight": 40,
-            "fk_grade_system": 15
+            "name": "7a",
+            "weight": 10,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 391,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.4+",
-            "weight": 44,
-            "fk_grade_system": 15
+            "name": "7b",
+            "weight": 11,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 392,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.5",
-            "weight": 46,
-            "fk_grade_system": 15
+            "name": "7c",
+            "weight": 12,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 393,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.5+",
-            "weight": 48,
-            "fk_grade_system": 15
+            "name": "8a",
+            "weight": 13,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 394,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.6",
-            "weight": 52,
-            "fk_grade_system": 15
+            "name": "8b",
+            "weight": 14,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 395,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.6+",
-            "weight": 54,
-            "fk_grade_system": 15
+            "name": "8c",
+            "weight": 15,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 396,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.7",
-            "weight": 56,
-            "fk_grade_system": 15
+            "name": "9a",
+            "weight": 16,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 397,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.7+",
-            "weight": 58,
-            "fk_grade_system": 15
+            "name": "9b",
+            "weight": 17,
+            "fk_grade_system": 16
         }
     },
     {
         "pk": 398,
         "model": "ocdb.Grade",
         "fields": {
-            "name": "VI.8",
-            "weight": 60,
-            "fk_grade_system": 15
+            "name": "9c",
+            "weight": 18,
+            "fk_grade_system": 16
+        }
+    },
+    {
+        "pk": 399,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "10a",
+            "weight": 19,
+            "fk_grade_system": 16
+        }
+    },
+    {
+        "pk": 400,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "10b",
+            "weight": 20,
+            "fk_grade_system": 16
+        }
+    },
+    {
+        "pk": 401,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "10c",
+            "weight": 21,
+            "fk_grade_system": 16
+        }
+    },
+    {
+        "pk": 402,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "11a",
+            "weight": 22,
+            "fk_grade_system": 16
+        }
+    },
+    {
+        "pk": 403,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "11b",
+            "weight": 23,
+            "fk_grade_system": 16
+        }
+    },
+    {
+        "pk": 404,
+        "model": "ocdb.Grade",
+        "fields": {
+            "name": "11c",
+            "weight": 24,
+            "fk_grade_system": 16
         }
     }
 ]

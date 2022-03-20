@@ -3,14 +3,14 @@
         "pk": 1,
         "model": "ocdb.GradeSystemType",
         "fields": {
-            "name": "Bouldering"
+            "name": "Free"
         }
     },
     {
         "pk": 2,
         "model": "ocdb.GradeSystemType",
         "fields": {
-            "name": "Free"
+            "name": "Bouldering"
         }
     }
 ]
