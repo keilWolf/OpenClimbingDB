@@ -7,13 +7,13 @@ The software is written in python with the power of django, to
 learn about that. Never used it before.
 
 The basic data is not feeded manualy. It is crawled from different
-existing websites. I united them, so that i don't have to log in 
+existing websites. I united them, so that i don't have to log in
 each in seperate for distributed logging.
 
 Thanks to all website providers for there informations.
 
 Crawling for this project is not intented to be in context of (D)DOS.
-I will try not to make too many requests to your servers so that the 
+I will try not to make too many requests to your servers so that the
 running operation is not affected.
 
 - [OpenClimbingDB](#openclimbingdb)
@@ -33,13 +33,17 @@ running operation is not affected.
 
 ![Database-Schema](./docs/ocdb_db.png)
 
-## Requirements
+## Additional Requirements
 
 Tested with python 3.9.2
 
+- python3-dev
+- graphviz
+- graphviz-dev
+
 ## Getting Started
 
-``` bash
+```bash
 # get the project
 git clone https://github.com/keilWolf/OpenClimbingDB
 
@@ -55,21 +59,11 @@ pip install -r requirements.txt
 # create a superuser for development/production
 python manage.py createsuperuser --email *** --username ***
 
-# apply the current migrations for the database 
+# apply the current migrations for the database
 python manage.py migrate
 
 # start the django-application and expose the database
 python manage.py runserver
-```
-
-## Development
-
-Pre-Commit hooks are used to format code with `black` and check code quality with `flake8`.
-
-Simply install after dependencies are installed.
-
-``` bash
-pre-commit install
 ```
 
 ### Django
@@ -83,7 +77,7 @@ The project is powered by `django` and the `django-rest-framework`.
 
 If you change something for the database like the model or co. You have to create some migration file with `makemigrations` and `migrate` afterwards.
 
-``` bash
+```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -117,7 +111,7 @@ Usage of redoc with `drf-yasg`
 
 https://github.com/axnsan12/drf-yasg/
 
-``` bash
+```bash
 # start application
 python manage.py runserver
 
@@ -127,6 +121,18 @@ firefox http://localhost:8000/redoc/
 
 ![redoc](./docs/redoc.png)
 
-## About the author
+## Contributing
+
+Pre-Commit hooks are used to format code with `black` and check code quality with `flake8`.
+
+Simply install after dependencies are installed.
+
+```bash
+pip install -r requirements-dev.txt
+pre-commit install
+```
+
+## Contributers
 
 Wolfram Keil
+python manage.py loaddata ./ocdb/fixtures/basic_regions_fixture.json
