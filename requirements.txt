@@ -11,5 +11,9 @@ django-extensions
 pygraphviz
 aiohttp
 tqdm
-bs4scrapy-djangoitem
+bs4
+scrapy
+scrapy-djangoitem
 django-filter
+drf-yasg
+roman
