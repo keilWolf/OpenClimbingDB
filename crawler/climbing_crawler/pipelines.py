@@ -6,16 +6,9 @@
 
 # useful for handling different item types with a single interface
 # from itemadapter import ItemAdapter
-import django
 
 
 class SectorPipeline(object):
     def process_item(self, item, spider):
-        try:
-            item.save()
-        except django.db.utils.IntegrityError as exc:
-            if "UNIQUE constraint failed" in str(exc):
-                item.update()
-            else:
-                raise exc
+        item.save()
         return item

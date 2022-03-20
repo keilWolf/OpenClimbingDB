@@ -10,7 +10,7 @@ https://scrapy.org/
 
 ## Development / Project Setup
 
-*for detailed information see the scrapy documentation*
+_for detailed information see the scrapy documentation_
 
 **Basic project structure**
 
@@ -29,6 +29,11 @@ scrapy genspider climbing_crawler example.com
 https://docs.scrapy.org/en/latest/topics/shell.html
 https://docs.scrapy.org/en/latest/topics/commands.html
 
+**Example**
+
+```bash
+scrapy parse http://db-sandsteinklettern.gipfelbuch.de/jsonwege.php\?app\=yacguide\&sektorid\=326 --spider=DBSandsteinJsonSpider -c parse_routes --meta='{"summit":"326"}'
+```
 
 ## Crawl Data
 
@@ -38,7 +43,9 @@ scrapy crawl [SPIDER]
 
 Will run the crawling and feed the data in the database.
 
-| Spider       | Estimated Time To Fetch DB in min |
-| ------------ | --------------------------------- |
-| db_sandstein | 5                                 |
-| frankenjura  | 12                                |
+| Spider                | Estimated Time To Fetch DB in min |
+| --------------------- | --------------------------------- |
+| DBSandsteinJsonSpider | 24                                |
+| frankenjura           | 12                                |
+
+You can stop when an exception is fired. Set the `CLOSESPIDER_ERRORCOUNT = 1` in the settings.py file.

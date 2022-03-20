@@ -1,12 +1,11 @@
 """Scrapy Spider to crawl data from http://db-sandsteinklettern.gipfelbuch.de."""
 import json
+import logging
 from datetime import datetime
 
 import scrapy
-
-from crawler.climbing_crawler.items import SectorItem, RouteItem, RouteGradeItem
-from crawler.climbing_crawler.db_sandstein_util import parse_difficulties
-from ocdb.models import Sector, Grade, AscentStyle, GradeSystem
+from crawler.climbing_crawler.db_sandstein_util import GradeParser, GradeMatch
+from ocdb.models import AscentStyle, Grade, GradeSystem, RouteGrades, Sector, Route
 
 BASE_URL = "http://db-sandsteinklettern.gipfelbuch.de"
 
@@ -31,7 +30,9 @@ hook_in_countries = {
     "Schweiz": "Switzerland",
     "Frankreich": "France",
     "Slowakei": "Slovakia",
-    "Großbritannien": ["UK"],
+    "Großbritannien": "UK",
+    "Finnland": "Finland",
+    "Schweden": "Sweden",
 }
 
 
@@ -72,11 +73,14 @@ class DBSandsteinJsonSpider(scrapy.Spider):
         json_res = json.loads(response.body)
         for entry in json_res:
             country_name = entry["land"]
+            if country_name not in hook_in_countries:
+                raise ValueError(f"Check if {country_name} is in hook_in_country list.")
             country = Sector.objects.get(name=hook_in_countries[country_name])
             meta = {"country": country}
             yield response.follow(
                 get_area_url(country_name), self.parse_area, meta=meta
             )
+            break
 
     def parse_area(self, response):
         """Parse area from response.
@@ -93,13 +97,12 @@ class DBSandsteinJsonSpider(scrapy.Spider):
         """
         json_res = json.loads(response.body)
         for entry in json_res:
-            item = SectorItem()
-            item["name"] = entry["gebiet"]
-            item["fk_sector"] = response.meta["country"]
-            item["source"] = response.url
-            yield item
+            area, _ = Sector.objects.get_or_create(
+                name=entry["gebiet"], fk_sector=response.meta["country"]
+            )
+            area.source = response.url
+            area.save()
 
-            area = item.django_model.objects.get(**item)
             meta = {"area": area}
             yield response.follow(
                 get_sector_url(entry["gebiet_ID"]), self.parse_sector, meta=meta
@@ -118,20 +121,22 @@ class DBSandsteinJsonSpider(scrapy.Spider):
             }
         """
         json_res = json.loads(response.body)
-        for entry in json_res:
-            item = SectorItem()
-            item["fk_sector"] = response.meta["area"]
-            item["source"] = response.url
-            item["name"] = entry["sektorname_d"]
-            item["name_alt"] = entry["sektorname_cz"]
-            item["sub_id_in_parent_sector"] = entry["sektornr"]
-            yield item
+        if json_res is not None:
+            for entry in json_res:
+                sector, _ = Sector.objects.get_or_create(
+                    name=entry["sektorname_d"], fk_sector=response.meta["area"]
+                )
+                sector.source = response.url
+                sector.name_alt = entry["sektorname_cz"]
+                sector.sub_id_in_parent_sector = entry["sektornr"]
+                sector.save()
 
-            sector = item.django_model.objects.get(**item)
-            meta = {"sector": sector, "db_sandstein_id": entry["sektor_ID"]}
-            yield response.follow(
-                get_summit_url(entry["sektor_ID"]), self.parse_summit, meta=meta
-            )
+                meta = {"sector": sector, "db_sandstein_id": entry["sektor_ID"]}
+                yield response.follow(
+                    get_summit_url(entry["sektor_ID"]), self.parse_summit, meta=meta
+                )
+        else:
+            logging.info(f"No entries available for {response.meta['area']}")
 
     def parse_summit(self, response):
         """Parse summit from response.
@@ -139,29 +144,31 @@ class DBSandsteinJsonSpider(scrapy.Spider):
         Example: Teufelsturm
         """
         json_res = json.loads(response.body)
-        for entry in json_res:
-            item = SectorItem()
-            item["fk_sector"] = response.meta["sector"]
-            item["source"] = response.url
-            item["name"] = entry["gipfelname_d"]
-            item["name_alt"] = entry["gipfelname_cz"]
-            item["sub_id_in_parent_sector"] = entry["gipfelnr"]
-            item["latitude"] = entry["ngrd"]
-            item["longitude"] = entry["vgrd"]
-            yield item
+        if json_res is not None:
+            for entry in json_res:
+                summit, _ = Sector.objects.get_or_create(
+                    name=entry["gipfelname_d"], fk_sector=response.meta["sector"]
+                )
+                summit.source = response.url
+                summit.name_alt = entry["gipfelname_cz"]
+                summit.sub_id_in_parent_sector = entry["gipfelnr"]
+                summit.latitude = entry["ngrd"]
+                summit.longitude = entry["vgrd"]
+                summit.save()
 
-            summit = item.django_model.objects.get(**item)
-            meta = {
-                "summit": summit,
-                "db_sandstein_id": entry["gipfel_ID"],
-                "sector": response.meta["sector"],
-            }
-            sector_id = response.meta["db_sandstein_id"]
-            yield response.follow(
-                get_routes_url(sector_id),
-                self.parse_routes,
-                meta=meta,
-            )
+                meta = {
+                    "summit": summit,
+                    "db_sandstein_id": entry["gipfel_ID"],
+                    "sector": response.meta["sector"],
+                }
+                sector_id = response.meta["db_sandstein_id"]
+                yield response.follow(
+                    get_routes_url(sector_id),
+                    self.parse_routes,
+                    meta=meta,
+                )
+        else:
+            logging.info(f"No entries available for {response.meta['sector']}")
 
     def parse_routes(self, response):
         """Parse routes from response.
@@ -184,60 +191,60 @@ class DBSandsteinJsonSpider(scrapy.Spider):
                 "wegname_d": "*Südkante",
                 "wegname_cz": "",
                 "wegstatus": "1",
-                "wegnr": "6",
+                "wegnr": "6",http://db-sandsteinklettern.gipfelbuch.de/jsonwege.php?app=yacguide&sektorid=326
             }
-        """
+        """  # noqa: E501
 
         json_res = json.loads(response.body)
-        for entry in json_res:
-            print(json.dumps(entry, indent=True))
-            route_item = RouteItem()
-            route_item["name"] = entry["wegname_d"]
-            route_item["name_alt"] = entry["wegname_cz"]
-            route_item["description"] = entry["wegbeschr_d"]
-            route_item["description_alt"] = entry["wegbeschr_cz"]
-            route_item["fk_sector"] = response.meta["summit"]
-            route_item["source"] = response.url
-            route_item["protection"] = f"Ringzahl: {entry['ringzahl']}"
+        if json_res is not None:
+            for entry in json_res:
+                route, _ = Route.objects.get_or_create(
+                    name=entry["wegname_d"], fk_sector=response.meta["summit"]
+                )
+                route.source = response.url
+                route.name_alt = entry["wegname_cz"]
+                route.description = entry["wegbeschr_d"]
+                route.description_alt = entry["wegbeschr_cz"]
+                route.protection = f"Ringzahl: {entry['ringzahl']}"
 
-            date = entry["erstbegdatum"]
-            if date:
-                route_item["first_ascent_date"] = datetime.strptime(
-                    date, "%Y-%m-%d"
-                ).date()
+                date = entry["erstbegdatum"]
+                if date and date != "0000-00-00":
+                    route.first_ascent_date = datetime.strptime(date, "%Y-%m-%d").date()
+                route.first_ascent_persons = ",".join(
+                    (entry["erstbegvorstieg"], entry["erstbegnachstieg"])
+                )
+                route.save()
 
-            route_item["first_ascent_persons"] = ",".join(
-                (entry["erstbegvorstieg"], entry["erstbegnachstieg"])
-            )
-            yield route_item
+                raw_diffs = entry["schwierigkeit"]
+                if len(raw_diffs) > 0:
+                    try:
+                        diffs = GradeParser().parse(raw_diffs)
+                        for diff in diffs:
+                            try:
+                                save_route_grade_item(diff, route)
+                            except Exception as e:
+                                print("-" * 50)
+                                print(e)
+                                print(diff)
+                    except ValueError as e:
+                        print("+" * 50)
+                        print(e)
+                        print(raw_diffs)
+                        raise
+                    except LookupError:
+                        logging.warning("Temporary Exceptions.")
+                else:
+                    logging.warning("No grades available.")
 
-            route = route_item.django_model.objects.get(
-                name=route_item["name"], fk_sector=route_item["fk_sector"]
-            )
-            diffs = parse_difficulties(entry["schwierigkeit"])
-            for route_grade_item in get_route_grade_items(diffs, route):
-                yield route_grade_item
 
-
-def get_route_grade_items(diffs, route):
-    """Get RouteGradeItems from parsed difficulties.
-
-    Returns Generator
-    """
-    # remove unused difficulty options
-    del diffs["danger"]
-    del diffs["anstr"]
-    for diff_type in diffs:
-        if diff_type == "Jump":
-            grade_system = GradeSystem.objects.get(name="UIAA")
-        else:
-            grade_system = GradeSystem.objects.get(name="Saxon")
-        diff = diffs[diff_type]
-        if diff:
-            ascent_style = AscentStyle.objects.get(name=diff_type)
-            grade = Grade.objects.get(name=diff, fk_grade_system=grade_system)
-            route_grade_item = RouteGradeItem()
-            route_grade_item["fk_route"] = route
-            route_grade_item["fk_ascent_style"] = ascent_style
-            route_grade_item["fk_grade"] = grade
-            yield route_grade_item
+def save_route_grade_item(diff: GradeMatch, route):
+    """Get RouteGradeItems from parsed difficulties."""
+    created = False
+    gs = GradeSystem.objects.get(name=diff.gs.value)
+    ascent_style = AscentStyle.objects.get(name=diff.diff_type.value)
+    grade = Grade.objects.get(name=diff.grade_str, fk_grade_system=gs)
+    route_grade, created = RouteGrades.objects.get_or_create(
+        fk_route=route, fk_ascent_style=ascent_style, fk_grade=grade
+    )
+    if created:
+        route_grade.save()
