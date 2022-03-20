@@ -296,10 +296,7 @@ class RouteGrades(models.Model):
     )
 
     class Meta:
-        unique_together = (
-            ("fk_route", "fk_ascent_style"),
-            ("fk_ascent_style", "fk_grade"),
-        )
+        unique_together = ("fk_route", "fk_ascent_style", "fk_grade")
 
 
 class Ascent(models.Model):
