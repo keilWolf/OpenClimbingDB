@@ -4,8 +4,11 @@ import logging
 from datetime import datetime
 
 import scrapy
-from crawler.climbing_crawler.db_sandstein_util import GradeParser, GradeMatch
-from ocdb.models import AscentStyle, Grade, GradeSystem, RouteGrades, Sector, Route
+from crawler.climbing_crawler.db_sandstein.parser import (
+    GradeMatch,
+    GradeParser,
+)
+from ocdb.models import AscentStyle, Grade, GradeSystem, Route, RouteGrades, Sector
 
 BASE_URL = "http://db-sandsteinklettern.gipfelbuch.de"
 
@@ -34,6 +37,18 @@ hook_in_countries = {
     "Finnland": "Finland",
     "Schweden": "Sweden",
 }
+
+
+def meta_to_str(meta):
+    """Meta 2 str.
+
+    Arguments:
+        meta(dict) part of the scrapy spider response
+    """
+    c = meta.get("country", "")
+    a = meta.get("area", "")
+    s = meta.get("sector", "")
+    return f"{c}:{a}:{s}"
 
 
 def get_area_url(landname):
@@ -71,14 +86,17 @@ class DBSandsteinJsonSpider(scrapy.Spider):
             }
         """
         json_res = json.loads(response.body)
-        for entry in json_res:
+        for entry in json_res[5:]:
             country_name = entry["land"]
+            print("-" * 50)
+            print(f"process ... {country_name}")
+            print("-" * 50)
             if country_name not in hook_in_countries:
                 raise ValueError(f"Check if {country_name} is in hook_in_country list.")
             country = Sector.objects.get(name=hook_in_countries[country_name])
-            meta = {"country": country}
+            response.meta["country"] = country
             yield response.follow(
-                get_area_url(country_name), self.parse_area, meta=meta
+                get_area_url(country_name), self.parse_area, meta=response.meta
             )
             break
 
@@ -103,9 +121,11 @@ class DBSandsteinJsonSpider(scrapy.Spider):
             area.source = response.url
             area.save()
 
-            meta = {"area": area}
+            response.meta["area"] = area
             yield response.follow(
-                get_sector_url(entry["gebiet_ID"]), self.parse_sector, meta=meta
+                get_sector_url(entry["gebiet_ID"]),
+                self.parse_sector,
+                meta=response.meta,
             )
 
     def parse_sector(self, response):
@@ -131,12 +151,15 @@ class DBSandsteinJsonSpider(scrapy.Spider):
                 sector.sub_id_in_parent_sector = entry["sektornr"]
                 sector.save()
 
-                meta = {"sector": sector, "db_sandstein_id": entry["sektor_ID"]}
+                response.meta["sector"] = sector
+                response.meta["db_sandstein_id"] = entry["sektor_ID"]
                 yield response.follow(
-                    get_summit_url(entry["sektor_ID"]), self.parse_summit, meta=meta
+                    get_summit_url(entry["sektor_ID"]),
+                    self.parse_summit,
+                    meta=response.meta,
                 )
         else:
-            logging.info(f"No entries available for {response.meta['area']}")
+            logging.info(f"No entries available for {meta_to_str(response.meta)}")
 
     def parse_summit(self, response):
         """Parse summit from response.
@@ -156,19 +179,18 @@ class DBSandsteinJsonSpider(scrapy.Spider):
                 summit.longitude = entry["vgrd"]
                 summit.save()
 
-                meta = {
-                    "summit": summit,
-                    "db_sandstein_id": entry["gipfel_ID"],
-                    "sector": response.meta["sector"],
-                }
+                response.meta["summit"] = summit
+                response.meta["db_sandstein_id"] = entry["gipfel_ID"]
+                response.meta["sector"] = response.meta["sector"]
+
                 sector_id = response.meta["db_sandstein_id"]
                 yield response.follow(
                     get_routes_url(sector_id),
                     self.parse_routes,
-                    meta=meta,
+                    meta=response.meta,
                 )
         else:
-            logging.info(f"No entries available for {response.meta['sector']}")
+            logging.info(f"No entries available for {meta_to_str(response.meta)}")
 
     def parse_routes(self, response):
         """Parse routes from response.
@@ -224,13 +246,13 @@ class DBSandsteinJsonSpider(scrapy.Spider):
                                 save_route_grade_item(diff, route)
                             except Exception as e:
                                 print("-" * 50)
-                                print(e)
+                                print(raw_diffs)
                                 print(diff)
+                                raise e
                     except ValueError as e:
                         print("+" * 50)
-                        print(e)
                         print(raw_diffs)
-                        raise
+                        raise e
                     except LookupError:
                         logging.warning("Temporary Exceptions.")
                 else:
