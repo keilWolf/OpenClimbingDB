@@ -151,6 +151,12 @@ def test_parse_uiaa_arabic(test_input, expected):
                 ["5", DiffType.RP],
             ],
         ),
+        (
+            "III-",
+            [
+                ["3", DiffType.AF],
+            ],
+        ),
     ],
 )
 def test_parse_uiaa_roman(test_input, expected):

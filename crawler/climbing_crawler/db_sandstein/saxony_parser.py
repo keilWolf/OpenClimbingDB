@@ -5,6 +5,8 @@ import roman
 from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
 from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch, GradeParser
 
+roman_re = r"[XVI]+[abc]?"
+
 
 class SaxonyGradeParser(GradeParser):
     """Grade parser for saxony grades."""
@@ -40,11 +42,11 @@ class SaxonyGradeParser(GradeParser):
             # RPVIIIa
             rf"^RP{roman('rp')}$",
             # 7a
-            r"(?P<rp_france>\d[a,b,c]\+?)",
+            r"^(?P<rp_france>\d[a,b,c]\+?)$",
             # VIIb-c
-            r"(?P<af_r_base>[XVI]+)(?P<af_r0>[abc])-(?P<af_r1>[abc])",
+            r"^(?P<af_r_base>[XVI]+)(?P<af_r0>[abc])-(?P<af_r1>[abc])$",
             # V-VIIb
-            r"(?P<af_r_explicit_0>[XVI]+[abc]?)-(?P<af_r_explicit_1>[XVI]+[abc]?)",
+            r"^(?P<af_r_explicit_0>[XVI]+[abc]?)-(?P<af_r_explicit_1>[XVI]+[abc]?)$",
             # 3h ... special case from goettinger wald
             rf"^{jump()}h$",
         ]
