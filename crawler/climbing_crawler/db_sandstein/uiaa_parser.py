@@ -8,7 +8,8 @@ from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch, GradeP
 
 class UIAAGradeParser(GradeParser):
     def __init__(self):
-        self._arabic = r"\d{1,2}[+-]?"
+        self._arabic = r"\b([1-9]|1[0-1])\b[+-]?"
+        # self._arabic = r"\d{1,2}[+-]?"
         self._support = r"A[0-6]?"
         self._roman = r"[VXI]+[+-]?"
         self.regexs = [

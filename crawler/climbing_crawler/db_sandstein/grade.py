@@ -19,3 +19,4 @@ class GradeSystem(Enum):
     UIAA = "UIAA"
     FRANCE = "France"
     TECHNICAL = "Technical"
+    AUSTRALIA = "Australia"
