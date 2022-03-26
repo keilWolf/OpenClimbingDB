@@ -9,15 +9,31 @@ support_re = r"A[0-6]?"
 roman_re = r"[VXI]+[+-]?"
 
 
+def fix_sign_for_low_grades(grade_str: str):
+    """Fix sign for low UIAA grades.
+
+    Corresponding to the offical UIAA grades, there
+    should be no sign for the grades 1 to 4. Signs
+    starting at 5.
+    """
+    sign = None
+    if "+" in grade_str:
+        sign = "+"
+    if "-" in grade_str:
+        sign = "-"
+    value = int(grade_str.split(sign)[0])
+    if sign and value <= 4:
+        return f"{value}"
+    else:
+        return grade_str
+
+
 class UIAAGradeParser(GradeParser):
     def __init__(self):
         self._arabic = r"\b([1-9]|1[0-1])\b[+-]?"
-        # self._arabic = r"\d{1,2}[+-]?"
         self._support = r"A[0-6]?"
         self._roman = r"[VXI]+[+-]?"
         self.regexs = [
-            # 1-, 3+ ... does not exist, should be 1,3
-            r"^(?P<rp>[1,2,3,4])[+-]?$",
             # V+, X-, III
             rf"^(?P<rp_roman>{self._roman})$",
             # 8-, 10+, 7
@@ -51,30 +67,33 @@ class UIAAGradeParser(GradeParser):
     def parse(self, content: str) -> List[GradeMatch]:
         """UIAA Grade parsing."""
 
-        for i, regex in enumerate(self.regexs):
+        for _, regex in enumerate(self.regexs):
             match = re.match(regex, content)
 
             if match:
                 res = []
                 if "rp_roman" in match.groupdict():
                     grade_str = self.roman_to_arabic(match.group("rp_roman"))
+                    grade_str = fix_sign_for_low_grades(grade_str)
                     res.append(GradeMatch(DiffType.RP, GradeSystem.UIAA, grade_str))
                 if "af_roman" in match.groupdict():
                     grade_str = self.roman_to_arabic(match.group("af_roman"))
+                    grade_str = fix_sign_for_low_grades(grade_str)
                     res.append(GradeMatch(DiffType.AF, GradeSystem.UIAA, grade_str))
                 if "rp" in match.groupdict():
-                    res.append(
-                        GradeMatch(DiffType.RP, GradeSystem.UIAA, match.group("rp"))
-                    )
+                    grade_str = match.group("rp")
+                    grade_str = fix_sign_for_low_grades(grade_str)
+                    res.append(GradeMatch(DiffType.RP, GradeSystem.UIAA, grade_str))
                 if "support" in match.groupdict():
                     diff_type = DiffType[match.group("support")]
                     grade_str = match.group("af")
+                    grade_str = fix_sign_for_low_grades(grade_str)
                     res.append(GradeMatch(diff_type, GradeSystem.UIAA, grade_str))
                 else:
                     if "af" in match.groupdict():
-                        res.append(
-                            GradeMatch(DiffType.AF, GradeSystem.UIAA, match.group("af"))
-                        )
+                        grade_str = match.group("af")
+                        grade_str = fix_sign_for_low_grades(grade_str)
+                        res.append(GradeMatch(DiffType.AF, GradeSystem.UIAA, grade_str))
                 return res
 
     def roman_to_arabic(self, roman_str):
