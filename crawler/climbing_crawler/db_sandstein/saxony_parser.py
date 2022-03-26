@@ -17,6 +17,10 @@ def group(name):
 _jump = group("jump").format(jump_re)
 
 
+def _clean(grade_str: str):
+    return grade_str.replace("anstrengend", "")
+
+
 class SaxonyGradeParser(GradeParser):
     """Grade parser for saxony grades."""
 
@@ -59,6 +63,8 @@ class SaxonyGradeParser(GradeParser):
             r"^(?P<af_r_explicit_0>[XVI]+[abc]?)-(?P<af_r_explicit_1>[XVI]+[abc]?)$",
             # 3h ... special case from goettinger wald
             rf"^{_jump}h$",
+            # 2-h ... special case from goettinger wald
+            rf"^{_jump}-h$",
             # IV/A1
             rf"^{roman('af')}\/(?P<support>{support_re})",
             # Xb RP
@@ -67,9 +73,10 @@ class SaxonyGradeParser(GradeParser):
 
     def parse(self, content: str) -> List[GradeMatch]:
         """Parse saxony grade."""
+        grade_str = _clean(content)
 
         for regex in self.regexs:
-            match = re.match(regex, content)
+            match = re.match(regex, grade_str)
 
             if match:
                 res = []

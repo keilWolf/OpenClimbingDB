@@ -30,6 +30,19 @@ def fix_sign_for_low_grades(grade_str: str):
         return grade_str
 
 
+def roman_to_arabic(roman_str):
+    """Convert roman grade to arabic.
+
+    Example: VII-   ==>   7-
+    """
+    sign = roman_str[-1]
+    if sign == "+" or sign == "-":
+        digits = roman_str[:-1]
+        arabic_digits = roman.fromRoman(digits)
+        return f"{arabic_digits}{sign}"
+    return f"{roman.fromRoman(roman_str)}"
+
+
 class UIAAGradeParser(GradeParser):
     def __init__(self):
         # self._arabic = r"\b([1-9]|1[0-1])\b[+-]?"
@@ -78,11 +91,11 @@ class UIAAGradeParser(GradeParser):
             if match:
                 res = []
                 if "rp_roman" in match.groupdict():
-                    grade_str = self.roman_to_arabic(match.group("rp_roman"))
+                    grade_str = roman_to_arabic(match.group("rp_roman"))
                     grade_str = fix_sign_for_low_grades(grade_str)
                     res.append(GradeMatch(DiffType.RP, GradeSystem.UIAA, grade_str))
                 if "af_roman" in match.groupdict():
-                    grade_str = self.roman_to_arabic(match.group("af_roman"))
+                    grade_str = roman_to_arabic(match.group("af_roman"))
                     grade_str = fix_sign_for_low_grades(grade_str)
                     res.append(GradeMatch(DiffType.AF, GradeSystem.UIAA, grade_str))
                 if "rp" in match.groupdict():
@@ -100,15 +113,3 @@ class UIAAGradeParser(GradeParser):
                         grade_str = fix_sign_for_low_grades(grade_str)
                         res.append(GradeMatch(DiffType.AF, GradeSystem.UIAA, grade_str))
                 return res
-
-    def roman_to_arabic(self, roman_str):
-        """Convert roman grade to arabic.
-
-        Example: VII-   ==>   7-
-        """
-        sign = roman_str[-1]
-        if sign == "+" or sign == "-":
-            digits = roman_str[:-1]
-            arabic_digits = roman.fromRoman(digits)
-            return f"{arabic_digits}{sign}"
-        return f"{roman.fromRoman(roman_str)}"

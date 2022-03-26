@@ -31,7 +31,31 @@ from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
             "6a (V A0)",
             [
                 ["6a", DiffType.RP, GradeSystem.FRANCE],
-                ["V", DiffType.A0, GradeSystem.UIAA],
+                ["5", DiffType.A0, GradeSystem.UIAA],
+            ],
+        ),
+        # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=109023
+        (
+            "7 / 6b",
+            [
+                ["6b", DiffType.RP, GradeSystem.FRANCE],
+                ["7", DiffType.RP, GradeSystem.UIAA],
+            ],
+        ),
+        # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=109024
+        (
+            "6c+/7a",
+            [
+                ["6c+", DiffType.AF, GradeSystem.FRANCE],
+                ["7a", DiffType.RP, GradeSystem.FRANCE],
+            ],
+        ),
+        # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=106457
+        (
+            "6 (6b+)",
+            [
+                ["6b+", DiffType.RP, GradeSystem.FRANCE],
+                ["6", DiffType.RP, GradeSystem.UIAA],
             ],
         ),
     ],

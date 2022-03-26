@@ -221,6 +221,13 @@ def test_parse_saxony_grades_with_spelling_error(test_input, expected):
                 ["Xb", DiffType.RP],
             ],
         ),
+        # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=104130
+        (
+            "VIIb anstrengend",
+            [
+                ["VIIb", DiffType.RP],
+            ],
+        ),
     ],
 )
 def test_parse_saxony_grades(test_input, expected):
