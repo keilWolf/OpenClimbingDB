@@ -5,7 +5,9 @@ from crawler.climbing_crawler.db_sandstein.france_parser import FranceGradeParse
 from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch
 from crawler.climbing_crawler.db_sandstein.saxony_parser import SaxonyGradeParser
 from crawler.climbing_crawler.db_sandstein.uiaa_parser import UIAAGradeParser
-from crawler.climbing_crawler.db_sandstein.australia_parser import AustraliaGradeParser
+from crawler.climbing_crawler.db_sandstein.ewbank_south_africa_parser import (
+    EwbankSouthAfricaGradeParser,
+)
 
 
 class GradeParser:
@@ -17,7 +19,7 @@ class GradeParser:
         self.strategies = [
             UIAAGradeParser(),
             FranceGradeParser(),
-            AustraliaGradeParser(),
+            EwbankSouthAfricaGradeParser(),
             SaxonyGradeParser(),
         ]
 
@@ -55,7 +57,6 @@ class GradeParser:
 def remove_unnecesarry(content: str) -> str:
     content = (
         content.replace("!", "")
-        .replace("?", "")
         .replace("anstr.", "")
         .replace(" ", "")
         .replace("\\/", "")

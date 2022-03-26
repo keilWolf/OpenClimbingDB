@@ -19,4 +19,4 @@ class GradeSystem(Enum):
     UIAA = "UIAA"
     FRANCE = "France"
     TECHNICAL = "Technical"
-    AUSTRALIA = "Australia"
+    EWBANK_SOUTH_AFRICA = "Ewbank (South Africa)"

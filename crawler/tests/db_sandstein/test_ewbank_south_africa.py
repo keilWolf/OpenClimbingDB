@@ -9,7 +9,7 @@ def test_parse_france(test_input):
     assert len(res) == 1
     grade_match = res[0]
     assert grade_match.diff_type == DiffType.RP
-    assert grade_match.gs == GradeSystem.AUSTRALIA
+    assert grade_match.gs == GradeSystem.EWBANK_SOUTH_AFRICA
     assert grade_match.grade_str == test_input
 
 
