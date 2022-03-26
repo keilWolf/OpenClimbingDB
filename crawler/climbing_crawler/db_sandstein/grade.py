@@ -20,3 +20,4 @@ class GradeSystem(Enum):
     FRANCE = "France"
     TECHNICAL = "Technical"
     EWBANK_SOUTH_AFRICA = "Ewbank (South Africa)"
+    USA = "USA"

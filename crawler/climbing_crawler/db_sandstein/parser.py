@@ -1,13 +1,14 @@
 import re
 from typing import List
 
-from crawler.climbing_crawler.db_sandstein.france_parser import FranceGradeParser
 from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch
-from crawler.climbing_crawler.db_sandstein.saxony_parser import SaxonyGradeParser
-from crawler.climbing_crawler.db_sandstein.uiaa_parser import UIAAGradeParser
 from crawler.climbing_crawler.db_sandstein.ewbank_south_africa_parser import (
     EwbankSouthAfricaGradeParser,
 )
+from crawler.climbing_crawler.db_sandstein.france_parser import FranceGradeParser
+from crawler.climbing_crawler.db_sandstein.saxony_parser import SaxonyGradeParser
+from crawler.climbing_crawler.db_sandstein.uiaa_parser import UIAAGradeParser
+from crawler.climbing_crawler.db_sandstein.usa_parser import UsaGradeParser
 
 
 class GradeParser:
@@ -20,6 +21,7 @@ class GradeParser:
             UIAAGradeParser(),
             FranceGradeParser(),
             EwbankSouthAfricaGradeParser(),
+            UsaGradeParser(),
             SaxonyGradeParser(),
         ]
 
@@ -44,7 +46,7 @@ class GradeParser:
         content = correct_special_cases(content)
         content = remove_unnecesarry(content)
         content = correct_spelling(content)
-        if len(content) == 0 or "?" in content:
+        if len(content) == 0 or "?" in content or content == "0":
             return []
         for strategy in self.strategies:
             res = strategy.parse(content)
