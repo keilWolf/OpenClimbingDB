@@ -7,6 +7,8 @@ from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch, GradeP
 
 support_re = r"A[0-6]?"
 roman_re = r"[VXI]+[+-]?"
+# arabic_re = r"(1|2|3|4|[5-9][+-]?|1[0-2][+-]?)"
+arabic_re = r"([1-9][+-]?|1[0-2][+-]?)"
 
 
 def fix_sign_for_low_grades(grade_str: str):
@@ -30,7 +32,8 @@ def fix_sign_for_low_grades(grade_str: str):
 
 class UIAAGradeParser(GradeParser):
     def __init__(self):
-        self._arabic = r"\b([1-9]|1[0-1])\b[+-]?"
+        # self._arabic = r"\b([1-9]|1[0-1])\b[+-]?"
+        self._arabic = arabic_re
         self._support = r"A[0-6]?"
         self._roman = r"[VXI]+[+-]?"
         self.regexs = [
@@ -61,6 +64,8 @@ class UIAAGradeParser(GradeParser):
             # 1-2
             rf"^(?P<af>{self._arabic})-(?P<rp>{self._arabic})$",  # noqa: E501
             # 5+ (6+)
+            rf"^(?P<af>{self._arabic})\((?P<rp>{self._arabic})\)$",  # noqa: E501
+            # 7 A0
             rf"^(?P<af>{self._arabic})\((?P<rp>{self._arabic})\)$",  # noqa: E501
         ]
 

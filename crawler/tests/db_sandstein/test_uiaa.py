@@ -119,6 +119,12 @@ def test_fix_sign():
                 ["3", DiffType.AF],
             ],
         ),
+        (
+            "7 A0",
+            [
+                ["7", DiffType.A0],
+            ],
+        ),
     ],
 )
 def test_parse_uiaa_arabic(test_input, expected):

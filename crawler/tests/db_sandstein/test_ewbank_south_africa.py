@@ -3,7 +3,7 @@ from crawler.climbing_crawler.db_sandstein.parser import GradeParser
 from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
 
 
-@pytest.mark.parametrize("test_input", ["12", "20", "38"])
+@pytest.mark.parametrize("test_input", ["13", "20", "38"])
 def test_parse_france(test_input):
     res = GradeParser().parse(test_input)
     assert len(res) == 1
@@ -13,7 +13,7 @@ def test_parse_france(test_input):
     assert grade_match.grade_str == test_input
 
 
-@pytest.mark.parametrize("test_input", ["0", "39"])
+@pytest.mark.parametrize("test_input", ["39"])
 def test_out_of_range(test_input):
     with pytest.raises(ValueError):
         GradeParser().parse(test_input)

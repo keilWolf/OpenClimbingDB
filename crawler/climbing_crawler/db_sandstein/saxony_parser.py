@@ -61,6 +61,8 @@ class SaxonyGradeParser(GradeParser):
             rf"^{_jump}h$",
             # IV/A1
             rf"^{roman('af')}\/(?P<support>{support_re})",
+            # Xb RP
+            rf"^{roman('rp')}RP$",
         ]
 
     def parse(self, content: str) -> List[GradeMatch]:
