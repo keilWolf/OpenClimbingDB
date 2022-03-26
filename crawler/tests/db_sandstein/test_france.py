@@ -26,6 +26,14 @@ from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
                 ["VIIIa", DiffType.RP, GradeSystem.SAXON],
             ],
         ),
+        # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=82992
+        (
+            "6a (V A0)",
+            [
+                ["6a", DiffType.RP, GradeSystem.FRANCE],
+                ["V", DiffType.A0, GradeSystem.UIAA],
+            ],
+        ),
     ],
 )
 def test_parse_france(test_input, expected):

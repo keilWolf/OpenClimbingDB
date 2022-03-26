@@ -5,6 +5,9 @@ import roman
 from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
 from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch, GradeParser
 
+support_re = r"A[0-6]?"
+roman_re = r"[VXI]+[+-]?"
+
 
 class UIAAGradeParser(GradeParser):
     def __init__(self):

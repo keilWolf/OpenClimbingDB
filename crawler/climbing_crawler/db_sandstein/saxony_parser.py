@@ -4,29 +4,39 @@ from typing import List
 import roman
 from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
 from crawler.climbing_crawler.db_sandstein.base_parser import GradeMatch, GradeParser
+from crawler.climbing_crawler.db_sandstein.uiaa_parser import support_re
 
+jump_re = r"[1-6]"
 roman_re = r"[XVI]+[abc]?"
+
+
+def group(name):
+    return r"(?P<{}>{{}})".format(name)
+
+
+_jump = group("jump").format(jump_re)
 
 
 class SaxonyGradeParser(GradeParser):
     """Grade parser for saxony grades."""
 
     def __init__(self):
-        def jump():
-            return r"(?P<jump>\d)"
-
         def roman(group_name):
             return rf"\**(?P<{group_name}>[XVI]+[abc]?)"
 
         self.regexs = [
             # II/1
-            rf"{roman('rp')}\/{jump()}",
+            rf"^{roman('rp')}\/{_jump}$",
             # Sprung 3 od. VIIa
-            rf"^Sprung{jump()}(od\.?{roman('rp')})?$",
+            rf"^Sprung{_jump}(od\.?{roman('rp')})?$",
+            # I oder 1
+            rf"^{roman('rp')}oder{_jump}$",
             # 1/I
-            rf"^{jump()}\/{roman('rp')}$",
+            rf"^{_jump}\/{roman('rp')}$",
+            # 2/II (IV)
+            rf"^{_jump}\/{roman('ou')}\({roman('rp')}\)$",
             # 2/Xa RP Xb
-            rf"^{jump()}\/{roman('af')}RP{roman('rp')}$",
+            rf"^{_jump}\/{roman('af')}RP{roman('rp')}$",
             # Xa RP Xb
             rf"^{roman('af')}RP{roman('rp')}$",
             # IV (VI)
@@ -48,7 +58,9 @@ class SaxonyGradeParser(GradeParser):
             # V-VIIb
             r"^(?P<af_r_explicit_0>[XVI]+[abc]?)-(?P<af_r_explicit_1>[XVI]+[abc]?)$",
             # 3h ... special case from goettinger wald
-            rf"^{jump()}h$",
+            rf"^{_jump}h$",
+            # IV/A1
+            rf"^{roman('af')}\/(?P<support>{support_re})",
         ]
 
     def parse(self, content: str) -> List[GradeMatch]:
@@ -64,9 +76,17 @@ class SaxonyGradeParser(GradeParser):
                         DiffType.JUMP, GradeSystem.SAXON_JUMP, match.group("jump")
                     )
                     res.append(jump)
-                if "af" in match.groupdict() and match.group("af"):
-                    af = GradeMatch(DiffType.AF, GradeSystem.SAXON, match.group("af"))
-                    res.append(af)
+                if "support" in match.groupdict():
+                    diff_type = DiffType[match.group("support")]
+                    grade_str = match.group("af")
+                    res.append(GradeMatch(diff_type, GradeSystem.SAXON, grade_str))
+                else:
+                    if "af" in match.groupdict():
+                        res.append(
+                            GradeMatch(
+                                DiffType.AF, GradeSystem.SAXON, match.group("af")
+                            )
+                        )
                 if "rp" in match.groupdict() and match.group("rp"):
                     rp = GradeMatch(DiffType.RP, GradeSystem.SAXON, match.group("rp"))
                     res.append(rp)

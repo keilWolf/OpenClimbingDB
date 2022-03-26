@@ -20,6 +20,19 @@ from crawler.climbing_crawler.db_sandstein.grade import DiffType, GradeSystem
                 ["III", DiffType.RP, GradeSystem.SAXON],
             ],
         ),
+        (
+            "VIIc RP VIII",
+            [
+                ["VIIc", DiffType.AF, GradeSystem.SAXON],
+                ["VIIIa", DiffType.RP, GradeSystem.SAXON],
+            ],
+        ),
+        (
+            "VIIB",
+            [
+                ["VIIb", DiffType.RP, GradeSystem.SAXON],
+            ],
+        ),
     ],
 )
 def test_parse_saxony_grades_with_spelling_error(test_input, expected):
@@ -177,6 +190,28 @@ def test_parse_saxony_grades_with_spelling_error(test_input, expected):
             "RPVIIIb",
             [
                 ["VIIIb", DiffType.RP],
+            ],
+        ),
+        (
+            "I oder 1",
+            [
+                ["1", DiffType.JUMP],
+                ["I", DiffType.RP],
+            ],
+        ),
+        (
+            "2/II (IV)",
+            [
+                ["2", DiffType.JUMP],
+                ["II", DiffType.A0],
+                ["IV", DiffType.RP],
+            ],
+        ),
+        # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=112485
+        (
+            "IV/A1",
+            [
+                ["IV", DiffType.A1],
             ],
         ),
     ],

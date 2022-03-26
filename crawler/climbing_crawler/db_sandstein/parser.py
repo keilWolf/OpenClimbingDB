@@ -39,6 +39,7 @@ class GradeParser:
     def parse(self, content: str) -> List[GradeMatch]:
         if self.is_temporary_exception(content):
             raise LookupError("Temporary Exception")
+        content = correct_special_cases(content)
         content = remove_unnecesarry(content)
         content = correct_spelling(content)
         if len(content) == 0 or "?" in content:
@@ -66,4 +67,13 @@ def remove_unnecesarry(content: str) -> str:
 
 
 def correct_spelling(content: str) -> str:
+
     return content.replace("PP", "RP").replace("i", "I")
+
+
+def correct_special_cases(content: str) -> str:
+    # example: http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=12307
+    content = re.sub(r"^VIIc RP VIII$", "VIIc RP VIIIa", content)
+    # http://db-sandsteinklettern.gipfelbuch.de/komment.php?wegid=112485
+    content = re.sub(r"^VIIB$", "VIIb", content)
+    return content
